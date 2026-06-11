@@ -331,6 +331,37 @@
   opacity: 0.8;
 }
 
+/* ── 缩放控件 ── */
+.zoom-ctrl {
+  position: fixed;
+  left: 18px;
+  bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  z-index: 85;
+}
+.zoom-ctrl button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dcdcd6;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.zoom-ctrl button:hover {
+  background: #f3f3ee;
+}
+.zoom-ctrl .zoom-fit {
+  font-size: 13px;
+  height: 34px;
+  color: var(--brand-deep);
+  font-weight: 700;
+}
+
 /* ── SYNC PANEL ── */
 .sync-panel {
   position: fixed;

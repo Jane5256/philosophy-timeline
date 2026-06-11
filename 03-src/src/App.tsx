@@ -1,7 +1,20 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { Philosopher, School } from './types'
 import { eras, dynastyAt, westStateAt, eraAt } from './data'
-import { contemporaries, yOf, centerX, placedById, schoolLaneX, LANE_W } from './lib/timeline'
+import {
+  contemporaries,
+  yOf,
+  yearAt,
+  centerX,
+  placedById,
+  schoolAnchorX,
+  fitPpy,
+  rangePpy,
+  clampPpy,
+  BASE_PPY,
+  YEAR_MIN,
+  YEAR_MAX,
+} from './lib/timeline'
 import { Timeline } from './components/Timeline'
 import { SyncPanel } from './components/SyncPanel'
 import { PhilosopherModal } from './components/PhilosopherModal'
@@ -10,19 +23,16 @@ import { SearchBox, type PickItem } from './components/SearchBox'
 import './App.css'
 
 const westEras = eras.filter((e) => e.region === 'west')
+const MID_YEAR = (YEAR_MAX + YEAR_MIN) / 2
 
 export default function App() {
   const [cursorYear, setCursorYear] = useState(-500)
-  const [activeEra, setActiveEra] = useState<string | null>('axial')
+  const [ppy, setPpy] = useState(0.3) // 挂载后精确适配为全景
+  const [activeEra, setActiveEra] = useState<string | null>(null)
   const [phil, setPhil] = useState<Philosopher | null>(null)
   const [school, setSchool] = useState<School | null>(null)
   const stage = useRef<HTMLDivElement>(null)
-
-  // 游标因「非时代导航」的交互（拖动 / 点人物 / 点学派）而移动时，清除时代高亮
-  function moveCursor(year: number) {
-    setActiveEra(null)
-    setCursorYear(year)
-  }
+  const recenter = useRef<{ year: number; x?: number } | null>(null)
 
   const { west, east } = useMemo(() => contemporaries(cursorYear), [cursorYear])
   const aliveIds = useMemo(() => new Set([...west, ...east].map((p) => p.id)), [west, east])
@@ -36,51 +46,82 @@ export default function App() {
     [cursorYear],
   )
 
-  function scrollToPoint(x: number, y: number) {
+  // 缩放后按 recenter 指定的年份/横坐标重新定位（瞬时，避免错位）
+  useLayoutEffect(() => {
     const el = stage.current
-    if (!el) return
-    el.scrollTo({ left: x - el.clientWidth / 2, top: y - el.clientHeight / 2, behavior: 'smooth' })
-  }
-  function scrollToYear(year: number) {
-    const el = stage.current
-    if (!el) return
-    el.scrollTo({ top: yOf(year) - el.clientHeight / 2, behavior: 'smooth' })
-  }
+    const r = recenter.current
+    if (!el || !r) return
+    el.scrollTop = yOf(r.year, ppy) - el.clientHeight / 2
+    if (r.x != null) el.scrollLeft = r.x - el.clientWidth / 2
+    recenter.current = null
+  }, [ppy])
 
-  // 选中人物：游标跟到出生年（关弹窗后仍可看同期），并打开详情
-  function selectPhil(p: Philosopher) {
-    moveCursor(p.born)
-    setPhil(p)
-  }
-  // 选中学派：游标定位到起始年、滚动到该学派、打开详情
-  function selectSchool(s: School) {
-    moveCursor(s.start)
-    setSchool(s)
-    scrollToPoint(schoolLaneX(s) + LANE_W / 2, yOf(s.start))
-  }
-  // 时代导航：高亮该时代，游标与滚动呼应其起始年
-  function gotoEra(id: string, startYear: number) {
-    setActiveEra(id)
-    setCursorYear(startYear)
-    scrollToYear(startYear)
-  }
-
-  function handlePick(p: PickItem) {
-    if (p.kind === 'phil') {
-      const pl = placedById.get(p.item.id)
-      selectPhil(p.item)
-      if (pl) scrollToPoint(pl.x, pl.y)
-    } else {
-      selectSchool(p.item)
-    }
-  }
-
+  // 落地：全景概览
   useEffect(() => {
     const el = stage.current
     if (!el) return
-    el.scrollTop = yOf(-500) - el.clientHeight / 2
     el.scrollLeft = centerX - el.clientWidth / 2
+    recenter.current = { year: MID_YEAR }
+    setPpy(fitPpy(el.clientHeight))
   }, [])
+
+  // 统一的「定位 + 可选缩放」：缩放变化走 recenter（瞬时），否则平滑滚动
+  function setZoom(np: number, year: number, x?: number) {
+    const el = stage.current
+    if (!el) return
+    np = clampPpy(np)
+    if (np === ppy) {
+      el.scrollTo({
+        top: yOf(year, ppy) - el.clientHeight / 2,
+        left: x != null ? x - el.clientWidth / 2 : el.scrollLeft,
+        behavior: 'smooth',
+      })
+    } else {
+      recenter.current = { year, x }
+      setPpy(np)
+    }
+  }
+
+  function moveCursor(year: number) {
+    setActiveEra(null)
+    setCursorYear(year)
+  }
+  function selectPhil(p: Philosopher, focus = false) {
+    moveCursor(p.born)
+    setPhil(p)
+    if (focus) setZoom(Math.max(ppy, BASE_PPY), p.born, placedById.get(p.id)?.x)
+  }
+  function selectSchool(s: School, minPpy = 0) {
+    moveCursor(s.start)
+    setSchool(s)
+    setZoom(Math.max(ppy, minPpy), s.start, schoolAnchorX(s))
+  }
+  function gotoEra(id: string, start: number, end: number) {
+    setActiveEra(id)
+    setCursorYear(start)
+    const el = stage.current
+    if (el) setZoom(rangePpy(start, end, el.clientHeight), (start + end) / 2)
+  }
+  function gotoAxial() {
+    setActiveEra('axial')
+    setCursorYear(-500)
+    setZoom(BASE_PPY, -500)
+  }
+  function overview() {
+    setActiveEra(null)
+    const el = stage.current
+    if (el) setZoom(fitPpy(el.clientHeight), MID_YEAR)
+  }
+  function zoomBy(mult: number) {
+    const el = stage.current
+    if (!el) return
+    setZoom(ppy * mult, yearAt(el.scrollTop + el.clientHeight / 2, ppy))
+  }
+
+  function handlePick(p: PickItem) {
+    if (p.kind === 'phil') selectPhil(p.item, true)
+    else selectSchool(p.item, BASE_PPY)
+  }
 
   return (
     <div className="app">
@@ -98,17 +139,14 @@ export default function App() {
       <div className="region-labels">
         <span className="rl east">东方 · 中国</span>
         <nav className="eras">
-          <button
-            className={`era-btn axial ${activeEra === 'axial' ? 'active' : ''}`}
-            onClick={() => gotoEra('axial', -500)}
-          >
+          <button className={`era-btn axial ${activeEra === 'axial' ? 'active' : ''}`} onClick={gotoAxial}>
             ✦ 轴心时代
           </button>
           {westEras.map((e) => (
             <button
               key={e.id}
               className={`era-btn ${activeEra === e.id ? 'active' : ''}`}
-              onClick={() => gotoEra(e.id, e.start)}
+              onClick={() => gotoEra(e.id, e.start, e.end)}
             >
               {e.name}
             </button>
@@ -121,14 +159,19 @@ export default function App() {
         <Timeline
           cursorYear={cursorYear}
           setCursorYear={moveCursor}
+          ppy={ppy}
           aliveIds={aliveIds}
           selectedSchoolId={school?.id ?? null}
           onSelectPhil={selectPhil}
           onSelectSchool={selectSchool}
         />
       </div>
-      <div className="fade-top" />
-      <div className="fade-bottom" />
+
+      <div className="zoom-ctrl">
+        <button onClick={() => zoomBy(1.4)} title="放大">＋</button>
+        <button onClick={() => zoomBy(1 / 1.4)} title="缩小">－</button>
+        <button className="zoom-fit" onClick={overview} title="全景概览">概览</button>
+      </div>
 
       <SyncPanel year={cursorYear} west={west} east={east} periods={periods} onSelectPhil={selectPhil} />
       <SchoolDrawer
