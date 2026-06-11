@@ -33,7 +33,8 @@
       "Bash(gh run *)",
       "Bash(python3 -c \"import json;p=json.load\\(open\\('02-data/structured/portraits.json'\\)\\);[print\\(k,'→',v\\) for k,v in list\\(p.items\\(\\)\\)[:3]]; print\\('远程兜底\\(未本地化\\)的:',[k for k,v in p.items\\(\\) if v.startswith\\('http'\\)]\\)\")",
       "Bash(git add *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git commit -q -m 'docs: 复盘工时改为净产出口径（仅计 Claude 动手时间，~6-8h） *)"
     ]
   }
 }
