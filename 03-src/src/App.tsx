@@ -170,7 +170,7 @@ export default function App() {
       <div className="zoom-ctrl">
         <button onClick={() => zoomBy(1.4)} title="放大">＋</button>
         <button onClick={() => zoomBy(1 / 1.4)} title="缩小">－</button>
-        <button className="zoom-fit" onClick={overview} title="全景概览">概览</button>
+        <button className="zoom-fit" onClick={overview} title="全景概览">全览</button>
       </div>
 
       <SyncPanel year={cursorYear} west={west} east={east} periods={periods} onSelectPhil={selectPhil} />

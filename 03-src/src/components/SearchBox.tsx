@@ -39,7 +39,12 @@ export function SearchBox({ onPick }: { onPick: (p: PickItem) => void }) {
         onFocus={() => setOpen(true)}
         onBlur={() => setTimeout(() => setOpen(false), 150)}
         onKeyDown={(e) => {
-          if (e.key === 'Escape') {
+          if (e.key === 'Enter' && results.length > 0) {
+            onPick(results[0])
+            setQ('')
+            setOpen(false)
+            e.currentTarget.blur()
+          } else if (e.key === 'Escape') {
             setQ('')
             setOpen(false)
           }
