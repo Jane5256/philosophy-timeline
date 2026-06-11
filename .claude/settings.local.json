@@ -25,7 +25,15 @@
       "Bash(python3 -c \"import urllib.parse;print\\(urllib.parse.quote\\('坎特伯雷的安瑟莫'\\)\\)\")",
       "Bash(curl -s --max-time 15 \"https://zh.wikipedia.org/api/rest_v1/page/summary/$\\(python3 -c \"import urllib.parse;print\\(urllib.parse.quote\\('坎特伯雷的安瑟莫'\\)\\)\"\\)\")",
       "Bash(python3 -c \"import sys,json;d=json.load\\(sys.stdin\\);print\\(d.get\\('thumbnail',{}\\).get\\('source'\\)\\)\")",
-      "Bash(git ls-remote *)"
+      "Bash(git ls-remote *)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" --max-time 12 \"https://jane5256.github.io/philosophy-timeline/\")",
+      "Bash(gh api *)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless=new --disable-gpu --hide-scrollbars --window-size=1500,950 --virtual-time-budget=7000 '--screenshot=/Users/janeli/Documents/AIAgents/Philosophy Timeline/04-design/figma-export/live-ghpages.png' https://jane5256.github.io/philosophy-timeline/)",
+      "Bash(git pull *)",
+      "Bash(gh run *)",
+      "Bash(python3 -c \"import json;p=json.load\\(open\\('02-data/structured/portraits.json'\\)\\);[print\\(k,'→',v\\) for k,v in list\\(p.items\\(\\)\\)[:3]]; print\\('远程兜底\\(未本地化\\)的:',[k for k,v in p.items\\(\\) if v.startswith\\('http'\\)]\\)\")",
+      "Bash(git add *)",
+      "Bash(git push *)"
     ]
   }
 }

@@ -76,7 +76,8 @@
 - ✅ 首次部署 Netlify Drop → https://exquisite-lolly-b9d7f0.netlify.app/
 - ⬜ 头像：占位形态 → 真实画像 URL
 - ✅ 全景概览态（默认落地全程压缩）+ 缩放（ppy 运行时缩放、缩放控件、时代/轴心/搜索缩放定位、分级细节）
-- 🔶 接 GitHub + Netlify 自动部署：✅ 已建仓库并推送 github.com/Jane5256/philosophy-timeline（含 netlify.toml）；⬜ 待用户在 Netlify 关联该仓库
+- ✅ 部署：⚠️Netlify 账号额度用尽→已迁移 **GitHub Pages**（免费无限）。线上 **https://jane5256.github.io/philosophy-timeline/**。部署＝`npm run deploy --prefix 03-src`（推到 gh-pages 分支）。仓库 github.com/Jane5256/philosophy-timeline。
+  - 🅿️ 可选升级：加 GitHub Actions 工作流→改 git push 全自动（需 gh token 加 workflow scope，或网页手动加工作流）
 - 本地运行：`npm run dev --prefix 03-src` → http://localhost:5173/
 
 ---

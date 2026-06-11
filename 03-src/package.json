@@ -9,7 +9,6 @@
     "prebuild": "node scripts/sync-data.mjs",
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "deploy": "bash scripts/deploy-ghpages.sh",
     "lint": "eslint .",
     "preview": "vite preview"
   },
