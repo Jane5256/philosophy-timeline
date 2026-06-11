@@ -22,7 +22,15 @@ export function PhilosopherModal({ phil, onClose }: Props) {
         </button>
         <div className="modal-head">
           <div className="avatar-lg" style={{ borderColor: schoolById.get(phil.school[0])?.color }}>
-            {phil.portrait.url ? <img src={phil.portrait.url} alt={phil.name} /> : phil.name.slice(0, 1)}
+            {phil.portrait.url ? (
+              <img
+                src={phil.portrait.url}
+                alt={phil.name}
+                style={phil.portrait.focus ? { objectPosition: phil.portrait.focus } : undefined}
+              />
+            ) : (
+              phil.name.slice(0, 1)
+            )}
           </div>
           <div>
             <h2>{phil.name}</h2>

@@ -263,6 +263,7 @@
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
+  object-position: 50% 28%;
   display: block;
 }
 .node-name {
@@ -572,6 +573,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 50% 28%;
 }
 .modal h2 {
   font-size: 28px;

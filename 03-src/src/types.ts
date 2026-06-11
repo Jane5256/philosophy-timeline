@@ -44,7 +44,7 @@ export interface Philosopher {
   school: string[]
   era: string
   region: Region
-  portrait: { url: string; source: string; license: string }
+  portrait: { url: string; source: string; license: string; focus?: string }
   summary: string
   coreIdeas: string[]
   majorWorks: Work[]

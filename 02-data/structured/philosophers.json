@@ -2273,7 +2273,7 @@
     "era": "medieval",
     "region": "west",
     "portrait": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Anselm_of_Canterbury%2C_seal.svg/330px-Anselm_of_Canterbury%2C_seal.svg.png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Anselm_of_Canterbury.jpg/330px-Anselm_of_Canterbury.jpg",
       "source": "Wikipedia",
       "license": "Public Domain"
     },
@@ -2561,7 +2561,8 @@
     "portrait": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Zhang_Lu-Laozi_Riding_an_Ox.jpg/330px-Zhang_Lu-Laozi_Riding_an_Ox.jpg",
       "source": "Wikipedia",
-      "license": "Public Domain"
+      "license": "Public Domain",
+      "focus": "50% 20%"
     },
     "summary": "道家创始人，相传为《道德经》作者，以「道」为核心建立中国最早的形而上学体系。",
     "coreIdeas": [
@@ -3177,7 +3178,8 @@
     "portrait": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Chang_Tsai.jpg/330px-Chang_Tsai.jpg",
       "source": "Wikipedia",
-      "license": "Public Domain"
+      "license": "Public Domain",
+      "focus": "50% 8%"
     },
     "summary": "理学奠基人之一，「关学」创始人，以「气一元论」著称，留下「横渠四句」。",
     "coreIdeas": [
@@ -3220,7 +3222,8 @@
     "portrait": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/%E5%AE%8B%E7%9B%91%E5%AF%9F%E5%BE%A1%E5%8F%B2%E7%A8%8B%E9%A2%A2.jpg/330px-%E5%AE%8B%E7%9B%91%E5%AF%9F%E5%BE%A1%E5%8F%B2%E7%A8%8B%E9%A2%A2.jpg",
       "source": "Wikipedia",
-      "license": "Public Domain"
+      "license": "Public Domain",
+      "focus": "50% 8%"
     },
     "summary": "「二程」之兄，与弟程颐同为理学奠基人，思想偏重「识仁」与心之体认，启后世心学。",
     "coreIdeas": [
@@ -3258,7 +3261,8 @@
     "portrait": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/%E5%AE%8B%E5%B4%87%E6%94%BF%E6%AE%BF%E8%AF%B4%E4%B9%A6%E7%A8%8B%E9%A2%90.jpg/330px-%E5%AE%8B%E5%B4%87%E6%94%BF%E6%AE%BF%E8%AF%B4%E4%B9%A6%E7%A8%8B%E9%A2%90.jpg",
       "source": "Wikipedia",
-      "license": "Public Domain"
+      "license": "Public Domain",
+      "focus": "50% 8%"
     },
     "summary": "「二程」之弟，理学奠基人，思想严谨重「理」，主张格物穷理，为程朱理学开路。",
     "coreIdeas": [
@@ -3425,7 +3429,8 @@
     "portrait": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Huang_Zong-Xi.jpg/330px-Huang_Zong-Xi.jpg",
       "source": "Wikipedia",
-      "license": "Public Domain"
+      "license": "Public Domain",
+      "focus": "50% 10%"
     },
     "summary": "明末清初三大儒之一，思想家与史学家，以《明夷待访录》批判君主专制，被誉为「中国思想启蒙之先驱」。",
     "coreIdeas": [
@@ -3468,7 +3473,8 @@
     "portrait": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Gu_yanwu.jpg/330px-Gu_yanwu.jpg",
       "source": "Wikipedia",
-      "license": "Public Domain"
+      "license": "Public Domain",
+      "focus": "50% 10%"
     },
     "summary": "明末清初三大儒之一，清代考据学开山，倡「经世致用」，反对理学空谈。",
     "coreIdeas": [
@@ -3511,7 +3517,8 @@
     "portrait": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/%E7%8E%8B%E5%A4%AB%E4%B9%8B.jpg/330px-%E7%8E%8B%E5%A4%AB%E4%B9%8B.jpg",
       "source": "Wikipedia",
-      "license": "Public Domain"
+      "license": "Public Domain",
+      "focus": "50% 8%"
     },
     "summary": "明末清初三大儒之一，世称船山先生，集中国古代朴素唯物论与辩证法之大成。",
     "coreIdeas": [

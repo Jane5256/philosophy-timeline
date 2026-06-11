@@ -163,7 +163,15 @@ export function Timeline({
             title={`${p.name} ${p.nameEn}`}
           >
             <span className="node-char">{p.name.slice(0, 1)}</span>
-            {p.portrait.url && <img className="node-img" src={p.portrait.url} alt="" loading="lazy" />}
+            {p.portrait.url && (
+              <img
+                className="node-img"
+                src={p.portrait.url}
+                alt=""
+                loading="lazy"
+                style={p.portrait.focus ? { objectPosition: p.portrait.focus } : undefined}
+              />
+            )}
             <span className="node-name">{p.name}</span>
           </button>
         )

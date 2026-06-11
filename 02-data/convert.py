@@ -448,6 +448,10 @@ def main():
     pf = DATA_DIR / "portraits.json"
     if pf.exists():
         portraits = json.loads(pf.read_text(encoding="utf-8"))
+    focus = {}
+    ff = DATA_DIR / "portrait-focus.json"
+    if ff.exists():
+        focus = json.loads(ff.read_text(encoding="utf-8"))
     phil = []
     used = []
     for fname in ["philosophers.md", "philosophers-east.md"]:
@@ -458,6 +462,8 @@ def main():
     for p in phil:
         if portraits.get(p["id"]):
             p["portrait"]["url"] = portraits[p["id"]]
+        if focus.get(p["id"]):
+            p["portrait"]["focus"] = focus[p["id"]]
     (DATA_DIR / "philosophers.json").write_text(
         json.dumps(phil, ensure_ascii=False, indent=2), encoding="utf-8")
     n_img = sum(1 for p in phil if p["portrait"]["url"])
