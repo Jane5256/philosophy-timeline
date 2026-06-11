@@ -29,6 +29,7 @@ export default function App() {
   const [cursorYear, setCursorYear] = useState(-500)
   const [ppy, setPpy] = useState(0.3) // 挂载后精确适配为全景
   const [activeEra, setActiveEra] = useState<string | null>(null)
+  const [panelOpen, setPanelOpen] = useState(false) // 窄屏下面板浮层开关
   const [phil, setPhil] = useState<Philosopher | null>(null)
   const [school, setSchool] = useState<School | null>(null)
   const stage = useRef<HTMLDivElement>(null)
@@ -173,7 +174,11 @@ export default function App() {
         <button className="zoom-fit" onClick={overview} title="全景概览">全览</button>
       </div>
 
-      <SyncPanel year={cursorYear} west={west} east={east} periods={periods} onSelectPhil={selectPhil} />
+      <button className="panel-toggle" onClick={() => setPanelOpen((o) => !o)}>
+        {panelOpen ? '✕ 关闭' : '同期 ▸'}
+      </button>
+
+      <SyncPanel year={cursorYear} west={west} east={east} periods={periods} open={panelOpen} onSelectPhil={selectPhil} />
       <SchoolDrawer
         school={school}
         onClose={() => setSchool(null)}

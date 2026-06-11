@@ -13,6 +13,7 @@ interface Props {
   west: Philosopher[]
   east: Philosopher[]
   periods: Periods
+  open?: boolean
   onSelectPhil: (p: Philosopher) => void
 }
 
@@ -56,9 +57,9 @@ function Side({
   )
 }
 
-export function SyncPanel({ year, west, east, periods, onSelectPhil }: Props) {
+export function SyncPanel({ year, west, east, periods, open, onSelectPhil }: Props) {
   return (
-    <div className="sync-panel">
+    <div className={`sync-panel ${open ? 'open' : ''}`}>
       <div className="sync-head">
         <div className="sync-year">{formatYear(year)}</div>
         <div className="sync-hint">拖动时间轴游标查看同期</div>
