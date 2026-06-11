@@ -76,7 +76,7 @@
 - ✅ 首次部署 Netlify Drop → https://exquisite-lolly-b9d7f0.netlify.app/
 - ⬜ 头像：占位形态 → 真实画像 URL
 - ⬜ 全景概览态（默认落地全程压缩）+ 缩放
-- ⬜ 接 GitHub + Netlify 自动部署（免每次手动拖 dist）
+- 🔶 接 GitHub + Netlify 自动部署：✅ 已建仓库并推送 github.com/Jane5256/philosophy-timeline（含 netlify.toml）；⬜ 待用户在 Netlify 关联该仓库
 - 本地运行：`npm run dev --prefix 03-src` → http://localhost:5173/
 
 ---

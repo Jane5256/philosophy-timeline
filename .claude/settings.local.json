@@ -16,7 +16,11 @@
       "Bash(open -R dist)",
       "Bash(curl -s --max-time 15 \"https://en.wikipedia.org/api/rest_v1/page/summary/Plato\")",
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('title:',d.get\\('title'\\)\\); print\\('thumb:',d.get\\('thumbnail',{}\\).get\\('source'\\)\\)\")",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(git commit -q -m ' *)",
+      "Bash(brew install *)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)"
     ]
   }
 }
