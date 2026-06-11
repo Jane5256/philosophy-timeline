@@ -9,6 +9,7 @@ import {
   placedById,
   schoolAnchorX,
   fitPpy,
+  fitHs,
   rangePpy,
   clampPpy,
   BASE_PPY,
@@ -28,6 +29,7 @@ const MID_YEAR = (YEAR_MAX + YEAR_MIN) / 2
 export default function App() {
   const [cursorYear, setCursorYear] = useState(-500)
   const [ppy, setPpy] = useState(0.3) // 挂载后精确适配为全景
+  const [hs, setHs] = useState(1) // 水平缩放，使东西方都在画面
   const [activeEra, setActiveEra] = useState<string | null>(null)
   const [panelOpen, setPanelOpen] = useState(false) // 窄屏下面板浮层开关
   const [phil, setPhil] = useState<Philosopher | null>(null)
@@ -57,14 +59,37 @@ export default function App() {
     recenter.current = null
   }, [ppy])
 
-  // 落地：全景概览
+  // 落地：全景概览（垂直）
   useEffect(() => {
     const el = stage.current
     if (!el) return
-    el.scrollLeft = centerX - el.clientWidth / 2
     recenter.current = { year: MID_YEAR }
     setPpy(fitPpy(el.clientHeight))
   }, [])
+
+  // 水平自适应：按 stage 可用宽度算缩放，使东西方都在画面里（含窗口 resize）
+  useEffect(() => {
+    let raf = 0
+    function update() {
+      cancelAnimationFrame(raf)
+      raf = requestAnimationFrame(() => {
+        const el = stage.current
+        if (el) setHs(fitHs(el.clientWidth))
+      })
+    }
+    update()
+    window.addEventListener('resize', update)
+    return () => {
+      window.removeEventListener('resize', update)
+      cancelAnimationFrame(raf)
+    }
+  }, [])
+
+  // hs 变化后保持中轴居中（东西方同时在画面）
+  useLayoutEffect(() => {
+    const el = stage.current
+    if (el) el.scrollLeft = centerX * hs - el.clientWidth / 2
+  }, [hs])
 
   // 统一的「定位 + 可选缩放」：缩放变化走 recenter（瞬时），否则平滑滚动
   function setZoom(np: number, year: number, x?: number) {
@@ -90,12 +115,13 @@ export default function App() {
   function selectPhil(p: Philosopher, focus = false) {
     moveCursor(p.born)
     setPhil(p)
-    if (focus) setZoom(Math.max(ppy, BASE_PPY), p.born, placedById.get(p.id)?.x)
+    const px = placedById.get(p.id)?.x
+    if (focus) setZoom(Math.max(ppy, BASE_PPY), p.born, px != null ? px * hs : undefined)
   }
   function selectSchool(s: School, minPpy = 0) {
     moveCursor(s.start)
     setSchool(s)
-    setZoom(Math.max(ppy, minPpy), s.start, schoolAnchorX(s))
+    setZoom(Math.max(ppy, minPpy), s.start, schoolAnchorX(s) * hs)
   }
   function gotoEra(id: string, start: number, end: number) {
     setActiveEra(id)
@@ -161,6 +187,7 @@ export default function App() {
           cursorYear={cursorYear}
           setCursorYear={moveCursor}
           ppy={ppy}
+          hs={hs}
           aliveIds={aliveIds}
           selectedSchoolId={school?.id ?? null}
           onSelectPhil={selectPhil}

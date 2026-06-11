@@ -69,6 +69,11 @@ export const eastRailX = axisLeft - RAIL_W
 export const westRailX = axisRight
 export const canvasWidth = axisRight + RAIL_W + nWestSchool * LANE_W + 28
 
+// 水平自适应：把整张画布（含列宽/轨道/中轴）按比例缩放，使东西方都在画面里。
+// 缩到最小（HS_MIN）后仍不够则横向滚动。最小处单列 ≈ LANE_W*HS_MIN ≈ 26px，足够竖排流派名。
+export const HS_MIN = 0.34
+export const fitHs = (stageW: number) => Math.max(HS_MIN, Math.min(1, stageW / canvasWidth))
+
 export function schoolLaneX(s: School): number {
   if (s.region === 'west') {
     const L = westSchoolLanes.get(s.id) ?? 0

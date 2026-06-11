@@ -130,6 +130,7 @@
 }
 .canvas {
   position: relative;
+  margin: 0 auto; /* 比视口窄时居中，东西方都居中在画面 */
 }
 
 

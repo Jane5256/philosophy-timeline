@@ -18,6 +18,7 @@ import {
   AXIS_W,
   RAIL_W,
   BAND_W,
+  LANE_W,
   NODE,
   YEAR_MIN,
   YEAR_MAX,
@@ -33,6 +34,7 @@ interface Props {
   cursorYear: number
   setCursorYear: (y: number) => void
   ppy: number
+  hs: number // 水平缩放
   aliveIds: Set<string>
   selectedSchoolId: string | null
   onSelectPhil: (p: Philosopher) => void
@@ -43,6 +45,7 @@ export function Timeline({
   cursorYear,
   setCursorYear,
   ppy,
+  hs,
   aliveIds,
   selectedSchoolId,
   onSelectPhil,
@@ -57,9 +60,11 @@ export function Timeline({
   const ticks: number[] = []
   for (let y = Math.ceil(YEAR_MIN / step) * step; y <= YEAR_MAX; y += step) ticks.push(y)
 
-  // 人物节点尺寸随缩放（分级细节）
-  const nodeSize = Math.max(12, Math.min(NODE, (NODE * ppy) / BASE_PPY))
+  // 节点尺寸：受垂直缩放 ppy 与列宽（水平缩放 hs）双重约束
+  const nodeSize = Math.max(12, Math.min(NODE, (NODE * ppy) / BASE_PPY, LANE_W * hs * 0.92))
   const showName = ppy >= 1.0
+  const axisW = AXIS_W * hs
+  const railW = RAIL_W * hs
 
   useEffect(() => {
     function move(e: PointerEvent) {
@@ -86,13 +91,13 @@ export function Timeline({
   }
 
   return (
-    <div className="canvas" ref={ref} style={{ width: canvasWidth, height: H }}>
+    <div className="canvas" ref={ref} style={{ width: canvasWidth * hs, height: H }}>
       {/* 顶部 / 底部哲理文案 */}
-      <div className="edge-note top" style={{ top: 0, height: HEAD_PAD, left: centerX }}>
+      <div className="edge-note top" style={{ top: 0, height: HEAD_PAD, left: centerX * hs }}>
         <div className="tn-main">历史仍在续写</div>
         <div className="tn-sub">—— 未来，正等待你留下足迹 ——</div>
       </div>
-      <div className="edge-note bottom" style={{ top: H - FOOT_PAD, height: FOOT_PAD, left: centerX }}>
+      <div className="edge-note bottom" style={{ top: H - FOOT_PAD, height: FOOT_PAD, left: centerX * hs }}>
         <div className="tn-main">大道之源，绵延不绝</div>
         <div className="tn-sub">—— 一切思想，皆有其始 ——</div>
       </div>
@@ -100,14 +105,14 @@ export function Timeline({
       {/* 年代网格线 + 标签 */}
       {ticks.map((y) => (
         <div key={y} className="grid" style={{ top: yOf(y, ppy) }}>
-          <span className="grid-label" style={{ left: centerX }}>
+          <span className="grid-label" style={{ left: centerX * hs }}>
             {shortYear(y)}
           </span>
         </div>
       ))}
 
       {/* 中央年代尺 */}
-      <div className="axis-strip" style={{ left: axisLeft, width: AXIS_W }} onClick={axisClick} />
+      <div className="axis-strip" style={{ left: axisLeft * hs, width: axisW }} onClick={axisClick} />
 
       {/* 东方朝代轨 */}
       {dynasties.map((d) => {
@@ -116,7 +121,7 @@ export function Timeline({
         if (hi <= lo) return null
         const open = (hi >= YEAR_MAX ? ' open-top' : '') + (lo <= YEAR_MIN ? ' open-bottom' : '')
         return (
-          <div key={d.id} className={`rail dyn${open}`} style={{ left: eastRailX, top: yOf(hi, ppy), width: RAIL_W, height: (hi - lo) * ppy }}>
+          <div key={d.id} className={`rail dyn${open}`} style={{ left: eastRailX * hs, top: yOf(hi, ppy), width: railW, height: (hi - lo) * ppy }}>
             <span>{d.name}</span>
           </div>
         )
@@ -129,7 +134,7 @@ export function Timeline({
         if (hi <= lo) return null
         const open = (hi >= YEAR_MAX ? ' open-top' : '') + (lo <= YEAR_MIN ? ' open-bottom' : '')
         return (
-          <div key={s.id} className={`rail state${open}`} style={{ left: westRailX, top: yOf(hi, ppy), width: RAIL_W, height: (hi - lo) * ppy }} title={s.description}>
+          <div key={s.id} className={`rail state${open}`} style={{ left: westRailX * hs, top: yOf(hi, ppy), width: railW, height: (hi - lo) * ppy }} title={s.description}>
             <span>{s.name}</span>
           </div>
         )
@@ -144,9 +149,9 @@ export function Timeline({
             key={b.s.id}
             className={`band ${selectedSchoolId === b.s.id ? 'selected' : ''}`}
             onClick={() => onSelectSchool(b.s)}
-            style={{ left: b.left, top, width: BAND_W, height, background: hexA(b.s.color, 0.8), borderColor: b.s.color }}
+            style={{ left: b.left * hs, top, width: BAND_W * hs, height, background: hexA(b.s.color, 0.8), borderColor: b.s.color }}
           >
-            {height > 34 && <span className="band-name">{b.s.name}</span>}
+            {height > 34 && BAND_W * hs > 18 && <span className="band-name">{b.s.name}</span>}
           </button>
         )
       })}
@@ -162,7 +167,7 @@ export function Timeline({
           <button
             key={p.id}
             className={`node ${alive ? 'alive' : 'dim'}`}
-            style={{ left: x - nodeSize / 2, top: y - nodeSize / 2, width: nodeSize, height: nodeSize, borderColor: color, background: showImg ? '#fff' : color }}
+            style={{ left: x * hs - nodeSize / 2, top: y - nodeSize / 2, width: nodeSize, height: nodeSize, borderColor: color, background: showImg ? '#fff' : color }}
             onClick={() => onSelectPhil(p)}
             title={`${p.name} ${p.nameEn}`}
           >
@@ -179,7 +184,7 @@ export function Timeline({
       <div className="cursor" style={{ top: yOf(cursorYear, ppy) }}>
         <div
           className="cursor-handle"
-          style={{ left: centerX }}
+          style={{ left: centerX * hs }}
           onPointerDown={() => {
             dragging.current = true
             document.body.classList.add('dragging')
