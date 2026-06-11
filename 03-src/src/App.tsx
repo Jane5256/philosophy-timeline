@@ -127,7 +127,7 @@ export default function App() {
     <div className="app">
       <header className="nav">
         <div className="brand">
-          <img className="logo" src="/logo.png" alt="logo" />
+          <img className="logo" src={`${import.meta.env.BASE_URL}logo.png`} alt="logo" />
           <div className="brand-text">
             <div className="brand-zh">东西方哲学时间线</div>
             <div className="brand-en">A Comparative Timeline of Eastern &amp; Western Philosophy</div>
