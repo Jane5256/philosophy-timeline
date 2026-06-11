@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1400">
+<title>风格 B — 现代极简 Dark</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #0F1117;
+    --bg-card:   #1A1D27;
+    --bg-hover:  #242736;
+    --bg-panel:  #16192280;
+    --text:      #E8E8E8;
+    --text-sub:  #8A8FA8;
+    --text-mute: #4A5070;
+    --axis:      rgba(255,255,255,0.15);
+    --accent:    #7C6AF7;
+    --accent2:   #9F92FF;
+    --ancient:   #F4A261;
+    --medieval:  #9B5DE5;
+    --early-mod: #00B4D8;
+    --modern:    #06D6A0;
+    --border:    rgba(255,255,255,0.08);
+    --border2:   rgba(255,255,255,0.14);
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Noto Sans SC', 'Inter', sans-serif;
+    min-height: 100vh;
+  }
+
+  /* ── NAV ── */
+  nav {
+    background: rgba(15,17,23,0.95);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border2);
+    padding: 0 48px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .nav-logo {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .nav-logo-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 8px var(--accent);
+  }
+  .nav-tabs { display: flex; gap: 2px; }
+  .nav-tab {
+    padding: 6px 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-sub);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .nav-tab:hover { color: var(--text); background: var(--bg-hover); }
+  .nav-tab.active { color: var(--accent2); background: rgba(124,106,247,0.12); }
+  .nav-search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--bg-card);
+    border: 1px solid var(--border2);
+    border-radius: 8px;
+    padding: 7px 14px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: var(--text-mute);
+  }
+  .nav-search kbd {
+    background: var(--bg-hover);
+    border: 1px solid var(--border2);
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 11px;
+    color: var(--text-mute);
+  }
+
+  /* ── MAIN LAYOUT ── */
+  .layout {
+    display: grid;
+    grid-template-columns: 72px 1fr 380px;
+    height: calc(100vh - 60px);
+    overflow: hidden;
+  }
+
+  /* ── LEFT: TIME AXIS ── */
+  .axis-col {
+    border-right: 1px solid var(--border);
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(15,17,23,0.6);
+    position: relative;
+    overflow: hidden;
+  }
+  .axis-line {
+    width: 2px;
+    height: 680px;
+    background: linear-gradient(to bottom,
+      var(--ancient) 0%,
+      var(--ancient) 38%,
+      var(--medieval) 38%,
+      var(--medieval) 55%,
+      var(--early-mod) 55%,
+      var(--early-mod) 72%,
+      var(--modern) 72%,
+      var(--modern) 100%
+    );
+    border-radius: 1px;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0 0 12px rgba(124,106,247,0.3);
+  }
+  .year-tick {
+    position: absolute;
+    right: calc(100% + 4px);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    color: var(--text-mute);
+    white-space: nowrap;
+    transform: translateY(-50%);
+  }
+
+  /* ── CENTER: TIMELINE ── */
+  .timeline-col {
+    overflow-y: auto;
+    padding: 40px 36px;
+    position: relative;
+    scrollbar-width: thin;
+    scrollbar-color: var(--bg-hover) transparent;
+  }
+  .era-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+  .era-badge {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 100px;
+    color: #000;
+  }
+  .era-badge.ancient  { background: var(--ancient); color: #1a0a00; }
+  .era-badge.medieval { background: var(--medieval); }
+  .era-badge.early-mod { background: var(--early-mod); color: #001a1f; }
+  .era-badge.modern   { background: var(--modern); color: #001a12; }
+  .era-line { flex: 1; height: 1px; background: var(--border2); }
+  .era-years { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-mute); }
+
+  /* school band */
+  .school-band {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    transition: border-color .2s;
+  }
+  .school-band:hover { border-color: var(--border2); }
+  .school-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+  }
+  .school-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .school-name {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--text);
+  }
+  .school-name-en { font-size: 11px; color: var(--text-mute); margin-left: 4px; }
+  .school-philosophers {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    flex-wrap: wrap;
+  }
+
+  /* philosopher chip */
+  .philo-chip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--bg-hover);
+    border: 1px solid var(--border2);
+    border-radius: 8px;
+    padding: 6px 12px 6px 6px;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .philo-chip:hover { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent), 0 0 20px rgba(124,106,247,0.2); }
+  .philo-chip.active { border-color: var(--accent); background: rgba(124,106,247,0.1); box-shadow: 0 0 20px rgba(124,106,247,0.25); }
+  .philo-avatar {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    object-fit: cover;
+    background: var(--bg);
+  }
+  .philo-avatar-placeholder {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: var(--bg);
+    border: 1px solid var(--border2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px;
+    color: var(--text-sub);
+  }
+  .philo-name { font-size: 13px; font-weight: 500; color: var(--text); display: block; }
+  .philo-years { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--text-mute); display: block; }
+
+  /* events */
+  .event-strip {
+    display: flex; gap: 6px; flex-wrap: wrap;
+    padding: 6px 0 14px;
+  }
+  .event-chip {
+    display: flex; align-items: center; gap: 6px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    padding: 3px 12px;
+    font-size: 11px;
+    color: var(--text-mute);
+  }
+  .event-dot { width: 5px; height: 5px; border-radius: 50%; }
+  .political { background: #EF5350; }
+  .scientific { background: #42A5F5; }
+  .religious  { background: #AB47BC; }
+
+  /* ── RIGHT: DETAIL PANEL ── */
+  .detail-panel {
+    background: var(--bg-card);
+    border-left: 1px solid var(--border2);
+    overflow-y: auto;
+    padding: 40px 32px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--bg-hover) transparent;
+    position: relative;
+  }
+  .detail-panel::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent), var(--ancient));
+  }
+
+  .panel-portrait-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  .portrait-glow {
+    width: 100px; height: 100px;
+    border-radius: 16px;
+    position: relative;
+    margin-bottom: 16px;
+  }
+  .portrait-glow::before {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, var(--accent), var(--ancient));
+    opacity: 0.5;
+    filter: blur(8px);
+    z-index: 0;
+  }
+  .panel-portrait {
+    width: 100px; height: 100px;
+    border-radius: 16px;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    background: var(--bg-hover);
+  }
+  .panel-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+  .panel-name-en {
+    font-size: 13px;
+    color: var(--text-mute);
+    text-align: center;
+    margin-top: 2px;
+    letter-spacing: 0.03em;
+  }
+  .panel-meta {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 12px 0 20px;
+    flex-wrap: wrap;
+  }
+  .panel-tag {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 100px;
+    border: 1px solid;
+  }
+  .panel-tag.school { border-color: rgba(124,106,247,.4); color: var(--accent2); background: rgba(124,106,247,.1); }
+  .panel-tag.era    { border-color: var(--border2); color: var(--text-sub); }
+  .panel-tag.years  { border-color: var(--border2); color: var(--text-sub); font-family: 'JetBrains Mono', monospace; }
+
+  .panel-divider { height: 1px; background: var(--border2); margin: 18px 0; }
+
+  .panel-section-title {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent2);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .panel-section-title::after { content: ''; flex: 1; height: 1px; background: rgba(124,106,247,.2); }
+
+  .panel-ideas { list-style: none; }
+  .panel-ideas li {
+    font-size: 13px;
+    line-height: 1.65;
+    color: var(--text-sub);
+    padding: 8px 12px;
+    border-left: 2px solid var(--accent);
+    background: rgba(124,106,247,.04);
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 6px;
+  }
+
+  .panel-works { display: flex; flex-direction: column; gap: 6px; }
+  .panel-work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    padding: 8px 12px;
+    background: var(--bg-hover);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    transition: border-color .15s;
+  }
+  .panel-work:hover { border-color: var(--border2); }
+  .panel-work-title { font-weight: 600; color: var(--text); }
+  .panel-work-en { font-size: 11px; color: var(--text-mute); margin-top: 1px; }
+  .panel-work-year { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-mute); white-space: nowrap; }
+
+  .panel-quote {
+    background: rgba(124,106,247,.07);
+    border: 1px solid rgba(124,106,247,.2);
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 14px;
+    font-style: italic;
+    color: var(--text-sub);
+    line-height: 1.6;
+  }
+  .panel-quote::before { content: '"'; color: var(--accent); font-size: 24px; line-height: 1; display: block; margin-bottom: 4px; font-style: normal; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">
+    <div class="nav-logo-dot"></div>
+    西方哲学史
+  </div>
+  <div class="nav-tabs">
+    <div class="nav-tab active">古代</div>
+    <div class="nav-tab">中世纪</div>
+    <div class="nav-tab">近代</div>
+    <div class="nav-tab">现代</div>
+  </div>
+  <div class="nav-search">🔍 搜索哲学家、著作… <kbd>⌘K</kbd></div>
+</nav>
+
+<div class="layout">
+
+  <!-- LEFT AXIS -->
+  <div class="axis-col">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--text-mute);margin-bottom:10px;letter-spacing:.05em;">BCE/CE</div>
+    <div class="axis-line" style="position:relative;">
+      <div class="year-tick" style="top:0%;">-600</div>
+      <div class="year-tick" style="top:20%;">-400</div>
+      <div class="year-tick" style="top:38%;">0</div>
+      <div class="year-tick" style="top:55%;">800</div>
+      <div class="year-tick" style="top:72%;">1500</div>
+      <div class="year-tick" style="top:100%;">2000</div>
+    </div>
+  </div>
+
+  <!-- CENTER TIMELINE -->
+  <div class="timeline-col">
+
+    <!-- ERA: ANCIENT -->
+    <div class="era-header">
+      <div class="era-badge ancient">Ancient</div>
+      <div class="era-line"></div>
+      <div class="era-years">-600 → 500</div>
+    </div>
+
+    <div class="school-band">
+      <div class="school-header">
+        <div class="school-dot" style="background:var(--ancient);box-shadow:0 0 6px var(--ancient);"></div>
+        <span class="school-name">米利都学派</span>
+        <span class="school-name-en">Milesian School</span>
+      </div>
+      <div class="school-philosophers">
+        <div class="philo-chip">
+          <div class="philo-avatar-placeholder">泰</div>
+          <div><span class="philo-name">泰勒斯</span><span class="philo-years">~-624 – -546</span></div>
+        </div>
+        <div class="philo-chip">
+          <div class="philo-avatar-placeholder">阿</div>
+          <div><span class="philo-name">阿那克西曼德</span><span class="philo-years">~-610 – -545</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="event-strip">
+      <div class="event-chip"><div class="event-dot political"></div>-509 · 罗马共和国</div>
+      <div class="event-chip"><div class="event-dot political"></div>-334 · 亚历山大帝国</div>
+      <div class="event-chip"><div class="event-dot political"></div>-27 · 罗马帝国</div>
+    </div>
+
+    <div class="school-band">
+      <div class="school-header">
+        <div class="school-dot" style="background:#D4A853;box-shadow:0 0 6px #D4A853;"></div>
+        <span class="school-name">希腊三杰</span>
+        <span class="school-name-en">Greek Classical</span>
+      </div>
+      <div class="school-philosophers">
+        <div class="philo-chip">
+          <div class="philo-avatar-placeholder">苏</div>
+          <div><span class="philo-name">苏格拉底</span><span class="philo-years">-469 – -399</span></div>
+        </div>
+        <div class="philo-chip active">
+          <img class="philo-avatar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/100px-Plato_Silanion_Musei_Capitolini_MC1377.jpg" onerror="this.style.display='none';this.nextSibling.style.display='flex'" alt="柏拉图">
+          <div class="philo-avatar-placeholder" style="display:none;">柏</div>
+          <div><span class="philo-name">柏拉图</span><span class="philo-years">-427 – -347</span></div>
+        </div>
+        <div class="philo-chip">
+          <div class="philo-avatar-placeholder">亚</div>
+          <div><span class="philo-name">亚里士多德</span><span class="philo-years">-384 – -322</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ERA: MEDIEVAL -->
+    <div class="era-header" style="margin-top:28px;">
+      <div class="era-badge medieval">Medieval</div>
+      <div class="era-line"></div>
+      <div class="era-years">500 → 1400</div>
+    </div>
+
+    <div class="school-band">
+      <div class="school-header">
+        <div class="school-dot" style="background:var(--medieval);box-shadow:0 0 6px var(--medieval);"></div>
+        <span class="school-name">经院哲学</span>
+        <span class="school-name-en">Scholasticism</span>
+      </div>
+      <div class="school-philosophers">
+        <div class="philo-chip">
+          <div class="philo-avatar-placeholder">奥</div>
+          <div><span class="philo-name">奥古斯丁</span><span class="philo-years">354 – 430</span></div>
+        </div>
+        <div class="philo-chip">
+          <div class="philo-avatar-placeholder">托</div>
+          <div><span class="philo-name">托马斯·阿奎纳</span><span class="philo-years">~1225 – 1274</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="event-strip">
+      <div class="event-chip"><div class="event-dot political"></div>476 · 西罗马灭亡</div>
+      <div class="event-chip"><div class="event-dot religious"></div>632 · 阿拉伯帝国</div>
+      <div class="event-chip"><div class="event-dot political"></div>1453 · 东罗马灭亡</div>
+    </div>
+
+    <!-- ERA: EARLY MODERN -->
+    <div class="era-header" style="margin-top:28px;">
+      <div class="era-badge early-mod">Early Modern</div>
+      <div class="era-line"></div>
+      <div class="era-years">1400 → 1800</div>
+    </div>
+
+    <div class="school-band">
+      <div class="school-header">
+        <div class="school-dot" style="background:var(--early-mod);box-shadow:0 0 6px var(--early-mod);"></div>
+        <span class="school-name">理性主义</span>
+        <span class="school-name-en">Rationalism</span>
+      </div>
+      <div class="school-philosophers">
+        <div class="philo-chip">
+          <div class="philo-avatar-placeholder">笛</div>
+          <div><span class="philo-name">笛卡尔</span><span class="philo-years">1596 – 1650</span></div>
+        </div>
+        <div class="philo-chip">
+          <div class="philo-avatar-placeholder">斯</div>
+          <div><span class="philo-name">斯宾诺莎</span><span class="philo-years">1632 – 1677</span></div>
+        </div>
+        <div class="philo-chip">
+          <div class="philo-avatar-placeholder">莱</div>
+          <div><span class="philo-name">莱布尼茨</span><span class="philo-years">1646 – 1716</span></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RIGHT DETAIL PANEL -->
+  <div class="detail-panel">
+    <div class="panel-portrait-wrap">
+      <div class="portrait-glow">
+        <img class="panel-portrait" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/300px-Plato_Silanion_Musei_Capitolini_MC1377.jpg" alt="柏拉图" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22><rect width=%22100%22 height=%22100%22 rx=%2216%22 fill=%22%23242736%22/><text x=%2250%22 y=%2260%22 text-anchor=%22middle%22 font-size=%2236%22 fill=%22%238A8FA8%22>柏</text></svg>'">
+      </div>
+      <div class="panel-name">柏拉图</div>
+      <div class="panel-name-en">Plato</div>
+      <div class="panel-meta">
+        <span class="panel-tag years">-427 — -347</span>
+        <span class="panel-tag era">古希腊</span>
+        <span class="panel-tag school">希腊古典</span>
+      </div>
+    </div>
+
+    <div class="panel-divider"></div>
+
+    <div class="panel-section-title">核心思想</div>
+    <ul class="panel-ideas">
+      <li>理念论：真实存在的是永恒不变的「理念」，感官世界只是其不完美的影子</li>
+      <li>洞穴比喻：哲学引导人走出洞穴，认识真实世界</li>
+      <li>灵魂不朽：知识是灵魂对理念世界的回忆</li>
+    </ul>
+
+    <div class="panel-divider"></div>
+
+    <div class="panel-section-title">代表作</div>
+    <div class="panel-works">
+      <div class="panel-work">
+        <div>
+          <div class="panel-work-title">理想国</div>
+          <div class="panel-work-en">The Republic</div>
+        </div>
+        <div class="panel-work-year">~-380</div>
+      </div>
+      <div class="panel-work">
+        <div>
+          <div class="panel-work-title">会饮篇</div>
+          <div class="panel-work-en">Symposium</div>
+        </div>
+        <div class="panel-work-year">~-385</div>
+      </div>
+      <div class="panel-work">
+        <div>
+          <div class="panel-work-title">斐多篇</div>
+          <div class="panel-work-en">Phaedo</div>
+        </div>
+        <div class="panel-work-year">~-385</div>
+      </div>
+    </div>
+
+    <div class="panel-divider"></div>
+
+    <div class="panel-section-title">名言</div>
+    <div class="panel-quote">
+      只有哲学家才适合做国王，因为只有他们才能看到真实的善。
+    </div>
+
+    <div style="margin-top:20px;font-size:11px;color:var(--text-mute);text-align:center;font-family:'JetBrains Mono',monospace;">
+      img · Wikipedia · Public Domain
+    </div>
+  </div>
+
+</div>
+
+<div style="position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;font-family:'Inter',sans-serif;font-size:12px;font-weight:600;padding:8px 20px;border-radius:100px;letter-spacing:0.04em;box-shadow:0 0 24px rgba(124,106,247,.5);">
+  风格 B — 现代极简 · Minimal Dark
+</div>
+
+</body>
+</html>

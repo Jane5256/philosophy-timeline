@@ -1,0 +1,10 @@
+# Netlify 构建配置：前端在 03-src 子目录
+# 关联本仓库后，每次 push 到默认分支会自动构建并发布
+
+[build]
+  base = "03-src"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"

@@ -1,0 +1,3931 @@
+[
+  {
+    "id": "thales",
+    "name": "泰勒斯",
+    "nameEn": "Thales",
+    "born": -624,
+    "died": -546,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "milesian"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Illustrerad_Verldshistoria_band_I_Ill_107.jpg/330px-Illustrerad_Verldshistoria_band_I_Ill_107.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "科学和哲学之祖。水是万物的本源，万物复归于水。",
+    "coreIdeas": [
+      "水是万物之源：宇宙的基本物质是水，一切事物都由水构成并最终回归于水",
+      "理性解释自然：首次尝试用自然原因而非神话解释世界现象，开创西方理性哲学传统",
+      "万物有灵论：认为磁石能吸铁，故推测万物皆有灵魂"
+    ],
+    "majorWorks": [],
+    "historicalNote": "",
+    "quote": "水是最好的。",
+    "quoteEn": ""
+  },
+  {
+    "id": "anaximander",
+    "name": "阿那克西曼德",
+    "nameEn": "Anaximander",
+    "born": -610,
+    "died": -545,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "milesian"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Pietro_Bellotti_%28attr%29_Anaximander.jpg/330px-Pietro_Bellotti_%28attr%29_Anaximander.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "泰勒斯的学生，提出「阿派朗」（无限定者）概念，是西方第一张地图的绘制者。",
+    "coreIdeas": [
+      "阿派朗（Apeiron）：万物的本源不是有固定性质的东西，而是无限定、无固定界限的「阿派朗」",
+      "对立分化：阿派朗在运动中分裂出冷与热、干与湿等对立面，从而产生万物",
+      "一切生于无限复归于无限：无限本身既不能创造也不能消灭"
+    ],
+    "majorWorks": [
+      {
+        "title": "论自然",
+        "titleEn": "On Nature",
+        "year": -560
+      }
+    ],
+    "historicalNote": "",
+    "quote": "",
+    "quoteEn": ""
+  },
+  {
+    "id": "anaximenes",
+    "name": "阿那克西美尼",
+    "nameEn": "Anaximenes",
+    "born": -586,
+    "died": -526,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "milesian"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Anaximenes.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "米利都学派第三位代表人物，认为气是万物之源。",
+    "coreIdeas": [
+      "气是万物之源：不同形式的物质通过气体聚散过程产生，火是最稀薄的气，水和土是更密集的气",
+      "凝聚与稀散：通过气的压缩产生水、土、石；通过气的稀散产生火"
+    ],
+    "majorWorks": [],
+    "historicalNote": "",
+    "quote": "",
+    "quoteEn": ""
+  },
+  {
+    "id": "pythagoras",
+    "name": "毕达哥拉斯",
+    "nameEn": "Pythagoras",
+    "born": -580,
+    "died": -490,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "pythagorean"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg/330px-Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "阿那克西曼德的弟子，数学家兼哲学家，毕达哥拉斯学派创始人。发现了数的理论统一性。",
+    "coreIdeas": [
+      "数决定万物：「数」决定形式与理念，数学是理解和描述世界最合适的语言",
+      "万物皆数：宇宙中的一切关系，包括音乐和谐、天体运行，都可用数表达",
+      "灵魂轮回：灵魂不死，可在不同生命之间轮回转世"
+    ],
+    "majorWorks": [],
+    "historicalNote": "",
+    "quote": "数是万物的本质。",
+    "quoteEn": ""
+  },
+  {
+    "id": "heraclitus",
+    "name": "赫拉克利特",
+    "nameEn": "Heraclitus",
+    "born": -544,
+    "died": -480,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "ephesian"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Heraclitus_b_4_compressed.jpg/330px-Heraclitus_b_4_compressed.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "爱菲斯（以弗所）学派代表，以晦涩深奥著称，被称为「晦涩者」。",
+    "coreIdeas": [
+      "永恒的活火：宇宙本身是永恒的活火，按一定尺度燃烧，一定尺度熄灭，自我创造",
+      "万物皆流：一切都处于永恒的变化中，人不能两次踏入同一条河流",
+      "逻各斯（Logos）：万物按照一定的尺度和规律变动，这个规律就是「逻各斯」",
+      "对立统一：对立面共存且相互依存，没有对立就没有统一"
+    ],
+    "majorWorks": [
+      {
+        "title": "论自然",
+        "titleEn": "On Nature",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "人不能两次踏入同一条河流。",
+    "quoteEn": ""
+  },
+  {
+    "id": "xenophanes",
+    "name": "克塞诺芬尼",
+    "nameEn": "Xenophanes",
+    "born": -565,
+    "died": -473,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "eleatic"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Xenophanes_in_Thomas_Stanley_History_of_Philosophy.jpg/330px-Xenophanes_in_Thomas_Stanley_History_of_Philosophy.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "吟游诗人，爱利亚学派先驱，批判多神论和人形神观。",
+    "coreIdeas": [
+      "一神论：神是唯一的、不动的、主宰一切的，与人形神截然不同",
+      "批判人形神：人类按照自己的形象创造神，埃塞俄比亚人的神是黑的，色雷斯人的神是金发碧眼的",
+      "认识论的怀疑：人类无法真正认识真理，只能有猜测性认识"
+    ],
+    "majorWorks": [
+      {
+        "title": "讽刺诗集（残篇）",
+        "titleEn": "",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "",
+    "quoteEn": ""
+  },
+  {
+    "id": "parmenides",
+    "name": "巴门尼德",
+    "nameEn": "Parmenides",
+    "born": -515,
+    "died": -450,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "eleatic"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Busto_di_Parmenide_%28cropped%29.jpg/330px-Busto_di_Parmenide_%28cropped%29.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "爱利亚学派核心人物，创立存在论，主张通过纯粹理性而非感觉认识真理。",
+    "coreIdeas": [
+      "存在论：「存在者存在，不存在者不存在」，存在是唯一的、永恒的、不可分割的",
+      "感觉世界是幻象：感觉所呈现的变化与多样都是虚假的幻象，真实只有一个不变的存在",
+      "理性优于感觉：借由纯粹理性而非感官经验才能抵达真理"
+    ],
+    "majorWorks": [
+      {
+        "title": "论自然",
+        "titleEn": "On Nature",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "存在者存在，非存在者不存在。",
+    "quoteEn": ""
+  },
+  {
+    "id": "zeno-of-elea",
+    "name": "芝诺（爱利亚）",
+    "nameEn": "Zeno of Elea",
+    "born": -490,
+    "died": -425,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "eleatic"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Portretbuste_van_Zeno_van_Elea_Paradigmata_graphices_variorum_artificum_%28serietitel%29%2C_RP-P-1907-4495.jpg/330px-Portretbuste_van_Zeno_van_Elea_Paradigmata_graphices_variorum_artificum_%28serietitel%29%2C_RP-P-1907-4495.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "巴门尼德的学生，以悖论著称，用归谬法为巴门尼德的存在论辩护。注意：与斯多葛学派创始人芝诺（Zeno of Citium）不同。",
+    "coreIdeas": [
+      "阿喀琉斯悖论：阿喀琉斯永远追不上乌龟，因为每次追到乌龟原来的位置，乌龟又向前移动了",
+      "飞矢不动：飞行中的箭在任意时刻都占据一个固定位置，因此实际上是静止的",
+      "二分法悖论：从A到B，必须先到达中点，而到达中点又需先到达四分之一处，运动因此不可能"
+    ],
+    "majorWorks": [],
+    "historicalNote": "",
+    "quote": "",
+    "quoteEn": ""
+  },
+  {
+    "id": "leucippus",
+    "name": "留基伯",
+    "nameEn": "Leucippus",
+    "born": -500,
+    "died": -440,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "atomist"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Pinacoteca_Querini_Stampalia_-_Leucippus_-_Luca_Giordano.jpg/330px-Pinacoteca_Querini_Stampalia_-_Leucippus_-_Luca_Giordano.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "古希腊唯物主义哲学家，原子论奠基人之一。",
+    "coreIdeas": [
+      "原子论：世界由不可再分的原子和虚空构成，原子在虚空中运动组合形成万物",
+      "必然性：一切事物的发生都有其原因，皆出于必然"
+    ],
+    "majorWorks": [
+      {
+        "title": "大宇宙学",
+        "titleEn": "The Great Cosmology",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "",
+    "quoteEn": ""
+  },
+  {
+    "id": "democritus",
+    "name": "德谟克利特",
+    "nameEn": "Democritus",
+    "born": -460,
+    "died": -370,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "atomist"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Unknown_greek_pushkin.jpg/330px-Unknown_greek_pushkin.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "留基伯的学生，原子论集大成者，以乐天知命著称被称为「笑的哲学家」。",
+    "coreIdeas": [
+      "原子论：世界由原子和虚空构成，原子是无限空间中不可分割的基本微粒，一切皆来自原子的组合",
+      "道德理想：通过节制和平衡，信任和理性，不被情绪主导，达到心灵的宁静（ataraxia）",
+      "感觉与理性：感觉认识只是表象，只有理性才能认识真实的原子世界"
+    ],
+    "majorWorks": [
+      {
+        "title": "宇宙小系统",
+        "titleEn": "Little Cosmology",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "快乐不在于拥有牛群和金子，幸福的居所在于灵魂。",
+    "quoteEn": ""
+  },
+  {
+    "id": "socrates",
+    "name": "苏格拉底",
+    "nameEn": "Socrates",
+    "born": -469,
+    "died": -399,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "greek-classical"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/330px-Socrates_Louvre.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "西方文明的奠基人之一，以「无知之知」和辩证法著称。因拒绝逃亡、以身殉道而成为哲学精神的象征。未留下任何著作，思想通过柏拉图对话录传世。",
+    "coreIdeas": [
+      "无知之知：「我唯一知道的是我一无所知」，承认无知是智慧的开端",
+      "助产术（苏格拉底方法）：通过不断追问，帮助对方自己发现真理，而非灌输",
+      "关怀灵魂：美德即知识，人若真正知善就会行善，恶行源于无知",
+      "洞穴比喻（影响柏拉图）：永远质疑，宁可赴死也要怀疑"
+    ],
+    "majorWorks": [],
+    "historicalNote": "",
+    "quote": "我唯一知道的是我一无所知。",
+    "quoteEn": ""
+  },
+  {
+    "id": "plato",
+    "name": "柏拉图",
+    "nameEn": "Plato",
+    "born": -427,
+    "died": -347,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "greek-classical"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Plato_Silanion_Musei_Capitolini_MC1377.png/330px-Plato_Silanion_Musei_Capitolini_MC1377.png",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "唯心主义创始人，苏格拉底最重要的学生，亚里士多德的老师。于约前385年创立柏拉图学园，门楣刻「不习几何者不得入内」，该学园持续运作至公元529年。",
+    "coreIdeas": [
+      "理念论（Theory of Forms）：真实存在的是永恒不变的「理念」，感官世界只是其不完美的影子",
+      "洞穴比喻：囚徒只能看到真实世界的影子，哲学引导人走出洞穴、认识真实",
+      "灵魂不朽与轮回：灵魂先于肉体存在，知识是灵魂对理念世界的回忆（anamnesis）",
+      "理想国：哲学家王治国，国家结构对应灵魂的三部分（理性/激情/欲望）",
+      "数学的重要性：提炼毕达哥拉斯主义的启示，数学是理解和描述世界最合适的语言"
+    ],
+    "majorWorks": [
+      {
+        "title": "理想国",
+        "titleEn": "The Republic",
+        "year": -380
+      },
+      {
+        "title": "会饮篇",
+        "titleEn": "Symposium",
+        "year": -385
+      },
+      {
+        "title": "斐多篇",
+        "titleEn": "Phaedo",
+        "year": -385
+      },
+      {
+        "title": "美诺篇",
+        "titleEn": "Meno",
+        "year": -385
+      },
+      {
+        "title": "蒂迈欧篇",
+        "titleEn": "Timaeus",
+        "year": -360
+      }
+    ],
+    "historicalNote": "",
+    "quote": "只有哲学家才适合做国王，因为只有他们才能看到真实的善。",
+    "quoteEn": ""
+  },
+  {
+    "id": "aristotle",
+    "name": "亚里士多德",
+    "nameEn": "Aristotle",
+    "born": -384,
+    "died": -322,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "greek-classical"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/330px-Aristotle_Altemps_Inv8575.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "柏拉图的学生，亚历山大大帝的老师，逍遥学派（Peripatetic）创始人。被称为「百科全书式的哲学家」，著述涵盖逻辑、物理、生物、政治、伦理、诗学等几乎所有学",
+    "coreIdeas": [
+      "形式与质料：反对柏拉图的理念论，认为「形式」存在于具体事物之中，而非独立的理念世界",
+      "四因说：质料因、形式因、动力因、目的因，万物生成皆有其因",
+      "逻辑学：创立形式逻辑，发展三段论，被称为逻辑学之父",
+      "实践哲学：幸福（eudaimonia）是人生的最高目的，通过理性的活动实现德性"
+    ],
+    "majorWorks": [
+      {
+        "title": "形而上学",
+        "titleEn": "Metaphysics",
+        "year": null
+      },
+      {
+        "title": "物理学",
+        "titleEn": "Physics",
+        "year": null
+      },
+      {
+        "title": "尼各马可伦理学",
+        "titleEn": "Nicomachean Ethics",
+        "year": null
+      },
+      {
+        "title": "政治学",
+        "titleEn": "Politics",
+        "year": null
+      },
+      {
+        "title": "诗学",
+        "titleEn": "Poetics",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "人天生是政治动物。",
+    "quoteEn": ""
+  },
+  {
+    "id": "epicurus",
+    "name": "伊壁鸠鲁",
+    "nameEn": "Epicurus",
+    "born": -341,
+    "died": -270,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "epicurean"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Epikouros_BM_1843.jpg/330px-Epikouros_BM_1843.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "伊壁鸠鲁学派创始人，在自己买的一所花园里办学，又称「花园学派」。倡导宁静的快乐主义，误被后世理解为纵欲主义。",
+    "coreIdeas": [
+      "快乐主义：快乐是生命的目的，但指排除情感困扰后的心灵宁静，而非肉欲物质之乐",
+      "原子论继承：继承并发展德谟克利特的原子论，既承认必然性又承认偶然性",
+      "无神论：宣扬无神论，认为人死魂灭，神不干预人的事务，无需畏惧死亡",
+      "友谊：友谊是幸福生活最重要的因素之一"
+    ],
+    "majorWorks": [
+      {
+        "title": "致美诺寇的信",
+        "titleEn": "Letter to Menoeceus",
+        "year": null
+      },
+      {
+        "title": "致赫罗多德的信",
+        "titleEn": "Letter to Herodotus",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "死亡与我们毫不相干：当我们存在时，死亡尚未降临；当死亡降临时，我们已不存在。",
+    "quoteEn": ""
+  },
+  {
+    "id": "lucretius",
+    "name": "卢克莱修",
+    "nameEn": "Lucretius",
+    "born": -99,
+    "died": -55,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古罗马",
+    "type": "哲学家",
+    "school": [
+      "epicurean"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Lucretius_pointing_to_the_casus.jpg/330px-Lucretius_pointing_to_the_casus.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "古罗马诗人兼哲学家，著有长篇哲学诗系统阐释伊壁鸠鲁思想，是保存伊壁鸠鲁学说的最重要文献之一。",
+    "coreIdeas": [
+      "原子论的诗意表达：用诗歌语言系统阐释原子论宇宙观",
+      "反对宗教迷信：宗教只会带来恐惧和痛苦，正确的自然哲学才能解放人类",
+      "死亡无需恐惧：死亡不过是原子的解散，无痛苦可言"
+    ],
+    "majorWorks": [
+      {
+        "title": "物性论",
+        "titleEn": "De Rerum Natura / On the Nature of Things",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "宗教带来的灾难是如此之多。",
+    "quoteEn": ""
+  },
+  {
+    "id": "paul-the-apostle",
+    "name": "使徒保罗",
+    "nameEn": "Paul the Apostle",
+    "born": 5,
+    "died": 67,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古罗马（塔尔苏斯）",
+    "type": "神学家",
+    "school": [
+      "patristic"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Fresco_of_Saint_Paul_at_Ephesus.jpg/330px-Fresco_of_Saint_Paul_at_Ephesus.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "基督教最重要的传教士之一，用哲学思维向犹太人以外的民族传播基督教。著有《保罗书信》，大多并入新约圣经。",
+    "coreIdeas": [
+      "信仰而非律法：人因信仰而非遵守律法而得救（因信称义）",
+      "基督的普世性：基督教不限于犹太民族，向全人类开放",
+      "爱与恩典：「没有爱，我什么都不是」"
+    ],
+    "majorWorks": [
+      {
+        "title": "罗马书",
+        "titleEn": "Romans",
+        "year": null
+      },
+      {
+        "title": "哥林多前书",
+        "titleEn": "1 Corinthians",
+        "year": null
+      },
+      {
+        "title": "加拉太书",
+        "titleEn": "Galatians",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "爱是恒久忍耐，又有恩慈。",
+    "quoteEn": ""
+  },
+  {
+    "id": "augustine",
+    "name": "奥古斯丁",
+    "nameEn": "Saint Augustine of Hippo",
+    "born": 354,
+    "died": 430,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "北非（柏柏尔人）",
+    "type": "神学家",
+    "school": [
+      "patristic"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Saint_Augustine_by_Philippe_de_Champaigne.jpg/330px-Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "教父哲学最高权威，系统论述基督教基本教义，融合新柏拉图主义与基督教神学。他的著作被神学家奉为与《圣经》并列的经典。",
+    "coreIdeas": [
+      "原罪论：亚当夏娃的堕落使全人类生而有罪，唯有神的恩典才能得救",
+      "上帝之城：历史是两座城的斗争——「上帝之城」（天国）与「地上之城」（世俗）",
+      "时间论：时间是心灵的延伸，过去是记忆，现在是注意，未来是期待",
+      "你的心是不安的，直到它在你里面得安息（给神的祷告）"
+    ],
+    "majorWorks": [
+      {
+        "title": "忏悔录",
+        "titleEn": "Confessions",
+        "year": null
+      },
+      {
+        "title": "上帝之城",
+        "titleEn": "The City of God",
+        "year": null
+      },
+      {
+        "title": "三位一体",
+        "titleEn": "On the Trinity",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "我们的心是不安的，直到它在你里面得安息。",
+    "quoteEn": ""
+  },
+  {
+    "id": "thomas-aquinas",
+    "name": "托马斯·阿奎纳",
+    "nameEn": "Thomas Aquinas",
+    "born": 1225,
+    "died": 1274,
+    "bornApprox": true,
+    "diedApprox": false,
+    "nationality": "意大利",
+    "type": "哲学家",
+    "school": [
+      "scholasticism"
+    ],
+    "era": "medieval",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/St-thomas-aquinasFXD.jpg/330px-St-thomas-aquinasFXD.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "经院哲学最重要的代表人物，将亚里士多德哲学与基督教神学融合，建立庞大的神学-哲学体系。被称为「天使博士」。",
+    "coreIdeas": [
+      "上帝存在五路证明：从运动、因果、偶然性、完美程度、目的论五个角度论证上帝必然存在",
+      "信仰与理性的调和：信仰与理性并非对立，理性是通往信仰的台阶",
+      "自然法：道德律根植于自然，由上帝创立，人类理性可以认识它"
+    ],
+    "majorWorks": [
+      {
+        "title": "神学大全",
+        "titleEn": "Summa Theologica",
+        "year": null
+      },
+      {
+        "title": "反异教大全",
+        "titleEn": "Summa Contra Gentiles",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "万事必有因，必然有个最初的原因，这个原因就是上帝。",
+    "quoteEn": ""
+  },
+  {
+    "id": "dante-alighieri",
+    "name": "但丁·阿利吉耶里",
+    "nameEn": "Dante Alighieri",
+    "born": 1265,
+    "died": 1321,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "意大利",
+    "type": "文学家",
+    "school": [
+      "renaissance"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Bargello_-_Kapelle_Fresko_2a.jpg/330px-Bargello_-_Kapelle_Fresko_2a.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "中世纪与文艺复兴的交汇人物，被誉为「文艺复兴的先驱」，意大利文学之父。其《神曲》被认为是中世纪文学的巅峰之作。",
+    "coreIdeas": [
+      "人的尊严：在《神曲》中，人类的道德选择决定灵魂的归宿，彰显人的主体性",
+      "俗语文学：坚持用意大利语而非拉丁文写作，推动了民族语言文学的发展",
+      "理性与信仰：以维吉尔（理性）和贝雅特丽齐（信仰）为向导的精神旅程"
+    ],
+    "majorWorks": [
+      {
+        "title": "神曲",
+        "titleEn": "Divine Comedy",
+        "year": null
+      },
+      {
+        "title": "新生",
+        "titleEn": "La Vita Nuova",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "走你的路，让别人去说吧。",
+    "quoteEn": ""
+  },
+  {
+    "id": "petrarca",
+    "name": "弗兰齐斯科·彼特拉克",
+    "nameEn": "Francesco Petrarca",
+    "born": 1304,
+    "died": 1374,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "意大利",
+    "type": "文学家",
+    "school": [
+      "renaissance"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Portrait_of_Francesco_Petrarca_%28called_Petrarch%29_-_French_school%2C_17th_century.jpg/330px-Portrait_of_Francesco_Petrarca_%28called_Petrarch%29_-_French_school%2C_17th_century.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "被称为「人文主义之父」，近代诗歌的创始人。以十四行诗著称，强调个人情感与经验的文学价值。",
+    "coreIdeas": [
+      "人文主义：以人为中心，关注人的内心世界与现实生活，而非纯粹的神学关怀",
+      "古典复兴：积极搜集和研究古希腊罗马文献，为文艺复兴奠基",
+      "个人主义：诗歌中展现个人的爱恨情感，开启近代个人主义传统"
+    ],
+    "majorWorks": [
+      {
+        "title": "歌集",
+        "titleEn": "Canzoniere / Rerum vulgarium fragmenta",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "",
+    "quoteEn": ""
+  },
+  {
+    "id": "copernicus",
+    "name": "尼古拉·哥白尼",
+    "nameEn": "Nicolaus Copernicus",
+    "born": 1473,
+    "died": 1543,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "波兰",
+    "type": "科学家",
+    "school": [
+      "scientific-revolution"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikolaus_Kopernikus_MOT.jpg/330px-Nikolaus_Kopernikus_MOT.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "天文学家，提出日心说，打破了统治西方一千多年的地心说，引发「哥白尼革命」，深刻改变了人类对宇宙和自身位置的认识。",
+    "coreIdeas": [
+      "日心说（Heliocentrism）：太阳才是宇宙的中心，地球和其他行星绕太阳运转",
+      "地球自转：地球每天自转一次，产生昼夜交替的现象",
+      "挑战权威：挑战教会支持的托勒密地心说，推动科学与神学的分离"
+    ],
+    "majorWorks": [
+      {
+        "title": "天体运行论",
+        "titleEn": "De revolutionibus orbium coelestium",
+        "year": 1543
+      }
+    ],
+    "historicalNote": "",
+    "quote": "",
+    "quoteEn": ""
+  },
+  {
+    "id": "kepler",
+    "name": "约翰尼斯·开普勒",
+    "nameEn": "Johannes Kepler",
+    "born": 1571,
+    "died": 1630,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "德国",
+    "type": "科学家",
+    "school": [
+      "scientific-revolution"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/JKepler.jpg/330px-JKepler.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "天文学家、数学家，发现行星运动三大定律，被称为「天空立法者」。是现代实验光学的奠基人，也是科学革命的重要推动者。",
+    "coreIdeas": [
+      "行星运动三定律：轨道定律（椭圆轨道）、面积定律（等面积定律）、周期定律（调和定律）",
+      "数学宇宙：宇宙由数学规律支配，是柏拉图主义在天文学中的延伸",
+      "天体音乐：行星运动速度的变化犹如音乐的旋律"
+    ],
+    "majorWorks": [
+      {
+        "title": "新天文学",
+        "titleEn": "Astronomia Nova",
+        "year": 1609
+      },
+      {
+        "title": "世界的和谐",
+        "titleEn": "Harmonices Mundi",
+        "year": 1619
+      }
+    ],
+    "historicalNote": "",
+    "quote": "",
+    "quoteEn": ""
+  },
+  {
+    "id": "galileo",
+    "name": "伽利略·伽利雷",
+    "nameEn": "Galileo Galilei",
+    "born": 1564,
+    "died": 1642,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "意大利",
+    "type": "科学家",
+    "school": [
+      "scientific-revolution"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff/lossy-page1-330px-Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "天文学家、物理学家、工程师。被称为「观测天文学之父」「现代物理学之父」「科学方法之父」「现代科学之父」。首次将望远镜用于天文观测，并因支持日心说被宗教裁判所审判",
+    "coreIdeas": [
+      "实验方法：强调用实验验证理论，奠定现代科学方法的基础",
+      "数学语言：「自然之书用数学语言写成」",
+      "运动相对性：运动是相对的，为牛顿力学奠基",
+      "与教会的冲突：被迫宣誓放弃日心说，相传曾说「但它确实在转动」"
+    ],
+    "majorWorks": [
+      {
+        "title": "关于两门新科学的对话",
+        "titleEn": "Discourses and Mathematical Demonstrations Relating to Two New Sciences",
+        "year": 1638
+      },
+      {
+        "title": "星际信使",
+        "titleEn": "Sidereus Nuncius",
+        "year": 1610
+      }
+    ],
+    "historicalNote": "",
+    "quote": "自然之书用数学语言写成。",
+    "quoteEn": ""
+  },
+  {
+    "id": "shakespeare",
+    "name": "威廉·莎士比亚",
+    "nameEn": "William Shakespeare",
+    "born": 1564,
+    "died": 1616,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "英国",
+    "type": "文学家",
+    "school": [
+      "renaissance"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/330px-William_Shakespeare_by_John_Taylor%2C_edited.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "英国文学史上最杰出的戏剧家，欧洲文艺复兴时期最重要的作家，人文主义文学的集大成者，被誉为「人类文学奥林匹斯山上的宙斯」。",
+    "coreIdeas": [
+      "人文主义：作品深刻关注人的情感、欲望、道德与命运，彰显人的尊严与复杂性",
+      "人性的多面：通过哈姆雷特、李尔王、奥赛罗等角色，探索人性的光明与黑暗",
+      "语言的力量：创造了约1700个英语新词，深刻影响英语语言的发展"
+    ],
+    "majorWorks": [
+      {
+        "title": "哈姆雷特",
+        "titleEn": "Hamlet",
+        "year": 1600
+      },
+      {
+        "title": "麦克白",
+        "titleEn": "Macbeth",
+        "year": 1606
+      },
+      {
+        "title": "李尔王",
+        "titleEn": "King Lear",
+        "year": 1605
+      },
+      {
+        "title": "罗密欧与朱丽叶",
+        "titleEn": "Romeo and Juliet",
+        "year": 1595
+      }
+    ],
+    "historicalNote": "",
+    "quote": "生存还是毁灭，这是个问题。",
+    "quoteEn": ""
+  },
+  {
+    "id": "martin-luther",
+    "name": "马丁·路德",
+    "nameEn": "Martin Luther",
+    "born": 1483,
+    "died": 1546,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "德国",
+    "type": "神学家",
+    "school": [
+      "reformation"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg/330px-Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "16世纪欧洲宗教改革倡导者，基督教新教路德宗创始人。1517年发表《九十五条论纲》，引发宗教改革，促使欧洲基督教分化为天主教与新教。",
+    "coreIdeas": [
+      "因信称义：人的得救依靠信仰而非善行或赎罪券",
+      "圣经权威：圣经是基督徒的唯一权威，而非教皇或教会",
+      "信徒皆祭司：每个信徒都可直接与上帝沟通，无需神职人员作中介"
+    ],
+    "majorWorks": [
+      {
+        "title": "九十五条论纲",
+        "titleEn": "Ninety-five Theses",
+        "year": 1517
+      },
+      {
+        "title": "基督徒的自由",
+        "titleEn": "On the Freedom of a Christian",
+        "year": 1520
+      }
+    ],
+    "historicalNote": "",
+    "quote": "这里我站立，我别无选择，愿上帝帮助我。",
+    "quoteEn": ""
+  },
+  {
+    "id": "descartes",
+    "name": "勒内·笛卡尔",
+    "nameEn": "René Descartes",
+    "born": 1596,
+    "died": 1650,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "法国",
+    "type": "哲学家",
+    "school": [
+      "rationalism"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/330px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "法国哲学家、数学家、物理学家，「现代哲学之父」，理性主义创始人之一。发明解析几何，将几何问题转化为代数计算。",
+    "coreIdeas": [
+      "我思故我在（Cogito ergo sum）：唯一不可怀疑的是怀疑本身，「我在怀疑」证明了「我在思考」，「我在思考」证明了「我存在」",
+      "方法论怀疑：系统性地怀疑一切，以找到不可动摇的确定性基础",
+      "身心二元论：心灵与身体是两种完全不同的实体，互相独立",
+      "类欧几里得哲学：建立像欧氏几何一样严密规整的哲学体系"
+    ],
+    "majorWorks": [
+      {
+        "title": "方法论",
+        "titleEn": "Discourse on the Method",
+        "year": 1637
+      },
+      {
+        "title": "第一哲学沉思集",
+        "titleEn": "Meditations on First Philosophy",
+        "year": 1641
+      },
+      {
+        "title": "哲学原理",
+        "titleEn": "Principles of Philosophy",
+        "year": 1644
+      }
+    ],
+    "historicalNote": "",
+    "quote": "我思故我在。",
+    "quoteEn": ""
+  },
+  {
+    "id": "spinoza",
+    "name": "巴鲁赫·斯宾诺莎",
+    "nameEn": "Baruch de Spinoza",
+    "born": 1632,
+    "died": 1677,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "荷兰（葡萄牙裔犹太人）",
+    "type": "哲学家",
+    "school": [
+      "rationalism"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/330px-Spinoza.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "近代西方哲学三大理性主义者之一，与笛卡尔和莱布尼茨齐名。因思想激进被犹太教会开除教籍。《伦理学》完全按几何学公理体系写成。",
+    "coreIdeas": [
+      "泛神论（实体一元论）：上帝即自然，二者是同一实体的不同表达，上帝不是人格神而是无所不在的实体",
+      "自由意志的否定：一切事物包括人的意志都受因果决定，真正的自由是理解必然性",
+      "情感的奴役与解放：人被情感（激情）所奴役，通过理性认识情感的原因，才能获得自由"
+    ],
+    "majorWorks": [
+      {
+        "title": "伦理学",
+        "titleEn": "Ethics",
+        "year": 1677
+      },
+      {
+        "title": "神学政治论",
+        "titleEn": "Theologico-Political Treatise",
+        "year": 1670
+      }
+    ],
+    "historicalNote": "",
+    "quote": "自由不是随心所欲，而是自我主宰。",
+    "quoteEn": ""
+  },
+  {
+    "id": "leibniz",
+    "name": "戈特弗里德·威廉·莱布尼茨",
+    "nameEn": "Gottfried Wilhelm Leibniz",
+    "born": 1646,
+    "died": 1716,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "德国",
+    "type": "哲学家",
+    "school": [
+      "rationalism"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg/330px-Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "德国哲学家、数学家，历史上少见的通才。与牛顿先后独立发明微积分（其数学符号沿用至今），发明二进制，哲学上的乐观主义者。",
+    "coreIdeas": [
+      "单子论（Monadology）：世界由不可分割的「单子」构成，单子是非物质的精神实体，没有窗户（互不影响），由上帝预定和谐",
+      "前定和谐：看似互动的事物实际各自独立运动，由上帝在创世时预先设定了和谐",
+      "乐观主义：我们生活在「所有可能世界中最好的那个」",
+      "充足理由律：任何事物都有其存在的充足理由"
+    ],
+    "majorWorks": [
+      {
+        "title": "单子论",
+        "titleEn": "Monadology",
+        "year": 1714
+      },
+      {
+        "title": "人类理智新论",
+        "titleEn": "New Essays on Human Understanding",
+        "year": 1704
+      }
+    ],
+    "historicalNote": "",
+    "quote": "这是所有可能世界中最好的一个。",
+    "quoteEn": ""
+  },
+  {
+    "id": "john-locke",
+    "name": "约翰·洛克",
+    "nameEn": "John Locke",
+    "born": 1632,
+    "died": 1704,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "英国",
+    "type": "哲学家",
+    "school": [
+      "empiricism"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Godfrey_Kneller_-_Portrait_of_John_Locke_%28Hermitage%29.jpg/330px-Godfrey_Kneller_-_Portrait_of_John_Locke_%28Hermitage%29.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "英国哲学家和医生，经验主义奠基人，自由主义之父。被广泛认为是最有影响力的启蒙思想家之一，深刻影响美国独立宣言和法国大革命。",
+    "coreIdeas": [
+      "白板说（Tabula Rasa）：人的心灵出生时是一块白板，所有知识来自经验，没有天赋观念",
+      "财产权与自然权利：人天生拥有生命、自由和财产的自然权利，政府的职责是保护这些权利",
+      "社会契约论：政府的权力来自人民的同意，若违背则人民有权革命",
+      "自我认同：第一个通过意识连续性来定义「自我」的哲学家"
+    ],
+    "majorWorks": [
+      {
+        "title": "人类理解论",
+        "titleEn": "An Essay Concerning Human Understanding",
+        "year": 1689
+      },
+      {
+        "title": "政府论",
+        "titleEn": "Two Treatises of Government",
+        "year": 1689
+      },
+      {
+        "title": "论宗教宽容",
+        "titleEn": "A Letter Concerning Toleration",
+        "year": 1689
+      }
+    ],
+    "historicalNote": "",
+    "quote": "哪里没有法律，哪里就没有自由。",
+    "quoteEn": ""
+  },
+  {
+    "id": "david-hume",
+    "name": "大卫·休谟",
+    "nameEn": "David Hume",
+    "born": 1711,
+    "died": 1776,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "英国（苏格兰）",
+    "type": "哲学家",
+    "school": [
+      "empiricism"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/David_Hume_Ramsay.jpg/330px-David_Hume_Ramsay.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "苏格兰哲学家、历史学家，经验主义的集大成者。其怀疑论极大地挑战了因果律和形而上学，康德称是休谟「唤醒了我从独断论的迷梦中」。",
+    "coreIdeas": [
+      "因果律质疑：我们因多次看见A之后B发生而认为A导致B，这只是心理习惯，并无逻辑必然性",
+      "归纳问题：无论观察多少白天鹅，都不能从逻辑上证明所有天鹅都是白的",
+      "自我的消解：「我」不过是一堆经验片段的集合，并不存在独立于经验的实在「自我」",
+      "道德情感论：道德判断来自情感而非理性，「理性是激情的奴隶」"
+    ],
+    "majorWorks": [
+      {
+        "title": "人性论",
+        "titleEn": "A Treatise of Human Nature",
+        "year": 1739
+      },
+      {
+        "title": "人类理解研究",
+        "titleEn": "An Enquiry Concerning Human Understanding",
+        "year": 1748
+      }
+    ],
+    "historicalNote": "",
+    "quote": "理性是并且只应是激情的奴隶。",
+    "quoteEn": ""
+  },
+  {
+    "id": "thomas-hobbes",
+    "name": "托马斯·霍布斯",
+    "nameEn": "Thomas Hobbes",
+    "born": 1588,
+    "died": 1679,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "英国",
+    "type": "哲学家",
+    "school": [
+      "mechanical-materialism"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Thomas_Hobbes_by_John_Michael_Wright_%28colour%29_%283x4_cropped%29.jpg/330px-Thomas_Hobbes_by_John_Michael_Wright_%28colour%29_%283x4_cropped%29.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "英国政治哲学家，机械唯物主义的完整体系建立者，社会契约论的重要奠基人之一。",
+    "coreIdeas": [
+      "机械唯物主义：宇宙是所有机械地运动着的广延物体的总和，包括人的心理活动",
+      "自然状态：没有政府的自然状态下，人对人如狼，生活是「孤独、贫穷、肮脏、残忍而短暂的」",
+      "社会契约与利维坦：人们为了和平订立契约，将权利让渡给主权者（利维坦），形成国家",
+      "主权不可分割：主权者（可以是君主或议会）的权力必须是绝对的，才能维持秩序"
+    ],
+    "majorWorks": [
+      {
+        "title": "利维坦",
+        "titleEn": "Leviathan",
+        "year": 1651
+      },
+      {
+        "title": "论公民",
+        "titleEn": "De Cive",
+        "year": 1642
+      }
+    ],
+    "historicalNote": "",
+    "quote": "人的生活是孤独、贫穷、肮脏、残忍而短暂的。",
+    "quoteEn": ""
+  },
+  {
+    "id": "kant",
+    "name": "伊曼努尔·康德",
+    "nameEn": "Immanuel Kant",
+    "born": 1724,
+    "died": 1804,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "德国",
+    "type": "哲学家",
+    "school": [
+      "german-idealism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Immanuel_Kant_-_Gemaelde_1.jpg/330px-Immanuel_Kant_-_Gemaelde_1.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "德国哲学家，调和理性主义与经验主义，引发哲学史上的「哥白尼式革命」。被广泛认为是启蒙运动最重要的哲学家，也是西方哲学史上最具影响力的人物之一。",
+    "coreIdeas": [
+      "认识论革命：不是认识符合对象，而是对象符合认识——人的认知形式塑造了经验世界",
+      "物自体（Ding an sich）：事物在被感知之前的本来面貌，我们永远无法直接认识",
+      "先天综合判断：存在既非纯粹分析又来自先天的知识（如数学、因果律）",
+      "定言命令（Categorical Imperative）：「只按照你同时能够意愿其成为普遍法则的准则行动」",
+      "人是目的：永远把人当作目的，而不仅仅是手段"
+    ],
+    "majorWorks": [
+      {
+        "title": "纯粹理性批判",
+        "titleEn": "Critique of Pure Reason",
+        "year": 1781
+      },
+      {
+        "title": "实践理性批判",
+        "titleEn": "Critique of Practical Reason",
+        "year": 1788
+      },
+      {
+        "title": "判断力批判",
+        "titleEn": "Critique of Judgment",
+        "year": 1790
+      }
+    ],
+    "historicalNote": "",
+    "quote": "有两样东西，我思索的次数越多，对它们的崇拜和敬畏就越历久弥新：我头顶的星空和我心中的道德法则。",
+    "quoteEn": ""
+  },
+  {
+    "id": "hegel",
+    "name": "格奥尔格·威廉·弗里德里希·黑格尔",
+    "nameEn": "Georg Wilhelm Friedrich Hegel",
+    "born": 1770,
+    "died": 1831,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "德国",
+    "type": "哲学家",
+    "school": [
+      "german-idealism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Jakob_Schlesinger_-_Hegel_1831.jpg/330px-Jakob_Schlesinger_-_Hegel_1831.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "德国古典哲学的集大成者，建立了庞大的唯心主义哲学体系。其辩证法思想深刻影响了马克思主义和众多后世哲学流派。",
+    "coreIdeas": [
+      "辩证法（正-反-合）：事物的正题和反题发生冲突，最终化为包含二者的合题，历史由此推进",
+      "绝对精神：宇宙的本质是理性精神，历史是绝对精神自我展开和自我认识的过程",
+      "矛盾是世界本质：矛盾双方可以共存，处于互相对立又相互依存的动态中",
+      "历史哲学：历史是自由意识的进步，不同时代体现绝对精神发展的不同阶段"
+    ],
+    "majorWorks": [
+      {
+        "title": "精神现象学",
+        "titleEn": "Phenomenology of Spirit",
+        "year": 1807
+      },
+      {
+        "title": "逻辑学",
+        "titleEn": "Science of Logic",
+        "year": null
+      },
+      {
+        "title": "法哲学原理",
+        "titleEn": "Philosophy of Right",
+        "year": 1820
+      }
+    ],
+    "historicalNote": "",
+    "quote": "凡是现实的，都是合理的；凡是合理的，都是现实的。",
+    "quoteEn": ""
+  },
+  {
+    "id": "fichte",
+    "name": "约翰·戈特利布·费希特",
+    "nameEn": "Johann Gottlieb Fichte",
+    "born": 1762,
+    "died": 1814,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "德国",
+    "type": "哲学家",
+    "school": [
+      "german-idealism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Johann_Gottlieb_Fichte.jpg/330px-Johann_Gottlieb_Fichte.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "德国古典哲学的重要代表，康德的继承者。其民族主义思想对德国统一运动有重要影响。",
+    "coreIdeas": [
+      "自我哲学：「自我」是一切的出发点，通过「自我」与「非我」的对立推演出整个世界",
+      "行动哲学：哲学的核心不是认识而是行动，「我能做什么」比「我能知道什么」更根本",
+      "民族精神：提倡德意志民族的文化自觉和民族统一"
+    ],
+    "majorWorks": [
+      {
+        "title": "知识学",
+        "titleEn": "Wissenschaftslehre",
+        "year": 1794
+      },
+      {
+        "title": "对德意志民族的演讲",
+        "titleEn": "Addresses to the German Nation",
+        "year": 1807
+      }
+    ],
+    "historicalNote": "",
+    "quote": "行动！行动！这就是我们存在的目的。",
+    "quoteEn": ""
+  },
+  {
+    "id": "schopenhauer",
+    "name": "亚瑟·叔本华",
+    "nameEn": "Arthur Schopenhauer",
+    "born": 1788,
+    "died": 1860,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "德国",
+    "type": "哲学家",
+    "school": [
+      "voluntarism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg/330px-Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "唯意志论创始人和主要代表，深受东方佛教和印度哲学影响。其悲观主义哲学对尼采、瓦格纳、弗洛伊德等人影响深远。生前不受重视，晚年才获得广泛认可。",
+    "coreIdeas": [
+      "意志即物自体：「我」自己就是物自体，通过内省可以体会到，万物的物自体是统一的「生命意志」",
+      "生命意志的盲目性：生命意志是永不停歇的盲目力量，驱使万物不断追求，但追求永无满足",
+      "悲观主义：人生本质上是痛苦的，欲望满足只带来短暂解脱，随即又被新欲望填充",
+      "艺术与同情的解脱：通过艺术（尤其音乐）和对他人的同情，可以暂时或永久地从意志奴役中解脱"
+    ],
+    "majorWorks": [
+      {
+        "title": "作为意志和表象的世界",
+        "titleEn": "The World as Will and Representation",
+        "year": 1818
+      },
+      {
+        "title": "附录与补遗",
+        "titleEn": "Parerga and Paralipomena",
+        "year": 1851
+      }
+    ],
+    "historicalNote": "",
+    "quote": "生命是一团欲望，欲望不满足则痛苦，满足则无聊。",
+    "quoteEn": ""
+  },
+  {
+    "id": "nietzsche",
+    "name": "弗里德里希·威廉·尼采",
+    "nameEn": "Friedrich Wilhelm Nietzsche",
+    "born": 1844,
+    "died": 1900,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "德国",
+    "type": "哲学家",
+    "school": [
+      "voluntarism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/330px-Nietzsche187a.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "叔本华的精神继承者，后与其决裂。其哲学充满争议，被纳粹歪曲利用，但本身是对虚无主义的积极回应。对20世纪哲学、文学、心理学影响极大。",
+    "coreIdeas": [
+      "上帝已死：传统宗教和道德基础已经崩溃，人类面临价值虚空的危机",
+      "超人（Übermensch）：能够完全按自己意志行动、创造新价值、不被弱者道德束缚的强者",
+      "权力意志：万物的本质驱动力是「权力意志」——不仅是支配他人，更是自我超越的意志",
+      "永恒轮回：若你必须无限次重复同样的人生，你愿意肯定它吗？这是对生命的最高肯定",
+      "主人道德与奴隶道德：批判基督教道德是弱者的「怨恨」对强者的颠覆"
+    ],
+    "majorWorks": [
+      {
+        "title": "悲剧的诞生",
+        "titleEn": "The Birth of Tragedy",
+        "year": 1872
+      },
+      {
+        "title": "查拉图斯特拉如是说",
+        "titleEn": "Thus Spoke Zarathustra",
+        "year": null
+      },
+      {
+        "title": "善恶的彼岸",
+        "titleEn": "Beyond Good and Evil",
+        "year": 1886
+      },
+      {
+        "title": "权力意志",
+        "titleEn": "The Will to Power",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "那些杀不死我的，将使我更强大。",
+    "quoteEn": ""
+  },
+  {
+    "id": "karl-marx",
+    "name": "卡尔·马克思",
+    "nameEn": "Karl Marx",
+    "born": 1818,
+    "died": 1883,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "德国",
+    "type": "哲学家",
+    "school": [
+      "dialectical-materialism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/330px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "德国思想家、政治学家、哲学家、经济学家、革命理论家。创立历史唯物主义和科学社会主义，与恩格斯共同创作《共产党宣言》，《资本论》是其毕生心血。",
+    "coreIdeas": [
+      "历史唯物主义：社会存在决定社会意识，生产力与生产关系的矛盾推动历史发展",
+      "剩余价值论：资本家通过占有工人创造的剩余价值实现利润，揭示资本主义的剥削本质",
+      "阶级斗争：「至今一切社会的历史都是阶级斗争的历史」",
+      "共产主义理想：「各尽所能，按需分配」，实现人的全面而自由的发展"
+    ],
+    "majorWorks": [
+      {
+        "title": "资本论",
+        "titleEn": "Das Kapital",
+        "year": 1867
+      },
+      {
+        "title": "共产党宣言",
+        "titleEn": "The Communist Manifesto",
+        "year": null
+      },
+      {
+        "title": "1844年经济学哲学手稿",
+        "titleEn": "Economic and Philosophic Manuscripts of 1844",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "哲学家们只是用不同的方式解释世界，而问题在于改变世界。",
+    "quoteEn": ""
+  },
+  {
+    "id": "russell",
+    "name": "伯特兰·罗素",
+    "nameEn": "Bertrand Arthur William Russell",
+    "born": 1872,
+    "died": 1970,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "英国",
+    "type": "哲学家",
+    "school": [
+      "analytic-philosophy"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Bertrand_Russell_smoking_in_1936.jpg/330px-Bertrand_Russell_smoking_in_1936.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "英国哲学家、数学家、逻辑学家、历史学家、文学家，分析哲学的主要创始人，世界和平运动的倡导者。1950年获诺贝尔文学奖。",
+    "coreIdeas": [
+      "逻辑原子论：世界由逻辑上独立的原子事实构成，哲学的任务是分析复杂命题为简单的原子命题",
+      "数理逻辑：与怀特海合著《数学原理》，试图将全部数学归约为逻辑",
+      "描述理论：区分「专名」与「描述语」，解决了关于不存在事物的命题问题",
+      "反战与人道主义：积极参与世界和平运动，反对核武器"
+    ],
+    "majorWorks": [
+      {
+        "title": "数学原理",
+        "titleEn": "Principia Mathematica",
+        "year": null
+      },
+      {
+        "title": "西方哲学史",
+        "titleEn": "A History of Western Philosophy",
+        "year": 1945
+      },
+      {
+        "title": "哲学问题",
+        "titleEn": "The Problems of Philosophy",
+        "year": 1912
+      }
+    ],
+    "historicalNote": "",
+    "quote": "参差多态乃幸福本源。",
+    "quoteEn": ""
+  },
+  {
+    "id": "wittgenstein",
+    "name": "路德维希·维特根斯坦",
+    "nameEn": "Ludwig Josef Johann Wittgenstein",
+    "born": 1889,
+    "died": 1951,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "奥地利（后入英国籍）",
+    "type": "哲学家",
+    "school": [
+      "analytic-philosophy"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Ludwig_Wittgenstein_1929.jpg/330px-Ludwig_Wittgenstein_1929.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "20世纪最有影响力的哲学家之一，研究领域主要在数学哲学、精神哲学和语言哲学。曾师从罗素，后形成与早期截然不同的哲学立场，罕见地以两种哲学体系影响哲学史。",
+    "coreIdeas": [
+      "早期（图像论）：语言是世界的图像，命题通过共享逻辑形式图像事实；不可说之物必须保持沉默",
+      "晚期（语言游戏论）：语言的意义来自使用，不同语境有不同的「语言游戏」，没有统一的本质",
+      "哲学治疗：哲学问题多源于对语言的误用，哲学的任务是「给苍蝇指出飞出瓶子的路」",
+      "私人语言论证：纯粹私人的语言是不可能的，语言本质上是社会性的"
+    ],
+    "majorWorks": [
+      {
+        "title": "逻辑哲学论",
+        "titleEn": "Tractatus Logico-Philosophicus",
+        "year": 1921
+      },
+      {
+        "title": "哲学研究",
+        "titleEn": "Philosophical Investigations",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "凡是可说的事情，都可以说清楚；凡是不可说的，我们必须保持沉默。",
+    "quoteEn": ""
+  },
+  {
+    "id": "kierkegaard",
+    "name": "索伦·克尔凯郭尔",
+    "nameEn": "Søren Aabye Kierkegaard",
+    "born": 1813,
+    "died": 1855,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "丹麦",
+    "type": "哲学家",
+    "school": [
+      "existentialism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/S%C3%B8ren_Kierkegaard_%281813-1855%29_-_%28cropped%29.jpg/330px-S%C3%B8ren_Kierkegaard_%281813-1855%29_-_%28cropped%29.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "现代存在主义哲学的创始人，后现代主义的先驱，也是现代人本心理学的先驱。反对黑格尔的泛理性体系，强调个人的存在和选择。",
+    "coreIdeas": [
+      "存在先于本质：哲学研究应从个人的「存在」出发，而非抽象体系",
+      "人生三阶段：审美阶段（感官享乐）→ 伦理阶段（道德责任）→ 宗教阶段（信仰飞跃）",
+      "信仰的飞跃：信仰上帝超越理性，是一种「信仰的飞跃」（Leap of Faith）",
+      "真理的主观性：「主观性即真理」，真理对个人而言是需亲身经历的"
+    ],
+    "majorWorks": [
+      {
+        "title": "非此即彼",
+        "titleEn": "Either/Or",
+        "year": 1843
+      },
+      {
+        "title": "畏惧与战栗",
+        "titleEn": "Fear and Trembling",
+        "year": 1843
+      },
+      {
+        "title": "非科学性的最后附言",
+        "titleEn": "Concluding Unscientific Postscript",
+        "year": 1846
+      }
+    ],
+    "historicalNote": "",
+    "quote": "生命只能向后理解，但必须向前生活。",
+    "quoteEn": ""
+  },
+  {
+    "id": "sartre",
+    "name": "让-保罗·萨特",
+    "nameEn": "Jean-Paul Sartre",
+    "born": 1905,
+    "died": 1980,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "法国",
+    "type": "哲学家",
+    "school": [
+      "existentialism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jean_Paul_Sartre_1965.jpg/330px-Jean_Paul_Sartre_1965.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "法国20世纪最重要的哲学家之一，无神论存在主义的主要代表，西方社会主义积极倡导者。一生拒绝接受任何奖项，包括1964年的诺贝尔文学奖。",
+    "coreIdeas": [
+      "存在先于本质：人先存在，后才创造自己的本质，没有预定的人性或目的",
+      "绝对自由与责任：人被判定为自由，无法逃避选择，因此也无法逃避责任",
+      "他者即地狱：他人的目光将我「物化」，真实的人际关系充满张力",
+      "介入（Engagement）：知识分子有责任介入社会政治，不能保持中立"
+    ],
+    "majorWorks": [
+      {
+        "title": "存在与虚无",
+        "titleEn": "Being and Nothingness",
+        "year": 1943
+      },
+      {
+        "title": "存在主义是一种人道主义",
+        "titleEn": "Existentialism Is a Humanism",
+        "year": 1945
+      },
+      {
+        "title": "恶心",
+        "titleEn": "Nausea",
+        "year": 1938
+      }
+    ],
+    "historicalNote": "",
+    "quote": "他人即地狱。",
+    "quoteEn": ""
+  },
+  {
+    "id": "de-beauvoir",
+    "name": "西蒙娜·德·波伏娃",
+    "nameEn": "Simone de Beauvoir",
+    "born": 1908,
+    "died": 1986,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "法国",
+    "type": "哲学家",
+    "school": [
+      "existentialism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Simone_De_Beauvoir_%28cropped%29.jpg/330px-Simone_De_Beauvoir_%28cropped%29.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "20世纪法国最有影响的女性之一，存在主义学者、文学家，女权运动的创始人之一，萨特的终身伴侣（但二人保持开放关系）。",
+    "coreIdeas": [
+      "女性不是天生的：「女人不是天生的，而是被塑造成的」，性别是社会建构",
+      "他者化：女性被男性社会定义为「他者」（The Other），失去了主体性",
+      "存在主义女权：将存在主义的自由与责任理论应用于女性解放"
+    ],
+    "majorWorks": [
+      {
+        "title": "第二性",
+        "titleEn": "The Second Sex",
+        "year": 1949
+      },
+      {
+        "title": "名士风流",
+        "titleEn": "The Mandarins",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "女人不是天生的，而是被塑造成的。",
+    "quoteEn": ""
+  },
+  {
+    "id": "camus",
+    "name": "阿尔贝·加缪",
+    "nameEn": "Albert Camus",
+    "born": 1913,
+    "died": 1960,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "法国（阿尔及利亚出生）",
+    "type": "哲学家",
+    "school": [
+      "absurdism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg/330px-Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "法国作家、哲学家，「荒诞哲学」的代表人物。1957年获诺贝尔文学奖。曾长期被视为存在主义者，但本人多次否认。1951年后与萨特决裂。",
+    "coreIdeas": [
+      "荒诞：人对意义的渴望与宇宙的沉默之间的冲突，构成人类存在的根本荒诞性",
+      "反对自杀：荒诞不是绝望的理由，而是反抗的理由；「我们必须想象西西弗斯是幸福的」",
+      "反抗：面对荒诞，人的回应是反抗——不是希望，而是清醒地反抗"
+    ],
+    "majorWorks": [
+      {
+        "title": "局外人",
+        "titleEn": "The Stranger",
+        "year": 1942
+      },
+      {
+        "title": "西西弗斯神话",
+        "titleEn": "The Myth of Sisyphus",
+        "year": 1942
+      },
+      {
+        "title": "鼠疫",
+        "titleEn": "The Plague",
+        "year": 1947
+      }
+    ],
+    "historicalNote": "",
+    "quote": "我们必须想象西西弗斯是幸福的。",
+    "quoteEn": ""
+  },
+  {
+    "id": "boccaccio",
+    "name": "乔万尼·薄伽丘",
+    "nameEn": "Giovanni Boccaccio",
+    "born": 1313,
+    "died": 1375,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "意大利",
+    "type": "文学家",
+    "school": [
+      "renaissance"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Andrea_del_Castagno_Giovanni_Boccaccio_c_1450.jpg/330px-Andrea_del_Castagno_Giovanni_Boccaccio_c_1450.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "意大利文艺复兴时期作家与人文主义者，与但丁、彼特拉克并称「文学三杰」，以《十日谈》开创欧洲近代小说传统。",
+    "coreIdeas": [
+      "人文主义：歌颂世俗生活与人的自然欲望，反对中世纪禁欲主义",
+      "现实主义叙事：以鲜活市井故事描绘众生百态，确立近代短篇小说体裁",
+      "反教会虚伪：揭露神职人员的贪婪与伪善，张扬人性解放",
+      "古典学复兴：研究并推广古希腊罗马文学"
+    ],
+    "majorWorks": [
+      {
+        "title": "十日谈",
+        "titleEn": "The Decameron",
+        "year": 1353
+      }
+    ],
+    "historicalNote": "",
+    "quote": "人的高贵并非来自出身，而是来自德行。",
+    "quoteEn": ""
+  },
+  {
+    "id": "leonardo-da-vinci",
+    "name": "列奥纳多·达·芬奇",
+    "nameEn": "Leonardo da Vinci",
+    "born": 1452,
+    "died": 1519,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "意大利",
+    "type": "科学家",
+    "school": [
+      "renaissance"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png/330px-Francesco_Melzi_-_Portrait_of_Leonardo.png",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "文艺复兴盛期的「全才」，集画家、科学家、工程师、解剖学家于一身，是人文主义「全面发展的人」的典范。",
+    "coreIdeas": [
+      "经验与观察：「经验是一切确定知识之母」，主张以观察实验认识自然",
+      "艺术即科学：将解剖学、透视与光影规律融入绘画，使艺术理性化",
+      "自然的统一：相信自然万象受同一数学与力学规律支配",
+      "求知无界：跨越艺术与科学，体现文艺复兴的探索精神"
+    ],
+    "majorWorks": [
+      {
+        "title": "蒙娜丽莎",
+        "titleEn": "Mona Lisa",
+        "year": null
+      },
+      {
+        "title": "最后的晚餐",
+        "titleEn": "The Last Supper",
+        "year": 1498
+      },
+      {
+        "title": "大西洋古抄本",
+        "titleEn": "Codex Atlanticus",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "经验是一切确定知识之母。",
+    "quoteEn": ""
+  },
+  {
+    "id": "schelling",
+    "name": "弗里德里希·谢林",
+    "nameEn": "Friedrich Schelling",
+    "born": 1775,
+    "died": 1854,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "德国",
+    "type": "哲学家",
+    "school": [
+      "german-idealism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nb_pinacoteca_stieler_friedrich_wilhelm_joseph_von_schelling.jpg/330px-Nb_pinacoteca_stieler_friedrich_wilhelm_joseph_von_schelling.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "德国古典哲学代表之一，介于费希特与黑格尔之间，以「同一哲学」和自然哲学著称。",
+    "coreIdeas": [
+      "同一哲学：主观与客观、精神与自然在「绝对同一」中达到统一",
+      "自然哲学：自然是「可见的精神」，精神是「不可见的自然」",
+      "先验唯心论：自我意识通过自然演进逐步实现自身",
+      "艺术直观：艺术是把握绝对、调和理性与感性的最高形式"
+    ],
+    "majorWorks": [
+      {
+        "title": "先验唯心论体系",
+        "titleEn": "System of Transcendental Idealism",
+        "year": 1800
+      },
+      {
+        "title": "论人类自由的本质",
+        "titleEn": "Of Human Freedom",
+        "year": 1809
+      }
+    ],
+    "historicalNote": "",
+    "quote": "自然是可见的精神，精神是不可见的自然。",
+    "quoteEn": ""
+  },
+  {
+    "id": "friedrich-engels",
+    "name": "弗里德里希·恩格斯",
+    "nameEn": "Friedrich Engels",
+    "born": 1820,
+    "died": 1895,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "德国",
+    "type": "哲学家",
+    "school": [
+      "dialectical-materialism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Friedrich_Engels_portrait_%28cropped%29.jpg/330px-Friedrich_Engels_portrait_%28cropped%29.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "马克思主义创始人之一，马克思的亲密战友，与马克思共同创立历史唯物主义与科学社会主义。",
+    "coreIdeas": [
+      "历史唯物主义：与马克思共同阐明物质生产是社会发展的基础",
+      "自然辩证法：将辩证法运用于自然科学，揭示自然界的辩证发展规律",
+      "家庭与国家起源：论证私有制、阶级与国家的历史生成",
+      "科学社会主义：论证社会主义从空想到科学的发展"
+    ],
+    "majorWorks": [
+      {
+        "title": "共产党宣言",
+        "titleEn": "The Communist Manifesto",
+        "year": 1848
+      },
+      {
+        "title": "反杜林论",
+        "titleEn": "Anti-Dühring",
+        "year": 1878
+      },
+      {
+        "title": "家庭、私有制和国家的起源",
+        "titleEn": "The Origin of the Family",
+        "year": 1884
+      }
+    ],
+    "historicalNote": "",
+    "quote": "无产阶级和资产阶级的斗争，是历史发展的杠杆。",
+    "quoteEn": ""
+  },
+  {
+    "id": "seneca",
+    "name": "塞涅卡",
+    "nameEn": "Lucius Annaeus Seneca",
+    "born": -4,
+    "died": 65,
+    "bornApprox": true,
+    "diedApprox": false,
+    "nationality": "古罗马",
+    "type": "哲学家",
+    "school": [
+      "stoicism"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg/330px-Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "古罗马斯多葛派代表、政治家与剧作家，曾任尼禄之师，以书信体散文阐发斯多葛伦理，后被尼禄赐死。",
+    "coreIdeas": [
+      "德性即幸福：唯有德性是真正的善，财富名位等外物与幸福无关",
+      "顺应理性与命运：依自然理性而活，平静接受不可改变之事",
+      "珍惜时间：「并非人生太短，而是我们浪费太多」",
+      "直面死亡：经常思量死亡，方能真正自由地生活"
+    ],
+    "majorWorks": [
+      {
+        "title": "道德书简",
+        "titleEn": "Letters to Lucilius",
+        "year": null
+      },
+      {
+        "title": "论生命之短暂",
+        "titleEn": "On the Shortness of Life",
+        "year": 49
+      }
+    ],
+    "historicalNote": "",
+    "quote": "我们并非拥有太短的人生，而是浪费了太多。",
+    "quoteEn": ""
+  },
+  {
+    "id": "epictetus",
+    "name": "爱比克泰德",
+    "nameEn": "Epictetus",
+    "born": 55,
+    "died": 135,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古罗马",
+    "type": "哲学家",
+    "school": [
+      "stoicism"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Epicteti_Enchiridion_Latinis_versibus_adumbratum_%28Oxford_1715%29_frontispiece_%28cropped%29.jpg/330px-Epicteti_Enchiridion_Latinis_versibus_adumbratum_%28Oxford_1715%29_frontispiece_%28cropped%29.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "出身奴隶的古罗马斯多葛派哲学家，获释后讲学，思想由弟子记录传世，强调内在自由。",
+    "coreIdeas": [
+      "控制二分法：分清「能由我们支配的」与「不能支配的」，只为前者负责",
+      "内在自由：真正的自由不在境遇，而在对境遇的态度",
+      "看法决定苦乐：「扰乱人心的不是事物本身，而是人对事物的看法」",
+      "践行重于空谈：哲学在于身体力行，而非辞藻"
+    ],
+    "majorWorks": [
+      {
+        "title": "爱比克泰德手册",
+        "titleEn": "Enchiridion",
+        "year": null
+      },
+      {
+        "title": "论说集",
+        "titleEn": "Discourses",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "扰乱人心的不是事物本身，而是人对事物的看法。",
+    "quoteEn": ""
+  },
+  {
+    "id": "marcus-aurelius",
+    "name": "马可·奥勒留",
+    "nameEn": "Marcus Aurelius",
+    "born": 121,
+    "died": 180,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "古罗马",
+    "type": "哲学家",
+    "school": [
+      "stoicism"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/MSR-ra-61-b-1-DM.jpg/330px-MSR-ra-61-b-1-DM.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "古罗马皇帝兼斯多葛派哲学家，「帝王哲学家」，戎马倥偬间写下自省录《沉思录》。",
+    "coreIdeas": [
+      "顺应宇宙理性：个体是宇宙整体的一部分，应顺应自然的逻各斯",
+      "主宰内心：「你拥有支配自己心灵的力量」，外物无法伤害本心",
+      "活在当下：生命只在此刻，专注于眼前的义务",
+      "履行本分：以理性与德性尽好身为人、身为君的职责"
+    ],
+    "majorWorks": [
+      {
+        "title": "沉思录",
+        "titleEn": "Meditations",
+        "year": 175
+      }
+    ],
+    "historicalNote": "",
+    "quote": "你拥有支配自己心灵的力量——而非外在事件。",
+    "quoteEn": ""
+  },
+  {
+    "id": "boethius",
+    "name": "波爱修斯",
+    "nameEn": "Boethius",
+    "born": 477,
+    "died": 524,
+    "bornApprox": true,
+    "diedApprox": false,
+    "nationality": "古罗马（意大利）",
+    "type": "哲学家",
+    "school": [
+      "scholasticism"
+    ],
+    "era": "medieval",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Boethius.jpeg/330px-Boethius.jpeg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "「最后一位罗马哲学家、第一位经院哲学家」，蒙冤入狱待死之际写下《哲学的慰藉》，并翻译亚里士多德逻辑学传于中世纪。",
+    "coreIdeas": [
+      "哲学的慰藉：在命运无常中，唯智慧与德性能给人真正的慰藉",
+      "命运之轮：荣枯无常，不应寄望于易逝的幸运",
+      "至善即上帝：真正的幸福在于追求最高的善",
+      "逻辑传承：翻译亚里士多德逻辑，架起古典与中世纪的桥梁"
+    ],
+    "majorWorks": [
+      {
+        "title": "哲学的慰藉",
+        "titleEn": "The Consolation of Philosophy",
+        "year": 524
+      }
+    ],
+    "historicalNote": "",
+    "quote": "谁能安然面对命运的盛衰，谁就驾驭了命运。",
+    "quoteEn": ""
+  },
+  {
+    "id": "avicenna",
+    "name": "阿维森纳",
+    "nameEn": "Avicenna (Ibn Sina)",
+    "born": 980,
+    "died": 1037,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "波斯",
+    "type": "哲学家",
+    "school": [
+      "islamic-philosophy"
+    ],
+    "era": "medieval",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Aboali_Avicenne_Medicin_1500s.jpg/330px-Aboali_Avicenne_Medicin_1500s.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "中世纪伊斯兰世界最重要的哲学家与医学家，融合亚里士多德与新柏拉图主义，《医典》主导东西方医学数百年。",
+    "coreIdeas": [
+      "存在与本质之分：事物的「存在」与「本质」相区分，是后世形而上学的基石",
+      "必然存在者：从可能存在推证一个「必然存在者」（上帝）",
+      "飞人论证：设想悬空无感的人仍自知其在，证明灵魂独立于身体",
+      "理性与启示调和：哲学与宗教真理可以并存"
+    ],
+    "majorWorks": [
+      {
+        "title": "治疗论",
+        "titleEn": "The Book of Healing",
+        "year": null
+      },
+      {
+        "title": "医典",
+        "titleEn": "The Canon of Medicine",
+        "year": 1025
+      }
+    ],
+    "historicalNote": "",
+    "quote": "灵魂无需借助身体，便能确证自身的存在。",
+    "quoteEn": ""
+  },
+  {
+    "id": "averroes",
+    "name": "阿威罗伊",
+    "nameEn": "Averroes (Ibn Rushd)",
+    "born": 1126,
+    "died": 1198,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "安达卢斯（西班牙）",
+    "type": "哲学家",
+    "school": [
+      "islamic-philosophy"
+    ],
+    "era": "medieval",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Andrea_di_bonaiuto%2C_apoteosi_di_san_tommaso_d%27aquino%2C_11_averro%C3%A8.jpg/330px-Andrea_di_bonaiuto%2C_apoteosi_di_san_tommaso_d%27aquino%2C_11_averro%C3%A8.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "中世纪安达卢斯哲学家，对亚里士多德的精深注释使其在拉丁西欧被尊称为「那位注释家」，深刻影响经院哲学。",
+    "coreIdeas": [
+      "注释亚里士多德：系统注解亚氏全部著作，复兴其理性主义",
+      "理性与信仰并行：哲学与宗教以不同方式抵达同一真理，互不相悖",
+      "哲学的正当性：论证理性思辨在信仰社会中的合法地位",
+      "理智单一论：人类共享同一普遍理智"
+    ],
+    "majorWorks": [
+      {
+        "title": "亚里士多德注释集",
+        "titleEn": "Commentaries on Aristotle",
+        "year": null
+      },
+      {
+        "title": "决断论",
+        "titleEn": "The Decisive Treatise",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "真理不会与真理相悖，而是彼此印证、相互支持。",
+    "quoteEn": ""
+  },
+  {
+    "id": "anselm",
+    "name": "安瑟伦",
+    "nameEn": "Anselm of Canterbury",
+    "born": 1033,
+    "died": 1109,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "意大利（坎特伯雷大主教）",
+    "type": "神学家",
+    "school": [
+      "scholasticism"
+    ],
+    "era": "medieval",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Anselm_of_Canterbury%2C_seal.svg/330px-Anselm_of_Canterbury%2C_seal.svg.png",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "经院哲学之父，坎特伯雷大主教，以「上帝存在的本体论证明」著称，开创以理性论证信仰的传统。",
+    "coreIdeas": [
+      "本体论证明：上帝是「可设想的最伟大者」，故其必然存在于现实中",
+      "信仰寻求理解：「我并非理解了才信仰，而是信仰了才能理解」",
+      "理性与信仰统一：以理性阐明并巩固信仰，而非取代信仰",
+      "救赎论：以《神为何化身为人》系统论证基督救赎"
+    ],
+    "majorWorks": [
+      {
+        "title": "宣讲",
+        "titleEn": "Proslogion",
+        "year": 1078
+      },
+      {
+        "title": "神为何化身为人",
+        "titleEn": "Cur Deus Homo",
+        "year": 1098
+      }
+    ],
+    "historicalNote": "",
+    "quote": "我并非理解了才信仰，而是信仰了才能理解。",
+    "quoteEn": ""
+  },
+  {
+    "id": "ockham",
+    "name": "威廉·奥卡姆",
+    "nameEn": "William of Ockham",
+    "born": 1287,
+    "died": 1347,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "英格兰",
+    "type": "哲学家",
+    "school": [
+      "scholasticism"
+    ],
+    "era": "medieval",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/William_of_Ockham.png",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "晚期经院哲学家、唯名论代表，以「奥卡姆剃刀」原则著称，推动哲学摆脱繁琐思辨、走向经验。",
+    "coreIdeas": [
+      "奥卡姆剃刀：「如无必要，勿增实体」，解释应力求简约",
+      "唯名论：共相只是名称，真实存在的只有个别事物",
+      "信仰与理性分离：上帝的存在凭信仰而非理性证明",
+      "经验优先：知识源于对个别事物的直接经验"
+    ],
+    "majorWorks": [
+      {
+        "title": "逻辑大全",
+        "titleEn": "Summa Logicae",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "如无必要，勿增实体。",
+    "quoteEn": ""
+  },
+  {
+    "id": "bentham",
+    "name": "杰里米·边沁",
+    "nameEn": "Jeremy Bentham",
+    "born": 1748,
+    "died": 1832,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "英国",
+    "type": "哲学家",
+    "school": [
+      "utilitarianism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Jeremy_Bentham_by_Henry_William_Pickersgill.jpg/330px-Jeremy_Bentham_by_Henry_William_Pickersgill.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "功利主义创始人、法理学家与社会改革家，以「最大多数人的最大幸福」为道德与立法的根本原则。",
+    "coreIdeas": [
+      "功利原则：行为的善恶取决于它带来的幸福（快乐）总量",
+      "苦乐计算：幸福可依强度、持续、确定性等维度量化比较",
+      "法律与制度改革：以功利原则审视并改造法律、刑罚与监狱",
+      "反对自然权利：斥抽象权利为「踩着高跷的胡说」"
+    ],
+    "majorWorks": [
+      {
+        "title": "道德与立法原理导论",
+        "titleEn": "Introduction to the Principles of Morals and Legislation",
+        "year": 1789
+      }
+    ],
+    "historicalNote": "",
+    "quote": "最大多数人的最大幸福，是衡量是非的尺度。",
+    "quoteEn": ""
+  },
+  {
+    "id": "mill",
+    "name": "约翰·斯图尔特·密尔",
+    "nameEn": "John Stuart Mill",
+    "born": 1806,
+    "died": 1873,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "英国",
+    "type": "哲学家",
+    "school": [
+      "utilitarianism"
+    ],
+    "era": "modern",
+    "region": "west",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg/330px-John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "19世纪最具影响力的自由主义思想家，修正并深化功利主义，《论自由》是自由主义的经典文献。",
+    "coreIdeas": [
+      "质的功利主义：快乐有高低之分，精神之乐高于感官之乐",
+      "伤害原则：个人自由的唯一界限是「不伤害他人」",
+      "思想与言论自由：即使错误的意见也有助于真理的彰显",
+      "个性与女权：张扬个性发展，主张两性平等"
+    ],
+    "majorWorks": [
+      {
+        "title": "论自由",
+        "titleEn": "On Liberty",
+        "year": 1859
+      },
+      {
+        "title": "功利主义",
+        "titleEn": "Utilitarianism",
+        "year": 1863
+      },
+      {
+        "title": "妇女的屈从地位",
+        "titleEn": "The Subjection of Women",
+        "year": 1869
+      }
+    ],
+    "historicalNote": "",
+    "quote": "做一个不满足的人，胜于做一头满足的猪。",
+    "quoteEn": ""
+  },
+  {
+    "id": "confucius",
+    "name": "孔子",
+    "nameEn": "Confucius",
+    "born": -551,
+    "died": -479,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（鲁国）",
+    "type": "哲学家",
+    "school": [
+      "confucianism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/%E5%AD%94%E5%AD%90%E7%87%95%E5%B1%85%E5%83%8F.png/330px-%E5%AD%94%E5%AD%90%E7%87%95%E5%B1%85%E5%83%8F.png",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "儒家创始人，中国历史上最具影响力的思想家与教育家，被尊为「至圣先师」。",
+    "coreIdeas": [
+      "仁者爱人：以「仁」为最高道德，主张「己所不欲，勿施于人」",
+      "克己复礼：以礼规范行为，恢复社会秩序，达到仁的境界",
+      "为政以德：主张德治教化而非严刑，「为政以德，譬如北辰」",
+      "有教无类：兴办私学，因材施教，打破贵族对教育的垄断"
+    ],
+    "majorWorks": [
+      {
+        "title": "论语",
+        "titleEn": "The Analects",
+        "year": -480
+      },
+      {
+        "title": "春秋",
+        "titleEn": "Spring and Autumn Annals",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "己所不欲，勿施于人。",
+    "quoteEn": ""
+  },
+  {
+    "id": "mencius",
+    "name": "孟子",
+    "nameEn": "Mencius",
+    "born": -372,
+    "died": -289,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（邹国）",
+    "type": "哲学家",
+    "school": [
+      "confucianism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Half_Portraits_of_the_Great_Sage_and_Virtuous_Men_of_Old_-_Meng_Ke_%28%E5%AD%9F%E8%BB%BB%29.jpg/330px-Half_Portraits_of_the_Great_Sage_and_Virtuous_Men_of_Old_-_Meng_Ke_%28%E5%AD%9F%E8%BB%BB%29.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "战国时期儒家代表，被尊为「亚圣」，发展孔子学说，提出性善论与仁政思想。",
+    "coreIdeas": [
+      "性善论：人皆有恻隐、羞恶、辞让、是非「四端」，仁义礼智为本性",
+      "仁政与民本：「民为贵，社稷次之，君为轻」，主张以仁政得天下",
+      "浩然之气：通过道德修养培养至大至刚的精神人格",
+      "舍生取义：当生与义不可兼得时，应舍生而取义"
+    ],
+    "majorWorks": [
+      {
+        "title": "孟子",
+        "titleEn": "Mencius",
+        "year": -300
+      }
+    ],
+    "historicalNote": "",
+    "quote": "富贵不能淫，贫贱不能移，威武不能屈。",
+    "quoteEn": ""
+  },
+  {
+    "id": "xunzi",
+    "name": "荀子",
+    "nameEn": "Xunzi",
+    "born": -313,
+    "died": -238,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（赵国）",
+    "type": "哲学家",
+    "school": [
+      "confucianism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/%E6%88%98%E5%9B%BD%E6%97%B6%E6%A5%9A%E5%85%B0%E9%99%B5%E4%BB%A4%E8%8D%80%E5%86%B5.jpg/330px-%E6%88%98%E5%9B%BD%E6%97%B6%E6%A5%9A%E5%85%B0%E9%99%B5%E4%BB%A4%E8%8D%80%E5%86%B5.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "战国末期儒家集大成者，提出性恶论，主张隆礼重法，门下有韩非、李斯。",
+    "coreIdeas": [
+      "性恶论：人性本恶，善是后天礼法教化的结果，「化性起伪」",
+      "天行有常：自然有其客观规律，「天行有常，不为尧存，不为桀亡」",
+      "制天命而用之：主张认识并利用自然规律，而非消极顺从天命",
+      "隆礼重法：以礼为本、礼法并重，调和儒法"
+    ],
+    "majorWorks": [
+      {
+        "title": "荀子",
+        "titleEn": "Xunzi",
+        "year": -240
+      }
+    ],
+    "historicalNote": "",
+    "quote": "青，取之于蓝，而青于蓝。",
+    "quoteEn": ""
+  },
+  {
+    "id": "laozi",
+    "name": "老子",
+    "nameEn": "Laozi",
+    "born": -571,
+    "died": -471,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（楚国）",
+    "type": "哲学家",
+    "school": [
+      "daoism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Zhang_Lu-Laozi_Riding_an_Ox.jpg/330px-Zhang_Lu-Laozi_Riding_an_Ox.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "道家创始人，相传为《道德经》作者，以「道」为核心建立中国最早的形而上学体系。",
+    "coreIdeas": [
+      "道法自然：「道」是万物本源与规律，顺应自然、不妄为",
+      "无为而治：治国应减少干预，「治大国若烹小鲜」",
+      "有无相生：万物相反相成，「祸兮福之所倚，福兮祸之所伏」",
+      "上善若水：以柔克刚，谦下不争，「水善利万物而不争」"
+    ],
+    "majorWorks": [
+      {
+        "title": "道德经",
+        "titleEn": "Tao Te Ching",
+        "year": -500
+      }
+    ],
+    "historicalNote": "",
+    "quote": "道可道，非常道；名可名，非常名。",
+    "quoteEn": ""
+  },
+  {
+    "id": "zhuangzi",
+    "name": "庄子",
+    "nameEn": "Zhuangzi",
+    "born": -369,
+    "died": -286,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（宋国）",
+    "type": "哲学家",
+    "school": [
+      "daoism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/%E7%8E%84%E9%96%80%E5%8D%81%E5%AD%90%E5%9C%96_%E8%8E%8A%E5%AD%90.jpg/330px-%E7%8E%84%E9%96%80%E5%8D%81%E5%AD%90%E5%9C%96_%E8%8E%8A%E5%AD%90.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "道家代表人物，将老子思想哲理化与文学化，追求精神的绝对自由。",
+    "coreIdeas": [
+      "齐物论：万物齐一，是非彼此皆相对，应超越分别之见",
+      "逍遥游：摆脱外物与世俗束缚，达到精神的绝对自由",
+      "物我两忘：「庄周梦蝶」，泯灭物我界限，与道合一",
+      "安时处顺：顺应自然变化，「死生如昼夜」，超脱生死"
+    ],
+    "majorWorks": [
+      {
+        "title": "庄子",
+        "titleEn": "Zhuangzi / 南华经",
+        "year": -290
+      }
+    ],
+    "historicalNote": "",
+    "quote": "吾生也有涯，而知也无涯。",
+    "quoteEn": ""
+  },
+  {
+    "id": "mozi",
+    "name": "墨子",
+    "nameEn": "Mozi",
+    "born": -470,
+    "died": -391,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（宋国/鲁国）",
+    "type": "哲学家",
+    "school": [
+      "mohism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84_%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg/330px-%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84_%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "墨家创始人，与儒家并称显学，主张兼爱非攻，兼具实践精神与科学逻辑。",
+    "coreIdeas": [
+      "兼爱：不分亲疏贵贱地爱一切人，反对儒家的差等之爱",
+      "非攻：反对侵略战争，主张以实力止战、维护和平",
+      "尚贤尚同：任人唯贤，统一是非标准，反对世袭贵族",
+      "节用非乐：反对铺张浪费与厚葬，主张节俭实用"
+    ],
+    "majorWorks": [
+      {
+        "title": "墨子",
+        "titleEn": "Mozi",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "兼相爱，交相利。",
+    "quoteEn": ""
+  },
+  {
+    "id": "han-fei",
+    "name": "韩非",
+    "nameEn": "Han Fei",
+    "born": -280,
+    "died": -233,
+    "bornApprox": true,
+    "diedApprox": false,
+    "nationality": "中国（韩国）",
+    "type": "哲学家",
+    "school": [
+      "legalism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Statue_Of_Han_Fei.png/330px-Statue_Of_Han_Fei.png",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "法家集大成者，荀子学生，综合法、术、势，为中央集权专制提供完整理论。",
+    "coreIdeas": [
+      "法术势结合：以法为根本、术为手段、势为权柄，三者并用治国",
+      "人性好利：人皆趋利避害，应以赏罚而非仁义治理",
+      "历史进化：「世异则事异」，反对法古，主张因时变法",
+      "君主集权：强化君权，「事在四方，要在中央」"
+    ],
+    "majorWorks": [
+      {
+        "title": "韩非子",
+        "titleEn": "Han Feizi",
+        "year": -233
+      }
+    ],
+    "historicalNote": "",
+    "quote": "法不阿贵，绳不挠曲。",
+    "quoteEn": ""
+  },
+  {
+    "id": "shang-yang",
+    "name": "商鞅",
+    "nameEn": "Shang Yang",
+    "born": -390,
+    "died": -338,
+    "bornApprox": true,
+    "diedApprox": false,
+    "nationality": "中国（卫国/秦国）",
+    "type": "哲学家",
+    "school": [
+      "legalism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Statue_of_Shang_Yang.jpg/330px-Statue_of_Shang_Yang.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "早期法家代表与政治家，主持商鞅变法，奠定秦国富强与统一的制度基础。",
+    "coreIdeas": [
+      "变法图强：「治世不一道，便国不法古」，主张彻底改革旧制",
+      "重刑厚赏：以严刑峻法与军功爵制驱使民众耕战",
+      "农战立国：奖励耕织与军功，富国强兵",
+      "法治至上：「刑无等级」，法律面前不分贵贱"
+    ],
+    "majorWorks": [
+      {
+        "title": "商君书",
+        "titleEn": "The Book of Lord Shang",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "治世不一道，便国不法古。",
+    "quoteEn": ""
+  },
+  {
+    "id": "hui-shi",
+    "name": "惠施",
+    "nameEn": "Hui Shi",
+    "born": -370,
+    "died": -310,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（宋国）",
+    "type": "哲学家",
+    "school": [
+      "school-of-names"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Confucius_and_His_Disciples_Yanzi_and_Huizi_at_the_Apricot_Altar_%28Huizi%29.jpeg/330px-Confucius_and_His_Disciples_Yanzi_and_Huizi_at_the_Apricot_Altar_%28Huizi%29.jpeg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "名家「合同异」派代表，庄子挚友，长于辩论，提出「历物十事」。",
+    "coreIdeas": [
+      "合同异：强调事物的同一性，「泛爱万物，天地一体」",
+      "历物十事：「至大无外，至小无内」等十个思辨命题",
+      "相对主义：万物的大小、高低、远近皆为相对",
+      "名实思辨：探讨概念与事物的关系，开中国逻辑学先河"
+    ],
+    "majorWorks": [],
+    "historicalNote": "",
+    "quote": "泛爱万物，天地一体也。",
+    "quoteEn": ""
+  },
+  {
+    "id": "gongsun-long",
+    "name": "公孙龙",
+    "nameEn": "Gongsun Long",
+    "born": -320,
+    "died": -250,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（赵国）",
+    "type": "哲学家",
+    "school": [
+      "school-of-names"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/%E8%87%B3%E8%81%96%E5%85%88%E8%B3%A2%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%86%8A-039-%E5%85%AC%E5%AD%AB%E9%BE%8D.jpg/330px-%E8%87%B3%E8%81%96%E5%85%88%E8%B3%A2%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%86%8A-039-%E5%85%AC%E5%AD%AB%E9%BE%8D.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "名家「离坚白」派代表，以「白马非马」之辩闻名，重视概念的分析与区别。",
+    "coreIdeas": [
+      "白马非马：「马」指形、「白」指色，概念外延不同故白马非马",
+      "离坚白：坚与白是分离的独立属性，可被不同感官分别把握",
+      "名实论：辨析名（概念）与实（事物）的对应关系",
+      "概念分析：强调抽象共相的独立性"
+    ],
+    "majorWorks": [
+      {
+        "title": "公孙龙子",
+        "titleEn": "Gongsun Longzi",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "白马非马。",
+    "quoteEn": ""
+  },
+  {
+    "id": "zou-yan",
+    "name": "邹衍",
+    "nameEn": "Zou Yan",
+    "born": -305,
+    "died": -240,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（齐国）",
+    "type": "哲学家",
+    "school": [
+      "yin-yang-school"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "阴阳家代表，集阴阳五行学说之大成，提出「五德终始」与「大九州」说。",
+    "coreIdeas": [
+      "阴阳五行：以阴阳消长、五行生克解释万物变化",
+      "五德终始：朝代更替对应五行相胜，为政权合法性提供依据",
+      "大九州说：中国为「赤县神州」，天下另有广阔九州",
+      "天人相应：自然与人事相互感应、彼此影响"
+    ],
+    "majorWorks": [],
+    "historicalNote": "",
+    "quote": "五德转移，治各有宜。",
+    "quoteEn": ""
+  },
+  {
+    "id": "sun-tzu",
+    "name": "孙武",
+    "nameEn": "Sun Tzu",
+    "born": -545,
+    "died": -470,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（齐国/吴国）",
+    "type": "军事家",
+    "school": [
+      "military-school"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "兵家代表，著《孙子兵法》，被誉为「兵学圣典」，其战略思想影响世界至今。",
+    "coreIdeas": [
+      "知己知彼：「知己知彼，百战不殆」，重视情报与全局认识",
+      "不战而屈人之兵：以谋略取胜为上，「上兵伐谋」",
+      "奇正虚实：灵活运用正合奇胜、避实击虚的辩证战法",
+      "兵者诡道：用兵以诡诈机变取胜，因敌制宜"
+    ],
+    "majorWorks": [
+      {
+        "title": "孙子兵法",
+        "titleEn": "The Art of War",
+        "year": -512
+      }
+    ],
+    "historicalNote": "",
+    "quote": "知己知彼，百战不殆。",
+    "quoteEn": ""
+  },
+  {
+    "id": "dong-zhongshu",
+    "name": "董仲舒",
+    "nameEn": "Dong Zhongshu",
+    "born": -179,
+    "died": -104,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（西汉）",
+    "type": "哲学家",
+    "school": [
+      "han-confucianism"
+    ],
+    "era": "qin-han",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%E6%AD%B7%E4%BB%A3%E8%81%96%E8%B3%A2%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%86%8A_%E8%91%A3%E4%BB%B2%E8%88%92_%28Dong_Zhongshu%29.png/330px-%E6%AD%B7%E4%BB%A3%E8%81%96%E8%B3%A2%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%86%8A_%E8%91%A3%E4%BB%B2%E8%88%92_%28Dong_Zhongshu%29.png",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "西汉儒学大师，倡「罢黜百家、独尊儒术」，将儒学确立为官方意识形态。",
+    "coreIdeas": [
+      "独尊儒术：建议汉武帝罢黜百家，使儒学成为正统",
+      "天人感应：天与人相互感应，灾异是上天对君主的警示",
+      "三纲五常：君臣、父子、夫妇之纲，仁义礼智信之常",
+      "大一统：论证中央集权统一的天道根据"
+    ],
+    "majorWorks": [
+      {
+        "title": "春秋繁露",
+        "titleEn": "Luxuriant Dew of the Spring and Autumn Annals",
+        "year": null
+      },
+      {
+        "title": "天人三策",
+        "titleEn": "Three Strategies on Heaven and Humanity",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "天不变，道亦不变。",
+    "quoteEn": ""
+  },
+  {
+    "id": "wang-chong",
+    "name": "王充",
+    "nameEn": "Wang Chong",
+    "born": 27,
+    "died": 100,
+    "bornApprox": false,
+    "diedApprox": true,
+    "nationality": "中国（东汉）",
+    "type": "哲学家",
+    "school": [
+      "han-confucianism"
+    ],
+    "era": "qin-han",
+    "region": "east",
+    "portrait": {
+      "url": "",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "东汉唯物主义思想家，以《论衡》批判谶纬迷信与天人感应，崇尚理性与实证。",
+    "coreIdeas": [
+      "元气自然：万物由「元气」自然生成，否定天有意志",
+      "疾虚妄：批判谶纬迷信与虚妄之说，主张「实知」「订验」",
+      "无神论：否定鬼神与天人感应，「人死不为鬼」",
+      "命定与才性：探讨命运、禀气与人的才性"
+    ],
+    "majorWorks": [
+      {
+        "title": "论衡",
+        "titleEn": "Lunheng / Critical Essays",
+        "year": 80
+      }
+    ],
+    "historicalNote": "",
+    "quote": "疾虚妄，求实诚。",
+    "quoteEn": ""
+  },
+  {
+    "id": "wang-bi",
+    "name": "王弼",
+    "nameEn": "Wang Bi",
+    "born": 226,
+    "died": 249,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（曹魏）",
+    "type": "哲学家",
+    "school": [
+      "xuanxue"
+    ],
+    "era": "wei-jin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%E8%87%B3%E8%81%96%E5%85%88%E8%B3%A2%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%86%8A-107-%E7%8E%8B%E5%BC%BC.jpg/330px-%E8%87%B3%E8%81%96%E5%85%88%E8%B3%A2%E5%8D%8A%E8%BA%AB%E5%83%8F_%E5%86%8A-107-%E7%8E%8B%E5%BC%BC.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "魏晋玄学奠基人，英年早逝却影响深远，以「贵无论」注解《老子》《周易》。",
+    "coreIdeas": [
+      "贵无论：「以无为本」，「无」是万物存在的根据",
+      "得意忘象：「得意而忘言，得象而忘言」，重义理而轻名相",
+      "名教本于自然：调和儒道，认为礼教根源于自然之道",
+      "崇本息末：把握根本（无）即可统御万象"
+    ],
+    "majorWorks": [
+      {
+        "title": "老子注",
+        "titleEn": "Commentary on the Tao Te Ching",
+        "year": null
+      },
+      {
+        "title": "周易注",
+        "titleEn": "Commentary on the Book of Changes",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "得意而忘象，得象而忘言。",
+    "quoteEn": ""
+  },
+  {
+    "id": "guo-xiang",
+    "name": "郭象",
+    "nameEn": "Guo Xiang",
+    "born": 252,
+    "died": 312,
+    "bornApprox": true,
+    "diedApprox": false,
+    "nationality": "中国（西晋）",
+    "type": "哲学家",
+    "school": [
+      "xuanxue"
+    ],
+    "era": "wei-jin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Guo_Xiang_Mask.jpg/330px-Guo_Xiang_Mask.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "魏晋玄学集大成者，以《庄子注》提出「独化」说，主张万物自生自化。",
+    "coreIdeas": [
+      "独化论：万物各自独立生成变化，无需外在造物者",
+      "崇有反无：反对贵无论，认为「有」自足而不依赖「无」",
+      "自性自足：每物各依其本性而存在，「物各自造」",
+      "名教即自然：名教秩序本身就是自然的体现"
+    ],
+    "majorWorks": [
+      {
+        "title": "庄子注",
+        "titleEn": "Commentary on the Zhuangzi",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "物各自生，而无所出焉。",
+    "quoteEn": ""
+  },
+  {
+    "id": "ji-kang",
+    "name": "嵇康",
+    "nameEn": "Ji Kang",
+    "born": 223,
+    "died": 262,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（曹魏）",
+    "type": "哲学家",
+    "school": [
+      "xuanxue"
+    ],
+    "era": "wei-jin",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Seven_Sages_of_the_Bamboo_Grove.jpg/330px-Seven_Sages_of_the_Bamboo_Grove.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "「竹林七贤」之一，玄学名士与音乐家，以「越名教而任自然」的风骨著称。",
+    "coreIdeas": [
+      "越名教而任自然：超越礼法束缚，顺应人的自然本性",
+      "声无哀乐：音乐本身无关哀乐，哀乐源于听者之心",
+      "养生论：形神兼养、清心寡欲以求长生",
+      "非汤武而薄周孔：批判虚伪礼教，张扬个性自由"
+    ],
+    "majorWorks": [
+      {
+        "title": "声无哀乐论",
+        "titleEn": "On the Absence of Sentiment in Music",
+        "year": null
+      },
+      {
+        "title": "养生论",
+        "titleEn": "On Nourishing Life",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "越名教而任自然。",
+    "quoteEn": ""
+  },
+  {
+    "id": "huineng",
+    "name": "慧能",
+    "nameEn": "Huineng",
+    "born": 638,
+    "died": 713,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（唐）",
+    "type": "哲学家",
+    "school": [
+      "chan-buddhism"
+    ],
+    "era": "sui-tang",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Huineng.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "禅宗六祖，南宗顿教创始人，使佛教彻底中国化，《坛经》是唯一被尊为「经」的祖师语录。",
+    "coreIdeas": [
+      "顿悟成佛：无需长期渐修，「一念悟时，众生是佛」",
+      "明心见性：佛性人人本具，识自本心即可见性成佛",
+      "自性清净：「菩提本无树，明镜亦非台」，心性本来清净",
+      "不立文字：直指人心，反对执著经教文字"
+    ],
+    "majorWorks": [
+      {
+        "title": "六祖坛经",
+        "titleEn": "The Platform Sutra",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "菩提本无树，明镜亦非台；本来无一物，何处惹尘埃。",
+    "quoteEn": ""
+  },
+  {
+    "id": "zhou-dunyi",
+    "name": "周敦颐",
+    "nameEn": "Zhou Dunyi",
+    "born": 1017,
+    "died": 1073,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（北宋）",
+    "type": "哲学家",
+    "school": [
+      "neo-confucianism"
+    ],
+    "era": "song-yuan",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/%E5%AE%8B%E6%8F%90%E5%88%91%E5%91%A8%E6%95%A6%E9%A2%90.jpg/330px-%E5%AE%8B%E6%8F%90%E5%88%91%E5%91%A8%E6%95%A6%E9%A2%90.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "宋明理学开山祖师，以《太极图说》构建儒家宇宙论，二程之师。",
+    "coreIdeas": [
+      "太极图说：「无极而太极」，阐述宇宙生成的本体论图式",
+      "主静立人极：以「主静」「无欲」确立做人的最高准则",
+      "诚为本：以「诚」为道德与宇宙的根本",
+      "理为万物之源：开理学以「理」释世界之先河"
+    ],
+    "majorWorks": [
+      {
+        "title": "太极图说",
+        "titleEn": "Explanation of the Diagram of the Supreme Ultimate",
+        "year": null
+      },
+      {
+        "title": "通书",
+        "titleEn": "Penetrating the Book of Changes",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "出淤泥而不染，濯清涟而不妖。",
+    "quoteEn": ""
+  },
+  {
+    "id": "zhang-zai",
+    "name": "张载",
+    "nameEn": "Zhang Zai",
+    "born": 1020,
+    "died": 1077,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（北宋）",
+    "type": "哲学家",
+    "school": [
+      "neo-confucianism"
+    ],
+    "era": "song-yuan",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Chang_Tsai.jpg/330px-Chang_Tsai.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "理学奠基人之一，「关学」创始人，以「气一元论」著称，留下「横渠四句」。",
+    "coreIdeas": [
+      "气一元论：「太虚即气」，万物皆由气聚散生成",
+      "民胞物与：「民吾同胞，物吾与也」，万物一体的仁爱情怀",
+      "一物两体：事物内含对立统一，是变化的根源",
+      "变化气质：通过学问修养改变人的气质之性"
+    ],
+    "majorWorks": [
+      {
+        "title": "正蒙",
+        "titleEn": "Correcting Youthful Ignorance",
+        "year": null
+      },
+      {
+        "title": "西铭",
+        "titleEn": "Western Inscription",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "为天地立心，为生民立命，为往圣继绝学，为万世开太平。",
+    "quoteEn": ""
+  },
+  {
+    "id": "cheng-hao",
+    "name": "程颢",
+    "nameEn": "Cheng Hao",
+    "born": 1032,
+    "died": 1085,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（北宋）",
+    "type": "哲学家",
+    "school": [
+      "neo-confucianism"
+    ],
+    "era": "song-yuan",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/%E5%AE%8B%E7%9B%91%E5%AF%9F%E5%BE%A1%E5%8F%B2%E7%A8%8B%E9%A2%A2.jpg/330px-%E5%AE%8B%E7%9B%91%E5%AF%9F%E5%BE%A1%E5%8F%B2%E7%A8%8B%E9%A2%A2.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "「二程」之兄，与弟程颐同为理学奠基人，思想偏重「识仁」与心之体认，启后世心学。",
+    "coreIdeas": [
+      "天理：首倡「天理」为最高范畴，「吾学虽有所受，天理二字却是自家体贴出来」",
+      "识仁：仁者与天地万物为一体，重在体认而非外求",
+      "定性：「廓然而大公，物来而顺应」，使心安定中正",
+      "天人一本：天理与人心本是一体"
+    ],
+    "majorWorks": [
+      {
+        "title": "二程遗书",
+        "titleEn": "Surviving Works of the Cheng Brothers",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "仁者，浑然与物同体。",
+    "quoteEn": ""
+  },
+  {
+    "id": "cheng-yi",
+    "name": "程颐",
+    "nameEn": "Cheng Yi",
+    "born": 1033,
+    "died": 1107,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（北宋）",
+    "type": "哲学家",
+    "school": [
+      "neo-confucianism"
+    ],
+    "era": "song-yuan",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/%E5%AE%8B%E5%B4%87%E6%94%BF%E6%AE%BF%E8%AF%B4%E4%B9%A6%E7%A8%8B%E9%A2%90.jpg/330px-%E5%AE%8B%E5%B4%87%E6%94%BF%E6%AE%BF%E8%AF%B4%E4%B9%A6%E7%A8%8B%E9%A2%90.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "「二程」之弟，理学奠基人，思想严谨重「理」，主张格物穷理，为程朱理学开路。",
+    "coreIdeas": [
+      "理在事先：「理」是先于事物的本体，「有理而后有象」",
+      "格物致知：即物穷理，通过考察事物获得知识",
+      "性即理：人性即天理，性本善而气有清浊",
+      "主敬涵养：以「主一无适」的敬贯穿修养工夫"
+    ],
+    "majorWorks": [
+      {
+        "title": "易传",
+        "titleEn": "Commentary on the Book of Changes",
+        "year": null
+      },
+      {
+        "title": "二程遗书",
+        "titleEn": "Surviving Works of the Cheng Brothers",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "涵养须用敬，进学则在致知。",
+    "quoteEn": ""
+  },
+  {
+    "id": "zhu-xi",
+    "name": "朱熹",
+    "nameEn": "Zhu Xi",
+    "born": 1130,
+    "died": 1200,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（南宋）",
+    "type": "哲学家",
+    "school": [
+      "neo-confucianism"
+    ],
+    "era": "song-yuan",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/%E6%9C%B1%E7%86%B9%E7%94%BB%E5%83%8F%EF%BC%88%E6%88%AA%E5%8F%96%EF%BC%89.jpg/330px-%E6%9C%B1%E7%86%B9%E7%94%BB%E5%83%8F%EF%BC%88%E6%88%AA%E5%8F%96%EF%BC%89.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "宋明理学集大成者，建立庞大的理气哲学体系，所注《四书》成为后世科举圭臬。",
+    "coreIdeas": [
+      "理气论：「理」为形而上之本、「气」为形而下之器，理在气先",
+      "存天理灭人欲：以天理节制过度的私欲",
+      "格物致知：「即物而穷其理」，积累贯通而豁然开朗",
+      "四书体系：编定《四书章句集注》，重塑儒学正统"
+    ],
+    "majorWorks": [
+      {
+        "title": "四书章句集注",
+        "titleEn": "Collected Commentaries on the Four Books",
+        "year": null
+      },
+      {
+        "title": "朱子语类",
+        "titleEn": "Classified Conversations of Master Zhu",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "问渠那得清如许？为有源头活水来。",
+    "quoteEn": ""
+  },
+  {
+    "id": "lu-jiuyuan",
+    "name": "陆九渊",
+    "nameEn": "Lu Jiuyuan",
+    "born": 1139,
+    "died": 1193,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（南宋）",
+    "type": "哲学家",
+    "school": [
+      "lu-wang-school"
+    ],
+    "era": "song-yuan",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/%E9%99%B8%E4%B9%9D%E6%B7%B5.jpg/330px-%E9%99%B8%E4%B9%9D%E6%B7%B5.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "心学开创者，世称象山先生，与朱熹「鹅湖之辩」齐名，主张「心即理」。",
+    "coreIdeas": [
+      "心即理：「宇宙便是吾心，吾心即是宇宙」，理不在心外",
+      "发明本心：为学在于体认本心，而非向外求索",
+      "简易工夫：主张直截简易，批评朱学支离繁琐",
+      "尊德性：以涵养德性为先，与朱熹「道问学」相对"
+    ],
+    "majorWorks": [
+      {
+        "title": "象山先生全集",
+        "titleEn": "Complete Works of Master Xiangshan",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "宇宙便是吾心，吾心即是宇宙。",
+    "quoteEn": ""
+  },
+  {
+    "id": "wang-yangming",
+    "name": "王阳明",
+    "nameEn": "Wang Yangming",
+    "born": 1472,
+    "died": 1529,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（明）",
+    "type": "哲学家",
+    "school": [
+      "lu-wang-school"
+    ],
+    "era": "ming-qing",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/%E8%94%A1%E4%B8%96%E6%96%B0_%E7%8E%8B%E9%98%B3%E6%98%8E%E8%82%96%E5%83%8F%E8%BD%B4_%28cropped%29.jpg/330px-%E8%94%A1%E4%B8%96%E6%96%B0_%E7%8E%8B%E9%98%B3%E6%98%8E%E8%82%96%E5%83%8F%E8%BD%B4_%28cropped%29.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "心学集大成者，世称阳明先生，兼为军事家与教育家，提出「致良知」「知行合一」。",
+    "coreIdeas": [
+      "心即理：心外无理、心外无物，天理即在本心",
+      "致良知：良知是人人本具的道德本能，为学在于推致良知",
+      "知行合一：知与行本是一体，「知是行之始，行是知之成」",
+      "龙场悟道：贬谪悟「圣人之道，吾性自足」"
+    ],
+    "majorWorks": [
+      {
+        "title": "传习录",
+        "titleEn": "Instructions for Practical Living",
+        "year": null
+      },
+      {
+        "title": "大学问",
+        "titleEn": "Inquiry on the Great Learning",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "知是行之始，行是知之成。",
+    "quoteEn": ""
+  },
+  {
+    "id": "huang-zongxi",
+    "name": "黄宗羲",
+    "nameEn": "Huang Zongxi",
+    "born": 1610,
+    "died": 1695,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（明末清初）",
+    "type": "哲学家",
+    "school": [
+      "practical-learning"
+    ],
+    "era": "ming-qing",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Huang_Zong-Xi.jpg/330px-Huang_Zong-Xi.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "明末清初三大儒之一，思想家与史学家，以《明夷待访录》批判君主专制，被誉为「中国思想启蒙之先驱」。",
+    "coreIdeas": [
+      "批判君主专制：斥君主「以天下为私产」，「为天下之大害者，君而已矣」",
+      "天下为主君为客：主张君为民设，重民本与公天下",
+      "工商皆本：反对重农抑商，主张工商皆为立国之本",
+      "学术史开创：著《明儒学案》，开中国学术史体例"
+    ],
+    "majorWorks": [
+      {
+        "title": "明夷待访录",
+        "titleEn": "Waiting for the Dawn",
+        "year": 1663
+      },
+      {
+        "title": "明儒学案",
+        "titleEn": "Records of Ming Scholars",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "天下之治乱，不在一姓之兴亡，而在万民之忧乐。",
+    "quoteEn": ""
+  },
+  {
+    "id": "gu-yanwu",
+    "name": "顾炎武",
+    "nameEn": "Gu Yanwu",
+    "born": 1613,
+    "died": 1682,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（明末清初）",
+    "type": "哲学家",
+    "school": [
+      "practical-learning"
+    ],
+    "era": "ming-qing",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Gu_yanwu.jpg/330px-Gu_yanwu.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "明末清初三大儒之一，清代考据学开山，倡「经世致用」，反对理学空谈。",
+    "coreIdeas": [
+      "经世致用：学问须有益于国计民生，反对空谈心性",
+      "天下兴亡匹夫有责：每个人对国家命运负有责任",
+      "博学于文行己有耻：以广博学问与知耻自律为根本",
+      "考据实证：重证据、重实地考察，开朴学之风"
+    ],
+    "majorWorks": [
+      {
+        "title": "日知录",
+        "titleEn": "Record of Daily Knowledge",
+        "year": null
+      },
+      {
+        "title": "天下郡国利病书",
+        "titleEn": "Strengths and Weaknesses of the Regions",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "天下兴亡，匹夫有责。",
+    "quoteEn": ""
+  },
+  {
+    "id": "wang-fuzhi",
+    "name": "王夫之",
+    "nameEn": "Wang Fuzhi",
+    "born": 1619,
+    "died": 1692,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（明末清初）",
+    "type": "哲学家",
+    "school": [
+      "practical-learning"
+    ],
+    "era": "ming-qing",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/%E7%8E%8B%E5%A4%AB%E4%B9%8B.jpg/330px-%E7%8E%8B%E5%A4%AB%E4%B9%8B.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "明末清初三大儒之一，世称船山先生，集中国古代朴素唯物论与辩证法之大成。",
+    "coreIdeas": [
+      "气一元论：「天下唯器」，理在气中，否定理在气先",
+      "道器不离：道不离器，普遍寓于具体之中",
+      "行先知后：重实践，「行可兼知，而知不可兼行」",
+      "理势合一：历史依其自身规律（理势）发展演进"
+    ],
+    "majorWorks": [
+      {
+        "title": "读通鉴论",
+        "titleEn": "Commentary on the Comprehensive Mirror",
+        "year": null
+      },
+      {
+        "title": "张子正蒙注",
+        "titleEn": "Commentary on Zhang Zai's Correcting Ignorance",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "天下唯器而已矣，道者器之道。",
+    "quoteEn": ""
+  },
+  {
+    "id": "dai-zhen",
+    "name": "戴震",
+    "nameEn": "Dai Zhen",
+    "born": 1724,
+    "died": 1777,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（清）",
+    "type": "哲学家",
+    "school": [
+      "practical-learning"
+    ],
+    "era": "ming-qing",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dai_Zhen.png/330px-Dai_Zhen.png",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "清代考据学（皖派）代表与思想家，精于训诂考据，并以「理欲之辨」批判理学。",
+    "coreIdeas": [
+      "理在事中：「理」是事物的条理，存于人伦日用之中",
+      "体民之情遂民之欲：反对「存天理灭人欲」，主张理欲统一",
+      "以理杀人：抨击理学借天理之名压制人的合理情欲",
+      "由训诂通义理：以考据训诂为通达经义的途径"
+    ],
+    "majorWorks": [
+      {
+        "title": "孟子字义疏证",
+        "titleEn": "Evidential Commentary on the Meanings of Terms in the Mencius",
+        "year": null
+      },
+      {
+        "title": "原善",
+        "titleEn": "Inquiry into Goodness",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "酷吏以法杀人，后儒以理杀人。",
+    "quoteEn": ""
+  },
+  {
+    "id": "gong-zizhen",
+    "name": "龚自珍",
+    "nameEn": "Gong Zizhen",
+    "born": 1792,
+    "died": 1841,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国（清）",
+    "type": "哲学家",
+    "school": [
+      "practical-learning"
+    ],
+    "era": "ming-qing",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Gong_Zizhen.jpg/330px-Gong_Zizhen.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "清中叶今文经学家与思想家，目睹衰世而疾呼变革，是中国近代启蒙思想的先声。",
+    "coreIdeas": [
+      "衰世警觉：揭露「日之将夕」的社会危机，呼唤更法改图",
+      "不拘一格用人：「我劝天公重抖擞，不拘一格降人才」",
+      "经世致用：以今文经学议政，主张通经致用",
+      "个性解放：尊重「童心」与个体，反对压抑性灵"
+    ],
+    "majorWorks": [
+      {
+        "title": "龚自珍全集",
+        "titleEn": "Collected Works of Gong Zizhen",
+        "year": null
+      },
+      {
+        "title": "己亥杂诗",
+        "titleEn": "Miscellaneous Poems of 1839",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "我劝天公重抖擞，不拘一格降人才。",
+    "quoteEn": ""
+  },
+  {
+    "id": "kang-youwei",
+    "name": "康有为",
+    "nameEn": "Kang Youwei",
+    "born": 1858,
+    "died": 1927,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国",
+    "type": "哲学家",
+    "school": [
+      "enlightenment-china"
+    ],
+    "era": "modern-china",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Kang_Yu-wei_cph.3a36142.jpg/330px-Kang_Yu-wei_cph.3a36142.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "晚清维新运动领袖，托古改制的倡导者，戊戌变法的主导者，以《大同书》描绘理想社会。",
+    "coreIdeas": [
+      "托古改制：借孔子之名推行变法，「孔子改制」为维新立据",
+      "公羊三世说：据乱世→升平世→太平世的历史进化观",
+      "大同理想：消除家国界限、天下为公的乌托邦构想",
+      "维新变法：主张君主立宪、变革旧制以图自强"
+    ],
+    "majorWorks": [
+      {
+        "title": "大同书",
+        "titleEn": "The Book of Great Unity",
+        "year": null
+      },
+      {
+        "title": "新学伪经考",
+        "titleEn": "A Study of the Forged Classics",
+        "year": null
+      },
+      {
+        "title": "孔子改制考",
+        "titleEn": "Confucius as a Reformer",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "能变则全，不变则亡；全变则强，小变仍亡。",
+    "quoteEn": ""
+  },
+  {
+    "id": "liang-qichao",
+    "name": "梁启超",
+    "nameEn": "Liang Qichao",
+    "born": 1873,
+    "died": 1929,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国",
+    "type": "哲学家",
+    "school": [
+      "enlightenment-china"
+    ],
+    "era": "modern-china",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/MinistroDeJusticiaLiangQichao.jpg/330px-MinistroDeJusticiaLiangQichao.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "近代启蒙思想家、政论家与学者，康有为弟子，以雄健文字推动思想启蒙，影响一代青年。",
+    "coreIdeas": [
+      "新民说：欲维新国家，必先塑造具有公德与进取心的「新民」",
+      "启蒙宣传：以报刊与「新文体」普及现代思想",
+      "史学革命：倡「新史学」，以国民为历史主体",
+      "调和中西：晚年反思西方文明，主张融通中西文化"
+    ],
+    "majorWorks": [
+      {
+        "title": "新民说",
+        "titleEn": "On the New Citizen",
+        "year": 1902
+      },
+      {
+        "title": "饮冰室合集",
+        "titleEn": "Collected Works from the Ice-Drinker's Studio",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "少年强则国强，少年进步则国进步。",
+    "quoteEn": ""
+  },
+  {
+    "id": "yan-fu",
+    "name": "严复",
+    "nameEn": "Yan Fu",
+    "born": 1854,
+    "died": 1921,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国",
+    "type": "哲学家",
+    "school": [
+      "enlightenment-china"
+    ],
+    "era": "modern-china",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/%E4%B8%A5%E5%A4%8D.jpg/330px-%E4%B8%A5%E5%A4%8D.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "近代著名翻译家与思想家，系统译介西方学术，以《天演论》将进化论引入中国，震动思想界。",
+    "coreIdeas": [
+      "物竞天择：引入进化论，「物竞天择，适者生存」警醒救亡图存",
+      "西学东渐：译介自由、逻辑、经济等西方学理，开民智",
+      "信达雅：提出影响深远的翻译三标准",
+      "渐进自强：主张以教育与变革渐进图强"
+    ],
+    "majorWorks": [
+      {
+        "title": "天演论",
+        "titleEn": "译",
+        "year": null
+      },
+      {
+        "title": "原富",
+        "titleEn": "译",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "物竞天择，适者生存。",
+    "quoteEn": ""
+  },
+  {
+    "id": "hu-shi",
+    "name": "胡适",
+    "nameEn": "Hu Shi",
+    "born": 1891,
+    "died": 1962,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国",
+    "type": "哲学家",
+    "school": [
+      "enlightenment-china"
+    ],
+    "era": "modern-china",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Hu_Shih_1960_color.jpg/330px-Hu_Shih_1960_color.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "新文化运动领袖之一，师从杜威，倡导实用主义、白话文与科学方法，是中国现代学术的奠基者之一。",
+    "coreIdeas": [
+      "实用主义：真理在于实际效用，「拿证据来」的求实精神",
+      "大胆假设小心求证：以科学方法治学，重证据与实验态度",
+      "白话文运动：倡导以白话取代文言，推动文学革命",
+      "整理国故：以现代方法重估传统、「重新估定一切价值」"
+    ],
+    "majorWorks": [
+      {
+        "title": "中国哲学史大纲",
+        "titleEn": "An Outline of the History of Chinese Philosophy",
+        "year": 1919
+      },
+      {
+        "title": "尝试集",
+        "titleEn": "Experiments",
+        "year": 1920
+      }
+    ],
+    "historicalNote": "",
+    "quote": "大胆地假设，小心地求证。",
+    "quoteEn": ""
+  },
+  {
+    "id": "liang-shuming",
+    "name": "梁漱溟",
+    "nameEn": "Liang Shuming",
+    "born": 1893,
+    "died": 1988,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国",
+    "type": "哲学家",
+    "school": [
+      "new-confucianism"
+    ],
+    "era": "modern-china",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/%E6%A2%81%E7%84%95%E9%BC%8E.jpg/330px-%E6%A2%81%E7%84%95%E9%BC%8E.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "现代新儒家的开启者之一，思想家与社会活动家，倡导乡村建设，被誉为「最后的儒家」。",
+    "coreIdeas": [
+      "文化三路向：西方向前、印度向后、中国持中，比较东西文化精神",
+      "中国文化以儒为本：中国文化的根本在于伦理本位与生命态度",
+      "乡村建设：以乡村为本位重建中国社会与文化",
+      "知行实践：主张身体力行、躬行其所信"
+    ],
+    "majorWorks": [
+      {
+        "title": "东西文化及其哲学",
+        "titleEn": "Eastern and Western Cultures and Their Philosophies",
+        "year": 1921
+      },
+      {
+        "title": "中国文化要义",
+        "titleEn": "The Essentials of Chinese Culture",
+        "year": 1949
+      }
+    ],
+    "historicalNote": "",
+    "quote": "这个世界会好吗？",
+    "quoteEn": ""
+  },
+  {
+    "id": "xiong-shili",
+    "name": "熊十力",
+    "nameEn": "Xiong Shili",
+    "born": 1885,
+    "died": 1968,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国",
+    "type": "哲学家",
+    "school": [
+      "new-confucianism"
+    ],
+    "era": "modern-china",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%E7%86%8A%E5%8D%81%E5%8A%9B_1960s.jpg/330px-%E7%86%8A%E5%8D%81%E5%8A%9B_1960s.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "现代新儒家奠基者，融佛入儒、自创体系，以《新唯识论》重建儒家本体论，门下多出大家。",
+    "coreIdeas": [
+      "体用不二：本体与作用不可分，「即体即用、即用即体」",
+      "翕辟成变：以「翕」「辟」两种势用解释宇宙生生不息的变化",
+      "融佛归儒：批判改造佛教唯识学，归宗于儒家生生之仁",
+      "反求本心：真理须于自家生命与本心中体证"
+    ],
+    "majorWorks": [
+      {
+        "title": "新唯识论",
+        "titleEn": "New Treatise on the Uniqueness of Consciousness",
+        "year": 1932
+      },
+      {
+        "title": "原儒",
+        "titleEn": "On the Origins of Confucianism",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "体用不二，即体即用，即用即体。",
+    "quoteEn": ""
+  },
+  {
+    "id": "feng-youlan",
+    "name": "冯友兰",
+    "nameEn": "Feng Youlan",
+    "born": 1895,
+    "died": 1990,
+    "bornApprox": false,
+    "diedApprox": false,
+    "nationality": "中国",
+    "type": "哲学家",
+    "school": [
+      "new-confucianism"
+    ],
+    "era": "modern-china",
+    "region": "east",
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/FYL_in_1920s.JPG",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "现代哲学史家与哲学家，以《中国哲学史》奠定学科范式，又创「新理学」体系，会通程朱与西方新实在论。",
+    "coreIdeas": [
+      "系统化中哲：撰《中国哲学史》，确立中国哲学的现代学术体系",
+      "新理学：「接着」程朱理学讲，以「理、气、道体、大全」重构形而上学",
+      "人生四境界：自然境界→功利境界→道德境界→天地境界",
+      "中西会通：以逻辑分析方法阐释中国传统哲学"
+    ],
+    "majorWorks": [
+      {
+        "title": "中国哲学史",
+        "titleEn": "A History of Chinese Philosophy",
+        "year": 1934
+      },
+      {
+        "title": "贞元六书",
+        "titleEn": "Six Books of the Zhenyuan Era",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "人生境界有四：自然、功利、道德、天地。",
+    "quoteEn": ""
+  }
+]

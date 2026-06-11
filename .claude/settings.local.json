@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 convert.py)",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('events.json'\\)\\);[print\\(repr\\(e['id']\\),'|',e['name'],'|',e.get\\('region'\\)\\) for e in d[:4]]\")",
+      "Bash(awk '/^## /{n=$0} /^- 时代：/{print n\" -> \"$0}' philosophers.md)",
+      "Bash(rm -f 03-src/.DS_Store)",
+      "Bash(npm create *)",
+      "Bash(npm run *)",
+      "Read(//tmp/**)",
+      "Bash(open -R \"/Users/janeli/Documents/AIAgents/Philosophy Timeline/03-src/dist\")",
+      "Bash(python3 -c \"import PIL; print\\('PIL ok', PIL.__version__\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 -)",
+      "Bash(python3 -c \"import json;e=json.load\\(open\\('structured/events.json'\\)\\);s=[x for x in e if x['type']=='政权'];print\\('政权数:',len\\(s\\)\\);[print\\(' ',x['id'],x['name'],x['year'],'->',x['endYear']\\) for x in s[:3]]\")",
+      "Bash(open -R dist)",
+      "Bash(curl -s --max-time 15 \"https://en.wikipedia.org/api/rest_v1/page/summary/Plato\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('title:',d.get\\('title'\\)\\); print\\('thumb:',d.get\\('thumbnail',{}\\).get\\('source'\\)\\)\")",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}

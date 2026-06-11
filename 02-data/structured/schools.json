@@ -1,0 +1,930 @@
+[
+  {
+    "id": "milesian",
+    "name": "米利都学派",
+    "nameEn": "Milesian School",
+    "alternateNames": [
+      "伊奥尼亚学派 (Ionian School)"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "start": -624,
+    "end": -480,
+    "color": "#0091FF",
+    "description": "亦称伊奥尼亚学派，兴起于贸易港口米利都。是西方最早的自然哲学流派，首次尝试用理性而非神话解释自然，探求万物的本源（arché）。",
+    "coreThemes": [
+      "万物本源",
+      "自然主义",
+      "宇宙论",
+      "物质一元论"
+    ],
+    "representativePhilosophers": [
+      "thales",
+      "anaximander",
+      "anaximenes"
+    ]
+  },
+  {
+    "id": "pythagorean",
+    "name": "毕达哥拉斯学派",
+    "nameEn": "Pythagorean School",
+    "alternateNames": [
+      "南意大利学派"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "start": -580,
+    "end": -400,
+    "color": "#32C5FF",
+    "description": "由毕达哥拉斯在南意大利创立，是宗教性与哲学性兼具的学派。强调数学在理解宇宙中的核心地位，同时带有神秘主义色彩。",
+    "coreThemes": [
+      "数是万物本质",
+      "数学宇宙观",
+      "灵魂轮回",
+      "音乐与和谐"
+    ],
+    "representativePhilosophers": [
+      "pythagoras"
+    ]
+  },
+  {
+    "id": "ephesian",
+    "name": "爱菲斯学派",
+    "nameEn": "Ephesian School",
+    "alternateNames": [
+      "以弗所学派"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "start": -544,
+    "end": -480,
+    "color": "#6DD400",
+    "description": "以弗所（Ephesus）是吕底亚古城和小亚细亚西岸希腊的重要城邦。赫拉克利特是其唯一代表，以「万物皆流」和「逻各斯」概念著称。",
+    "coreThemes": [
+      "永恒变化",
+      "逻各斯",
+      "对立统一",
+      "火是本源"
+    ],
+    "representativePhilosophers": [
+      "heraclitus"
+    ]
+  },
+  {
+    "id": "eleatic",
+    "name": "爱利亚学派",
+    "nameEn": "Eleatic School",
+    "alternateNames": [],
+    "era": "ancient",
+    "region": "west",
+    "start": -565,
+    "end": -425,
+    "color": "#44D7B6",
+    "description": "产生于公元前6世纪意大利南部爱利亚城邦。强调「存在」是唯一真实的，变化与多样性是感官的幻象，只有通过理性才能认识真理。",
+    "coreThemes": [
+      "存在论",
+      "理性优先",
+      "感觉世界是幻象",
+      "一元论"
+    ],
+    "representativePhilosophers": [
+      "xenophanes",
+      "parmenides",
+      "zeno-of-elea"
+    ]
+  },
+  {
+    "id": "atomist",
+    "name": "古典原子论",
+    "nameEn": "Classical Atomism",
+    "alternateNames": [],
+    "era": "ancient",
+    "region": "west",
+    "start": -500,
+    "end": -350,
+    "color": "#F7B502",
+    "description": "世界由不可再分的原子和虚空构成，一切皆来自原子的组合排列和运动。是古代最接近现代科学宇宙观的哲学体系，深刻影响伊壁鸠鲁学派。",
+    "coreThemes": [
+      "原子论",
+      "唯物主义",
+      "虚空",
+      "机械宇宙"
+    ],
+    "representativePhilosophers": [
+      "leucippus",
+      "democritus"
+    ]
+  },
+  {
+    "id": "greek-classical",
+    "name": "希腊三杰",
+    "nameEn": "Greek Classical Philosophy",
+    "alternateNames": [],
+    "era": "ancient",
+    "region": "west",
+    "start": -469,
+    "end": -322,
+    "color": "#FA6400",
+    "description": "西方文明的源头，对西方文明乃至世界文明产生了根本性影响。苏格拉底、柏拉图、亚里士多德三人构成古希腊哲学的巅峰，其影响延续至今。",
+    "coreThemes": [
+      "理念论",
+      "伦理学",
+      "认识论",
+      "形而上学"
+    ],
+    "representativePhilosophers": [
+      "socrates",
+      "plato",
+      "aristotle"
+    ]
+  },
+  {
+    "id": "epicurean",
+    "name": "伊壁鸠鲁学派",
+    "nameEn": "Epicurean School",
+    "alternateNames": [
+      "花园学派"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "start": -341,
+    "end": 200,
+    "color": "#E01F22",
+    "description": "伊壁鸠鲁在自己买的一所花园里办学，故又称花园学派。倡导心灵宁静的快乐主义，反对对神灵和死亡的恐惧，崇尚友谊与简朴生活。",
+    "coreThemes": [
+      "快乐主义（心灵宁静）",
+      "无神论",
+      "原子论",
+      "友谊"
+    ],
+    "representativePhilosophers": [
+      "epicurus",
+      "lucretius"
+    ]
+  },
+  {
+    "id": "patristic",
+    "name": "教父哲学",
+    "nameEn": "Patristic Philosophy",
+    "alternateNames": [],
+    "era": "ancient",
+    "region": "west",
+    "start": 1,
+    "end": 800,
+    "color": "#7533D5",
+    "description": "基督教为其教义辩护的一种宗教唯心主义思想体系，融合希腊哲学（尤其新柏拉图主义）与基督教神学，为中世纪经院哲学奠定基础。",
+    "coreThemes": [
+      "基督教神学",
+      "新柏拉图主义",
+      "原罪与救赎",
+      "信仰与理性"
+    ],
+    "representativePhilosophers": [
+      "paul-the-apostle",
+      "augustine"
+    ]
+  },
+  {
+    "id": "scholasticism",
+    "name": "经院哲学",
+    "nameEn": "Scholasticism",
+    "alternateNames": [],
+    "era": "medieval",
+    "region": "west",
+    "start": 800,
+    "end": 1400,
+    "color": "#004EB2",
+    "description": "运用理性形式，通过抽象繁琐的辩证方法论证基督教信仰的思辨哲学。在大学兴起的背景下，将亚里士多德哲学与基督教神学系统融合。",
+    "coreThemes": [
+      "信仰与理性的调和",
+      "上帝存在的论证",
+      "亚里士多德主义",
+      "自然法"
+    ],
+    "representativePhilosophers": [
+      "thomas-aquinas"
+    ]
+  },
+  {
+    "id": "renaissance",
+    "name": "文艺复兴",
+    "nameEn": "Renaissance",
+    "alternateNames": [],
+    "era": "early-modern",
+    "region": "west",
+    "start": 1300,
+    "end": 1600,
+    "color": "#32C5FF",
+    "description": "一场反映新兴资产阶级要求的欧洲思想文化运动。学者采用人本主义方法，在艺术中寻求现实主义和人类情感，以古典文化为灵感重塑欧洲文明。",
+    "coreThemes": [
+      "人文主义",
+      "古典复兴",
+      "个人主义",
+      "艺术与科学结合"
+    ],
+    "representativePhilosophers": [
+      "dante-alighieri",
+      "petrarca",
+      "boccaccio",
+      "leonardo-da-vinci",
+      "shakespeare"
+    ]
+  },
+  {
+    "id": "reformation",
+    "name": "宗教改革",
+    "nameEn": "Reformation",
+    "alternateNames": [],
+    "era": "early-modern",
+    "region": "west",
+    "start": 1517,
+    "end": 1600,
+    "color": "#44D7B6",
+    "description": "16世纪欧洲基督教内部的宗教改革运动，打破罗马天主教会对基督教世界的垄断，推动了新教的兴起，并深刻影响欧洲的政治、文化与思想。",
+    "coreThemes": [
+      "因信称义",
+      "圣经权威",
+      "信徒皆祭司",
+      "宗教与政治分离"
+    ],
+    "representativePhilosophers": [
+      "martin-luther"
+    ]
+  },
+  {
+    "id": "scientific-revolution",
+    "name": "科学革命",
+    "nameEn": "Scientific Revolution",
+    "alternateNames": [],
+    "era": "early-modern",
+    "region": "west",
+    "start": 1543,
+    "end": 1700,
+    "color": "#6DD400",
+    "description": "16-17世纪欧洲兴起的一场科学革命，彻底改变了人类对宇宙和自然的认识。日心说取代地心说，数学成为描述自然的语言，实验方法奠定现代科学基础。",
+    "coreThemes": [
+      "日心说",
+      "实验方法",
+      "数学自然观",
+      "挑战宗教权威"
+    ],
+    "representativePhilosophers": [
+      "copernicus",
+      "kepler",
+      "galileo"
+    ]
+  },
+  {
+    "id": "rationalism",
+    "name": "理性主义",
+    "nameEn": "Rationalism",
+    "alternateNames": [],
+    "era": "early-modern",
+    "region": "west",
+    "start": 1596,
+    "end": 1750,
+    "color": "#FA6400",
+    "description": "建立在承认人的推理可以作为知识来源的理论基础上的哲学方法。使用演绎法：先假设基本公设，再演绎推理得到其他知识。",
+    "coreThemes": [
+      "演绎法",
+      "天赋观念",
+      "理性优先",
+      "形而上学体系"
+    ],
+    "representativePhilosophers": [
+      "descartes",
+      "spinoza",
+      "leibniz"
+    ]
+  },
+  {
+    "id": "empiricism",
+    "name": "经验主义",
+    "nameEn": "Empiricism",
+    "alternateNames": [],
+    "era": "early-modern",
+    "region": "west",
+    "start": 1632,
+    "end": 1800,
+    "color": "#E01F22",
+    "description": "认为人类知识起源于感觉，并以感觉领会为基础。推崇归纳法：通过观察个别现象，总结出普遍的规律。",
+    "coreThemes": [
+      "归纳法",
+      "白板说",
+      "经验是知识来源",
+      "怀疑论"
+    ],
+    "representativePhilosophers": [
+      "john-locke",
+      "david-hume"
+    ]
+  },
+  {
+    "id": "mechanical-materialism",
+    "name": "机械唯物主义",
+    "nameEn": "Mechanical Materialism",
+    "alternateNames": [
+      "近代形而上学唯物主义"
+    ],
+    "era": "early-modern",
+    "region": "west",
+    "start": 1588,
+    "end": 1750,
+    "color": "#F7B502",
+    "description": "用物理学来解释包括人类意识在内的整个世界。认为世界的本质是物质的，精神世界是大脑生理活动的结果，宇宙是所有机械运动着的物体的总和。",
+    "coreThemes": [
+      "唯物主义",
+      "机械宇宙观",
+      "社会契约",
+      "自然状态"
+    ],
+    "representativePhilosophers": [
+      "thomas-hobbes"
+    ]
+  },
+  {
+    "id": "german-idealism",
+    "name": "德国古典哲学",
+    "nameEn": "German Idealism",
+    "alternateNames": [
+      "唯心主义"
+    ],
+    "era": "modern",
+    "region": "west",
+    "start": 1724,
+    "end": 1831,
+    "color": "#FA59A9",
+    "description": "工业革命时期欧洲哲学舞台上的主角，提出认识论、本体论、伦理学等领域的重大问题，标志着近代西方哲学向现代西方哲学的过渡。",
+    "coreThemes": [
+      "认识论",
+      "辩证法",
+      "绝对精神",
+      "自由与道德"
+    ],
+    "representativePhilosophers": [
+      "kant",
+      "fichte",
+      "schelling",
+      "hegel"
+    ]
+  },
+  {
+    "id": "voluntarism",
+    "name": "唯意志论",
+    "nameEn": "Voluntarism",
+    "alternateNames": [],
+    "era": "modern",
+    "region": "west",
+    "start": 1788,
+    "end": 1900,
+    "color": "#7533D5",
+    "description": "主张意志是宇宙的本体、意志高于理性的唯心主义和非理性主义哲学。把意志自由和道德现象看作不受客观规律制约的东西，用意志解释宇宙和人生。",
+    "coreThemes": [
+      "意志本体论",
+      "非理性主义",
+      "悲观主义（叔本华）",
+      "权力意志（尼采）"
+    ],
+    "representativePhilosophers": [
+      "schopenhauer",
+      "nietzsche"
+    ]
+  },
+  {
+    "id": "dialectical-materialism",
+    "name": "辩证唯物主义",
+    "nameEn": "Dialectical Materialism",
+    "alternateNames": [
+      "马克思主义哲学"
+    ],
+    "era": "modern",
+    "region": "west",
+    "start": 1818,
+    "end": 1900,
+    "color": "#32C5FF",
+    "description": "马克思主义的哲学基础，把唯物主义和辩证法有机统一。认为事物发展的根本原因在于事物内部的矛盾性，物质决定意识，存在决定思想。",
+    "coreThemes": [
+      "历史唯物主义",
+      "辩证法",
+      "阶级斗争",
+      "经济基础与上层建筑"
+    ],
+    "representativePhilosophers": [
+      "karl-marx",
+      "friedrich-engels"
+    ]
+  },
+  {
+    "id": "analytic-philosophy",
+    "name": "分析哲学",
+    "nameEn": "Analytic Philosophy",
+    "alternateNames": [
+      "逻辑实证主义"
+    ],
+    "era": "modern",
+    "region": "west",
+    "start": 1872,
+    "end": 2000,
+    "color": "#44D7B6",
+    "description": "以语言分析作为哲学方法的现代西方哲学流派。认为传统形而上学的思辨无意义，主张哲学的任务是通过逻辑分析澄清语言和概念的意义。",
+    "coreThemes": [
+      "语言分析",
+      "逻辑主义",
+      "意义理论",
+      "科学哲学"
+    ],
+    "representativePhilosophers": [
+      "russell",
+      "wittgenstein"
+    ]
+  },
+  {
+    "id": "existentialism",
+    "name": "存在主义",
+    "nameEn": "Existentialism",
+    "alternateNames": [],
+    "era": "modern",
+    "region": "west",
+    "start": 1813,
+    "end": 1980,
+    "color": "#0091FF",
+    "description": "以人为中心，尊重人的个性和自由。人在无意义的宇宙中生活，存在本身没有意义，但人可以在存在的基础上自我塑造，创造意义。「存在先于本质」。",
+    "coreThemes": [
+      "存在先于本质",
+      "自由与责任",
+      "个人选择",
+      "虚无与意义"
+    ],
+    "representativePhilosophers": [
+      "kierkegaard",
+      "sartre",
+      "de-beauvoir"
+    ]
+  },
+  {
+    "id": "absurdism",
+    "name": "荒诞哲学",
+    "nameEn": "Absurdism",
+    "alternateNames": [],
+    "era": "modern",
+    "region": "west",
+    "start": 1913,
+    "end": 1960,
+    "color": "#6DD400",
+    "description": "面对人对意义的渴望与宇宙的沉默之间的矛盾，既不自欺（否认荒诞），也不自杀（逃避荒诞），而是清醒地反抗——这是荒诞哲学的核心立场。",
+    "coreThemes": [
+      "荒诞性",
+      "反抗",
+      "生命的肯定",
+      "拒绝虚无主义"
+    ],
+    "representativePhilosophers": [
+      "camus"
+    ]
+  },
+  {
+    "id": "stoicism",
+    "name": "斯多葛学派",
+    "nameEn": "Stoicism",
+    "alternateNames": [
+      "斯多亚学派"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "start": -300,
+    "end": 180,
+    "color": "#FA59A9",
+    "description": "由基提翁的芝诺创立、盛行于希腊化与罗马时代的哲学流派。主张顺应自然与理性（逻各斯），区分可控与不可控之事，以德性为唯一的善，追求不为外物所动的内心宁静。",
+    "coreThemes": [
+      "顺应自然",
+      "德性即幸福",
+      "控制二分法",
+      "不动心（apatheia）"
+    ],
+    "representativePhilosophers": [
+      "seneca",
+      "epictetus",
+      "marcus-aurelius"
+    ]
+  },
+  {
+    "id": "islamic-philosophy",
+    "name": "伊斯兰哲学",
+    "nameEn": "Islamic Philosophy",
+    "alternateNames": [
+      "阿拉伯哲学"
+    ],
+    "era": "medieval",
+    "region": "west",
+    "start": 800,
+    "end": 1200,
+    "color": "#0091FF",
+    "description": "中世纪伊斯兰世界的哲学传统，承袭并发展古希腊（尤其亚里士多德）哲学，在形而上学、逻辑与医学上成就斐然，并经由翻译运动将亚里士多德重新传回拉丁西欧，深刻影响了经院哲学。",
+    "coreThemes": [
+      "存在与本质",
+      "理性与信仰",
+      "注释亚里士多德",
+      "双重真理"
+    ],
+    "representativePhilosophers": [
+      "avicenna",
+      "averroes"
+    ]
+  },
+  {
+    "id": "utilitarianism",
+    "name": "功利主义",
+    "nameEn": "Utilitarianism",
+    "alternateNames": [
+      "效益主义"
+    ],
+    "era": "modern",
+    "region": "west",
+    "start": 1789,
+    "end": 1873,
+    "color": "#004EB2",
+    "description": "近代英国兴起的伦理与政治学派，以「最大多数人的最大幸福」为善恶标准，主张以行为后果的苦乐衡量道德，深刻影响了法律改革、自由主义与现代公共政策。",
+    "coreThemes": [
+      "最大幸福原则",
+      "苦乐计算",
+      "后果主义",
+      "个人自由"
+    ],
+    "representativePhilosophers": [
+      "bentham",
+      "mill"
+    ]
+  },
+  {
+    "id": "confucianism",
+    "name": "儒家",
+    "nameEn": "Confucianism",
+    "alternateNames": [
+      "孔门",
+      "儒学"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "start": -551,
+    "end": -221,
+    "color": "#83C1CE",
+    "description": "由孔子创立，是中国影响最深远的思想流派。以「仁」为核心，主张以礼乐教化、德治仁政，强调伦理秩序与个人修养，后成为中国两千年的正统思想。",
+    "coreThemes": [
+      "仁与礼",
+      "德治仁政",
+      "修身齐家",
+      "中庸之道"
+    ],
+    "representativePhilosophers": [
+      "confucius",
+      "mencius",
+      "xunzi"
+    ]
+  },
+  {
+    "id": "daoism",
+    "name": "道家",
+    "nameEn": "Daoism",
+    "alternateNames": [
+      "老庄之学"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "start": -571,
+    "end": -286,
+    "color": "#4A97C5",
+    "description": "以老子、庄子为代表，以「道」为最高范畴。主张道法自然、无为而治，追求精神的逍遥与自由，对中国艺术、政治与人生态度影响深远。",
+    "coreThemes": [
+      "道法自然",
+      "无为而治",
+      "齐物逍遥",
+      "有无相生"
+    ],
+    "representativePhilosophers": [
+      "laozi",
+      "zhuangzi"
+    ]
+  },
+  {
+    "id": "mohism",
+    "name": "墨家",
+    "nameEn": "Mohism",
+    "alternateNames": [
+      "墨者"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "start": -470,
+    "end": -221,
+    "color": "#CB95BC",
+    "description": "由墨子创立，与儒家并称「显学」。主张兼爱、非攻、尚贤、节用，代表小生产者利益，并在逻辑学与自然科学（光学、力学）上有突出成就。",
+    "coreThemes": [
+      "兼爱非攻",
+      "尚贤尚同",
+      "节用节葬",
+      "逻辑与科学"
+    ],
+    "representativePhilosophers": [
+      "mozi"
+    ]
+  },
+  {
+    "id": "legalism",
+    "name": "法家",
+    "nameEn": "Legalism",
+    "alternateNames": [
+      "刑名之学"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "start": -400,
+    "end": -221,
+    "color": "#CD9B4B",
+    "description": "主张以法、术、势治国，强调君主集权与严刑峻法，反对空谈仁义。其思想成为秦统一六国与中央集权制度的理论基础。",
+    "coreThemes": [
+      "法术势",
+      "中央集权",
+      "循名责实",
+      "富国强兵"
+    ],
+    "representativePhilosophers": [
+      "han-fei",
+      "shang-yang"
+    ]
+  },
+  {
+    "id": "school-of-names",
+    "name": "名家",
+    "nameEn": "School of Names",
+    "alternateNames": [
+      "辩者",
+      "刑名家"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "start": -370,
+    "end": -250,
+    "color": "#C7AD93",
+    "description": "以善辩著称，专研名（概念）与实（事物）的关系，提出「白马非马」「合同异」等命题，是中国古代逻辑学与语言哲学的代表。",
+    "coreThemes": [
+      "名实之辩",
+      "白马非马",
+      "合同异",
+      "离坚白"
+    ],
+    "representativePhilosophers": [
+      "hui-shi",
+      "gongsun-long"
+    ]
+  },
+  {
+    "id": "yin-yang-school",
+    "name": "阴阳家",
+    "nameEn": "School of Yin-Yang",
+    "alternateNames": [
+      "阴阳五行家"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "start": -305,
+    "end": -240,
+    "color": "#BC7559",
+    "description": "以邹衍为代表，以阴阳五行学说解释自然与历史变迁，提出「五德终始」说，深刻影响了后世的政治、天文、医学与方术。",
+    "coreThemes": [
+      "阴阳消长",
+      "五行生克",
+      "五德终始",
+      "天人感应"
+    ],
+    "representativePhilosophers": [
+      "zou-yan"
+    ]
+  },
+  {
+    "id": "military-school",
+    "name": "兵家",
+    "nameEn": "School of Military",
+    "alternateNames": [
+      "兵法家"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "start": -545,
+    "end": -470,
+    "color": "#CBD36E",
+    "description": "研究战争规律与军事谋略的学派，以孙武《孙子兵法》为代表。其辩证思维（奇正、虚实、攻守）超越军事，成为东方战略智慧的典范。",
+    "coreThemes": [
+      "知己知彼",
+      "奇正虚实",
+      "不战而屈人之兵",
+      "兵者诡道"
+    ],
+    "representativePhilosophers": [
+      "sun-tzu"
+    ]
+  },
+  {
+    "id": "han-confucianism",
+    "name": "两汉经学",
+    "nameEn": "Han Confucianism",
+    "alternateNames": [
+      "今文经学"
+    ],
+    "era": "qin-han",
+    "region": "east",
+    "start": -179,
+    "end": 220,
+    "color": "#85A697",
+    "description": "汉代将儒学官学化的思潮。董仲舒「罢黜百家、独尊儒术」，以天人感应神化皇权；王充则以《论衡》批判谶纬迷信，代表汉代理性思潮。",
+    "coreThemes": [
+      "独尊儒术",
+      "天人感应",
+      "三纲五常",
+      "疾虚妄"
+    ],
+    "representativePhilosophers": [
+      "dong-zhongshu",
+      "wang-chong"
+    ]
+  },
+  {
+    "id": "xuanxue",
+    "name": "魏晋玄学",
+    "nameEn": "Xuanxue (Neo-Daoism)",
+    "alternateNames": [
+      "玄远之学",
+      "清谈"
+    ],
+    "era": "wei-jin",
+    "region": "east",
+    "start": 226,
+    "end": 312,
+    "color": "#63796D",
+    "description": "魏晋之际融合儒道的思潮，围绕《老》《庄》《易》「三玄」展开思辨，讨论有无、本末、名教与自然，崇尚清谈与个性自由。",
+    "coreThemes": [
+      "贵无与崇有",
+      "名教与自然",
+      "言意之辨",
+      "越名教而任自然"
+    ],
+    "representativePhilosophers": [
+      "wang-bi",
+      "guo-xiang",
+      "ji-kang"
+    ]
+  },
+  {
+    "id": "chan-buddhism",
+    "name": "禅宗",
+    "nameEn": "Chan (Zen) Buddhism",
+    "alternateNames": [
+      "佛心宗"
+    ],
+    "era": "sui-tang",
+    "region": "east",
+    "start": 520,
+    "end": 907,
+    "color": "#1B3263",
+    "description": "中国化的佛教宗派，由菩提达摩开创、慧能集大成。主张「不立文字、直指人心、见性成佛」，将佛教与中国本土思想深度融合，影响东亚文化至深。",
+    "coreThemes": [
+      "明心见性",
+      "顿悟成佛",
+      "不立文字",
+      "平常心是道"
+    ],
+    "representativePhilosophers": [
+      "huineng"
+    ]
+  },
+  {
+    "id": "neo-confucianism",
+    "name": "宋明理学",
+    "nameEn": "Neo-Confucianism",
+    "alternateNames": [
+      "道学",
+      "程朱理学"
+    ],
+    "era": "song-yuan",
+    "region": "east",
+    "start": 1017,
+    "end": 1200,
+    "color": "#4A97C5",
+    "description": "宋代融合儒释道而重建的儒学体系。以「理」（天理）为宇宙本体，主张「存天理、灭人欲」，由周敦颐开端、二程奠基、朱熹集大成，成为后世官方哲学。",
+    "coreThemes": [
+      "天理与人欲",
+      "理一分殊",
+      "格物致知",
+      "存养省察"
+    ],
+    "representativePhilosophers": [
+      "zhou-dunyi",
+      "zhang-zai",
+      "cheng-hao",
+      "cheng-yi",
+      "zhu-xi"
+    ]
+  },
+  {
+    "id": "lu-wang-school",
+    "name": "陆王心学",
+    "nameEn": "School of Mind (Lu-Wang)",
+    "alternateNames": [
+      "心学"
+    ],
+    "era": "ming-qing",
+    "region": "east",
+    "start": 1139,
+    "end": 1529,
+    "color": "#83C1CE",
+    "description": "与程朱理学相对的儒学一脉。陆九渊倡「心即理」，王阳明集大成，提出「致良知」「知行合一」，主张本心即是天理，反对向外求理。",
+    "coreThemes": [
+      "心即理",
+      "致良知",
+      "知行合一",
+      "心外无物"
+    ],
+    "representativePhilosophers": [
+      "lu-jiuyuan",
+      "wang-yangming"
+    ]
+  },
+  {
+    "id": "practical-learning",
+    "name": "明清实学",
+    "nameEn": "Practical Learning",
+    "alternateNames": [
+      "经世致用",
+      "朴学"
+    ],
+    "era": "ming-qing",
+    "region": "east",
+    "start": 1610,
+    "end": 1777,
+    "color": "#CBD36E",
+    "description": "明清之际反思理学空疏、转向经世致用的思潮。黄宗羲批判君主专制，顾炎武倡经世实学，王夫之集古代唯物论大成，戴震开清代考据学之风。",
+    "coreThemes": [
+      "经世致用",
+      "实事求是",
+      "批判专制",
+      "考据训诂"
+    ],
+    "representativePhilosophers": [
+      "huang-zongxi",
+      "gu-yanwu",
+      "wang-fuzhi",
+      "dai-zhen"
+    ]
+  },
+  {
+    "id": "enlightenment-china",
+    "name": "近代启蒙",
+    "nameEn": "Modern Chinese Enlightenment",
+    "alternateNames": [
+      "西学东渐",
+      "维新思潮"
+    ],
+    "era": "modern-china",
+    "region": "east",
+    "start": 1858,
+    "end": 1929,
+    "color": "#CB95BC",
+    "description": "晚清至民国，面对救亡图存而兴起的思想启蒙。康有为、梁启超托古改制、倡导维新，严复系统译介西方进化论与自由学说，胡适推动白话文与实用主义，标志中国思想的现代转型。",
+    "coreThemes": [
+      "西学东渐",
+      "维新变法",
+      "进化论",
+      "民主与科学"
+    ],
+    "representativePhilosophers": [
+      "kang-youwei",
+      "liang-qichao",
+      "yan-fu",
+      "hu-shi"
+    ]
+  },
+  {
+    "id": "new-confucianism",
+    "name": "现代新儒家",
+    "nameEn": "Modern New Confucianism",
+    "alternateNames": [
+      "当代新儒学"
+    ],
+    "era": "modern-china",
+    "region": "east",
+    "start": 1921,
+    "end": 1990,
+    "color": "#CD9B4B",
+    "description": "20世纪在西方文化冲击下重建儒学的思潮。主张以儒家心性之学为本、会通中西，回应现代性问题。梁漱溟、熊十力开其端，冯友兰「新理学」、牟宗三等承其绪。",
+    "coreThemes": [
+      "返本开新",
+      "中西会通",
+      "心性之学",
+      "儒学现代化"
+    ],
+    "representativePhilosophers": [
+      "xiong-shili",
+      "liang-shuming",
+      "feng-youlan"
+    ]
+  }
+]

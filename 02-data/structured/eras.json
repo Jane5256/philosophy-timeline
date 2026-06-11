@@ -1,0 +1,101 @@
+[
+  {
+    "id": "ancient",
+    "name": "古代",
+    "nameEn": "Ancient",
+    "region": "west",
+    "start": -600,
+    "end": 500,
+    "color": "#C8956C"
+  },
+  {
+    "id": "medieval",
+    "name": "中世纪",
+    "nameEn": "Medieval",
+    "region": "west",
+    "start": 500,
+    "end": 1400,
+    "color": "#7A6E9E"
+  },
+  {
+    "id": "early-modern",
+    "name": "近代",
+    "nameEn": "Early Modern",
+    "region": "west",
+    "start": 1400,
+    "end": 1800,
+    "color": "#5A9E7A"
+  },
+  {
+    "id": "modern",
+    "name": "现代",
+    "nameEn": "Modern",
+    "region": "west",
+    "start": 1800,
+    "end": 2000,
+    "color": "#4A7AAE"
+  },
+  {
+    "id": "pre-qin",
+    "name": "先秦",
+    "nameEn": "Pre-Qin",
+    "region": "east",
+    "start": -770,
+    "end": -221,
+    "color": "#B5403A"
+  },
+  {
+    "id": "qin-han",
+    "name": "秦汉",
+    "nameEn": "Qin-Han",
+    "region": "east",
+    "start": -221,
+    "end": 220,
+    "color": "#C25B3F"
+  },
+  {
+    "id": "wei-jin",
+    "name": "魏晋南北朝",
+    "nameEn": "Wei-Jin & Six Dynasties",
+    "region": "east",
+    "start": 220,
+    "end": 589,
+    "color": "#CC7A45"
+  },
+  {
+    "id": "sui-tang",
+    "name": "隋唐",
+    "nameEn": "Sui-Tang",
+    "region": "east",
+    "start": 589,
+    "end": 960,
+    "color": "#D49A4E"
+  },
+  {
+    "id": "song-yuan",
+    "name": "宋元",
+    "nameEn": "Song-Yuan",
+    "region": "east",
+    "start": 960,
+    "end": 1368,
+    "color": "#A8762E"
+  },
+  {
+    "id": "ming-qing",
+    "name": "明清",
+    "nameEn": "Ming-Qing",
+    "region": "east",
+    "start": 1368,
+    "end": 1840,
+    "color": "#8C5A2B"
+  },
+  {
+    "id": "modern-china",
+    "name": "近现代",
+    "nameEn": "Modern China",
+    "region": "east",
+    "start": 1840,
+    "end": 2000,
+    "color": "#6E4A2E"
+  }
+]

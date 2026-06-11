@@ -1,0 +1,17 @@
+# 依赖与构建产物
+node_modules/
+**/node_modules/
+dist/
+03-src/dist/
+
+# 前端自动同步的数据（由 02-data 经 sync-data 生成）
+03-src/src/data/
+
+# 开发期渲染截图（非源文件）
+04-design/figma-export/
+
+# 临时/日志/系统
+.vite-tmp/
+*.log
+.DS_Store
+**/.DS_Store
