@@ -34,8 +34,14 @@ export default function App() {
   const [panelOpen, setPanelOpen] = useState(false) // 窄屏下面板浮层开关
   const [phil, setPhil] = useState<Philosopher | null>(null)
   const [school, setSchool] = useState<School | null>(null)
+  const [fitMode, setFitMode] = useState(true) // 是否处于「全览」态：是则纵向随窗口高度自适应
   const stage = useRef<HTMLDivElement>(null)
   const recenter = useRef<{ year: number; x?: number } | null>(null)
+  // resize 监听器闭包内读取最新值用
+  const fitModeRef = useRef(fitMode)
+  const ppyRef = useRef(ppy)
+  fitModeRef.current = fitMode
+  ppyRef.current = ppy
 
   const { west, east } = useMemo(() => contemporaries(cursorYear), [cursorYear])
   const synchrony = useMemo(() => synchronyAt(cursorYear), [cursorYear])
@@ -68,14 +74,22 @@ export default function App() {
     setPpy(fitPpy(el.clientHeight))
   }, [])
 
-  // 水平自适应：按 stage 可用宽度算缩放，使东西方都在画面里（含窗口 resize）
+  // 窗口自适应：水平始终按宽度重算；若处于全览态，纵向也随高度重算（含窗口 resize）
   useEffect(() => {
     let raf = 0
     function update() {
       cancelAnimationFrame(raf)
       raf = requestAnimationFrame(() => {
         const el = stage.current
-        if (el) setHs(fitHs(el.clientWidth))
+        if (!el) return
+        setHs(fitHs(el.clientWidth))
+        if (fitModeRef.current) {
+          const np = fitPpy(el.clientHeight)
+          if (np !== ppyRef.current) {
+            recenter.current = { year: MID_YEAR }
+            setPpy(np)
+          }
+        }
       })
     }
     update()
@@ -117,32 +131,44 @@ export default function App() {
     moveCursor(p.born)
     setPhil(p)
     const px = placedById.get(p.id)?.x
-    if (focus) setZoom(Math.max(ppy, BASE_PPY), p.born, px != null ? px * hs : undefined)
+    if (focus) {
+      setFitMode(false)
+      setZoom(Math.max(ppy, BASE_PPY), p.born, px != null ? px * hs : undefined)
+    }
   }
   function selectSchool(s: School, minPpy = 0) {
     moveCursor(s.start)
     setSchool(s)
+    setFitMode(false)
     setZoom(Math.max(ppy, minPpy), s.start, schoolAnchorX(s) * hs)
   }
   function gotoEra(id: string, start: number, end: number) {
     setActiveEra(id)
     setCursorYear(start)
     const el = stage.current
-    if (el) setZoom(rangePpy(start, end, el.clientHeight), (start + end) / 2)
+    if (el) {
+      setFitMode(false)
+      setZoom(rangePpy(start, end, el.clientHeight), (start + end) / 2)
+    }
   }
   function gotoAxial() {
     setActiveEra('axial')
     setCursorYear(-500)
+    setFitMode(false)
     setZoom(BASE_PPY, -500)
   }
   function overview() {
     setActiveEra(null)
     const el = stage.current
-    if (el) setZoom(fitPpy(el.clientHeight), MID_YEAR)
+    if (el) {
+      setFitMode(true)
+      setZoom(fitPpy(el.clientHeight), MID_YEAR)
+    }
   }
   function zoomBy(mult: number) {
     const el = stage.current
     if (!el) return
+    setFitMode(false)
     setZoom(ppy * mult, yearAt(el.scrollTop + el.clientHeight / 2, ppy))
   }
 
