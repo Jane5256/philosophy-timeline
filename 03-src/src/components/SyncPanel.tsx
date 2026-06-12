@@ -1,4 +1,4 @@
-import type { Philosopher, Era, EventItem } from '../types'
+import type { Philosopher, Era, EventItem, Synchrony } from '../types'
 import { formatYear, lifeLabel } from '../lib/timeline'
 
 interface Periods {
@@ -13,6 +13,7 @@ interface Props {
   west: Philosopher[]
   east: Philosopher[]
   periods: Periods
+  synchrony?: Synchrony
   open?: boolean
   onSelectPhil: (p: Philosopher) => void
 }
@@ -57,12 +58,16 @@ function Side({
   )
 }
 
-export function SyncPanel({ year, west, east, periods, open, onSelectPhil }: Props) {
+export function SyncPanel({ year, west, east, periods, synchrony, open, onSelectPhil }: Props) {
   return (
     <div className={`sync-panel ${open ? 'open' : ''}`}>
       <div className="sync-head">
         <div className="sync-year">{formatYear(year)}</div>
-        <div className="sync-hint">拖动时间轴游标查看同期</div>
+        {synchrony ? (
+          <div className="sync-anecdote">{synchrony.text}</div>
+        ) : (
+          <div className="sync-hint">拖动时间轴游标查看同期</div>
+        )}
       </div>
       <div className="sync-cols">
         <Side

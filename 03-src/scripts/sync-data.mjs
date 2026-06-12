@@ -8,7 +8,7 @@ const SRC = join(here, '..', '..', '02-data', 'structured')
 const DEST = join(here, '..', 'src', 'data')
 
 mkdirSync(DEST, { recursive: true })
-const files = ['eras.json', 'schools.json', 'philosophers.json', 'events.json']
+const files = ['eras.json', 'schools.json', 'philosophers.json', 'events.json', 'synchronies.json']
 for (const f of files) {
   const from = join(SRC, f)
   if (existsSync(from)) {

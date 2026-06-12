@@ -53,6 +53,12 @@ export interface Philosopher {
   quoteEn: string
 }
 
+export interface Synchrony {
+  start: number
+  end: number
+  text: string
+}
+
 export interface EventItem {
   id: string
   year: number

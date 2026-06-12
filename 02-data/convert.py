@@ -423,6 +423,40 @@ def parse_events(md_path: Path) -> list[dict]:
     return result
 
 
+def parse_synchronies(md_path: Path) -> list[dict]:
+    """同期金句：每条含起止年区间 + 一句话文案"""
+    text = md_path.read_text(encoding="utf-8")
+    blocks = re.split(r"\n---\n", text)
+    result = []
+
+    for block in blocks:
+        block = block.strip()
+        if not block or "同期金句数据" in block:
+            continue
+
+        name_match = re.search(r"^## (.+)$", block, re.MULTILINE)
+        if not name_match:
+            continue
+
+        def get_field(key):
+            m = re.search(rf"^- {key}：(.*)$", block, re.MULTILINE)
+            return m.group(1).strip() if m else ""
+
+        text_val = get_field("文案")
+        if not text_val:
+            continue
+        start, _ = parse_year(get_field("起始年"))
+        end, _ = parse_year(get_field("结束年"))
+
+        result.append({
+            "start": start,
+            "end": end,
+            "text": text_val,
+        })
+
+    return result
+
+
 def convert(name: str, parser, sources: list[str]):
     """对一组源 .md 文件解析并合并，写出单个 .json"""
     merged = []
@@ -473,6 +507,8 @@ def main():
             ["schools.md", "schools-east.md"])
     convert("events", parse_events,
             ["events.md", "events-east.md"])
+    convert("synchronies", parse_synchronies,
+            ["synchronies.md"])
 
     print("\n转换完成！JSON 文件已保存到 structured/ 目录。")
     print("（注：eras.json 为手工维护，不由本脚本生成。）")

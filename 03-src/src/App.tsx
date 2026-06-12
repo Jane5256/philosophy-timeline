@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { Philosopher, School } from './types'
-import { eras, dynastyAt, westStateAt, eraAt } from './data'
+import { eras, dynastyAt, westStateAt, eraAt, synchronyAt } from './data'
 import {
   contemporaries,
   yOf,
@@ -38,6 +38,7 @@ export default function App() {
   const recenter = useRef<{ year: number; x?: number } | null>(null)
 
   const { west, east } = useMemo(() => contemporaries(cursorYear), [cursorYear])
+  const synchrony = useMemo(() => synchronyAt(cursorYear), [cursorYear])
   const aliveIds = useMemo(() => new Set([...west, ...east].map((p) => p.id)), [west, east])
   const periods = useMemo(
     () => ({
@@ -205,7 +206,7 @@ export default function App() {
         {panelOpen ? '✕ 关闭' : '同期 ▸'}
       </button>
 
-      <SyncPanel year={cursorYear} west={west} east={east} periods={periods} open={panelOpen} onSelectPhil={selectPhil} />
+      <SyncPanel year={cursorYear} west={west} east={east} periods={periods} synchrony={synchrony} open={panelOpen} onSelectPhil={selectPhil} />
       <SchoolDrawer
         school={school}
         onClose={() => setSchool(null)}
