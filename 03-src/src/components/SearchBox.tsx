@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import type { Philosopher, School } from '../types'
 import { philosophers, schools } from '../data'
 import { lifeLabel } from '../lib/timeline'
@@ -8,6 +8,14 @@ export type PickItem = { kind: 'phil'; item: Philosopher } | { kind: 'school'; i
 export function SearchBox({ onPick }: { onPick: (p: PickItem) => void }) {
   const [q, setQ] = useState('')
   const [open, setOpen] = useState(false)
+  const [toast, setToast] = useState(false)
+  const toastTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  function triggerToast() {
+    if (toastTimer.current) clearTimeout(toastTimer.current)
+    setToast(true)
+    toastTimer.current = setTimeout(() => setToast(false), 5000)
+  }
 
   const results = useMemo<PickItem[]>(() => {
     const k = q.trim().toLowerCase()
@@ -39,11 +47,15 @@ export function SearchBox({ onPick }: { onPick: (p: PickItem) => void }) {
         onFocus={() => setOpen(true)}
         onBlur={() => setTimeout(() => setOpen(false), 150)}
         onKeyDown={(e) => {
-          if (e.key === 'Enter' && results.length > 0) {
-            onPick(results[0])
-            setQ('')
-            setOpen(false)
-            e.currentTarget.blur()
+          if (e.key === 'Enter') {
+            if (results.length > 0) {
+              onPick(results[0])
+              setQ('')
+              setOpen(false)
+              e.currentTarget.blur()
+            } else if (q.trim()) {
+              triggerToast()
+            }
           } else if (e.key === 'Escape') {
             setQ('')
             setOpen(false)
@@ -85,6 +97,7 @@ export function SearchBox({ onPick }: { onPick: (p: PickItem) => void }) {
           ))}
         </ul>
       )}
+      {toast && <div className="search-toast">目前尚未收录</div>}
     </div>
   )
 }
