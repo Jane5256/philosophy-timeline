@@ -22,35 +22,35 @@
 
 ```
 Philosophy Timeline/
-├── 02-data/
-│   ├── structured/        # 内容数据（*.md 源 → convert.py → *.json，站点数据源）
-│   └── convert.py         # MD → JSON 转换脚本
-├── 03-src/                # 前端（Vite + React + TS）
+├── app/                   # 前端（Vite + React + TS）
 │   ├── src/               # 组件 / 数据 / 工具
-│   ├── scripts/           # sync-data.mjs：把 02-data 的 json 同步进 src/data
+│   ├── scripts/           # sync-data.mjs：把 data/ 的 json 同步进 src/data
 │   └── public/            # 静态资源（logo / 哲学家画像）
-├── 06-worker/             # Cloudflare Worker（人生问题 LLM 代理）
-├── 05-docs/               # 技术与设计文档（数据规范、交互设计原则）
+├── data/                  # 内容数据
+│   ├── structured/        # *.md 源 → convert.py → *.json（站点数据源）
+│   └── convert.py         # MD → JSON 转换脚本
+├── worker/                # Cloudflare Worker（人生问题 LLM 代理）
+├── docs/                  # 技术与设计文档（数据规范、交互设计原则）
 └── .github/workflows/     # 部署工作流
 ```
 
 ## 🚀 本地开发
 
 ```bash
-cd 03-src
+cd app
 npm install
 npm run dev        # http://localhost:5173/
 ```
 
-> 人生问题功能需配置后端：复制 `03-src/.env.example` 为 `.env.local` 填入 Worker 地址；
-> Worker 部署见 `06-worker/README.md`。未配置时该功能走本地 mock。
+> 人生问题功能需配置后端：复制 `app/.env.example` 为 `.env.local` 填入 Worker 地址；
+> Worker 部署见 `worker/README.md`。未配置时该功能走本地 mock。
 
 ## 📝 数据扩展
 
 内容数据走「Markdown 源 → 脚本转换 → 前端自动同步」管线，**只需编辑 Markdown**：
 
-1. 编辑 `02-data/structured/philosophers.md`（或 `schools.md` / `events.md` 等）
-2. 运行 `python3 02-data/convert.py` 生成同名 `.json`
+1. 编辑 `data/structured/philosophers.md`（或 `schools.md` / `events.md` 等）
+2. 运行 `python3 data/convert.py` 生成同名 `.json`
 3. `npm run dev` / `npm run build` 会自动把数据同步进前端
 
-字段规范见 `05-docs/data-schema.md`。
+字段规范见 `docs/data-schema.md`。

@@ -8,11 +8,11 @@
 
 ## 概述
 
-所有内容数据存放于 `02-data/structured/`。
+所有内容数据存放于 `data/structured/`。
 数据与 UI 代码完全解耦——扩展内容只需编辑 `.md` 源文件后运行 `python3 convert.py` 重新生成 JSON，无需修改业务逻辑。
 
 ```
-02-data/structured/
+data/structured/
 ├── eras.json              # 时代分期（手工维护，不经 convert.py）
 ├── schools.json           # 哲学流派 ← schools.md + schools-east.md
 ├── philosophers.json      # 哲学家（核心文件） ← philosophers.md + philosophers-east.md

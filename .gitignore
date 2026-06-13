@@ -2,13 +2,10 @@
 node_modules/
 **/node_modules/
 dist/
-03-src/dist/
+app/dist/
 
-# 前端自动同步的数据（由 02-data 经 sync-data 生成）
-03-src/src/data/
-
-# 开发期渲染截图（非源文件）
-04-design/figma-export/
+# 前端自动同步的数据（由 data/ 经 sync-data 生成）
+app/src/data/
 
 # 临时/日志/系统
 .vite-tmp/
@@ -16,13 +13,6 @@ dist/
 .DS_Store
 **/.DS_Store
 
-# 个人工作文件 / 内部规划 / 过程产物（不对外展示，本地保留）
-TODO.md
-05-docs/retrospective-*.md
-99-Review/
-00-Reference/
-01-product/              # 产品规划：PRD、竞品分析、路线图、视觉/功能设计（内部）
-04-design/               # 设计过程：废弃的 mockup 原型等
-02-data/raw/             # 第三方原始源料（哲学史 PDF / 提取文字），非构建必需
+# ── 本地专属：内部规划 / 设计过程 / 复盘 / 源料（一律不对外，本地保留）──
+_local/
 .claude/
-实践分享*.md

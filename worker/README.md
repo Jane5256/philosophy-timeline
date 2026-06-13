@@ -48,14 +48,14 @@ https://philosophy-ask.<你的子域>.workers.dev
 
 ## 让前端用上它
 
-把上面的地址填进 `03-src/.env.local`（没有就照 `.env.example` 新建，`.local` 已 gitignore 不会上传）：
+本地开发：把地址填进 `app/.env.local`（没有就照 `.env.example` 新建，`.local` 已 gitignore 不会上传）：
 
 ```
 VITE_ASK_API=https://philosophy-ask.<你的子域>.workers.dev
 ```
 
-然后前端重启 / 重新部署即可（`cd 03-src && npm run dev` 本地验证，或 push 触发 GitHub Pages 构建）。
-> 注意：GitHub Pages 的线上站点要生效，需要在**构建时**就存在 `VITE_ASK_API`。本地 `.env.local` 不会上传，所以线上需通过 CI 的环境变量注入（部署阶段我再帮你配 `deploy.yml`）。本地开发用 `.env.local` 即可。
+然后 `cd app && npm run dev` 本地验证。
+> 线上（GitHub Pages）已通过提交版的 `app/.env.production` 注入同一地址，Vite build 时自动加载，push `main` 即生效。URL 非机密（VITE_ 变量本就内联进前端包），key 安全在 Cloudflare。
 
 ## 自测
 

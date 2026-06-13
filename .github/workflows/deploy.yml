@@ -21,13 +21,13 @@ jobs:
         with:
           node-version: 22
       - name: Install & build
-        working-directory: 03-src
+        working-directory: app
         run: |
           npm ci
           npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: 03-src/dist
+          path: app/dist
 
   deploy:
     needs: build
