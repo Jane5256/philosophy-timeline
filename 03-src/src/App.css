@@ -6,7 +6,7 @@
   --paper: #efece4;
   --brand: #64cf9d;
   --brand-deep: #3fae7d;
-  --panel-w: 320px;
+  --panel-w: clamp(320px, 22vw, 560px); /* 大屏时右侧信息块同比例加宽，减少图区两侧空白 */
 }
 
 .app {
@@ -851,8 +851,6 @@ blockquote {
   border-radius: 50%;
   background: #d8d8d2;
   color: #fff;
-  font-size: 16px;
-  line-height: 1;
   display: grid;
   place-items: center;
 }
@@ -1076,7 +1074,8 @@ blockquote {
   padding: 40px 8px 0;
 }
 .motif-hero-title {
-  font-family: 'DM Serif Display', 'Noto Serif SC', serif;
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'STSong', serif;
+  font-weight: 700;
   font-size: 30px;
   line-height: 1.3;
   color: #2a2f36;
@@ -1252,9 +1251,37 @@ blockquote {
   50% { opacity: 1; }
 }
 .motif-error {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 12px;
   color: #c0392b;
-  padding: 6px 2px 14px;
+  padding: 4px 2px 14px;
+}
+.motif-retry {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border: 1px solid #e2b3ad;
+  border-radius: 999px;
+  background: #fff;
+  color: #c0392b;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.motif-retry:hover:not(:disabled) {
+  background: #fdecea;
+  border-color: #c0392b;
+}
+.motif-retry:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.motif-retry svg {
+  display: block;
 }
 
 /* 输入区：发送图标内嵌于输入框右下角 */

@@ -13,7 +13,8 @@ body,
 }
 
 body {
-  font-family: 'Noto Sans SC', system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  /* 思源宋体 / Noto Serif SC 优先；设备无此字体则回退系统宋体，最后浏览器默认 serif */
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
   color: #20242a;
   background: #e8e9e6;
   -webkit-font-smoothing: antialiased;

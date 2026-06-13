@@ -6,6 +6,7 @@ import { askPhilosophers, PRESET_MOTIFS, type Answer } from '../lib/ask'
 interface Turn {
   question: string
   answers: Answer[]
+  status: 'loading' | 'done' | 'error'
 }
 
 interface Props {
@@ -16,16 +17,15 @@ interface Props {
 export function MotifPanel({ onSelectPhil, onHighlight }: Props) {
   const [turns, setTurns] = useState<Turn[]>([])
   const [input, setInput] = useState('')
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState<string | null>(null)
   const [page, setPage] = useState(0)
   const scrollRef = useRef<HTMLDivElement>(null)
 
   const PAGE_SIZE = 3
   const pageCount = Math.ceil(PRESET_MOTIFS.length / PAGE_SIZE)
   const empty = turns.length === 0
+  const loading = turns.some((t) => t.status === 'loading')
 
-  // 空态时每 10 秒轮播一批预置母题
+  // 空态时每 5 秒轮播一批预置母题
   useEffect(() => {
     if (!empty) return
     const t = setTimeout(() => setPage((p) => (p + 1) % pageCount), 5000)
@@ -34,36 +34,46 @@ export function MotifPanel({ onSelectPhil, onHighlight }: Props) {
 
   const visibleMotifs = PRESET_MOTIFS.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE)
 
-  async function ask(question: string) {
-    const q = question.trim()
-    if (!q || loading) return
-    setInput('')
-    setError(null)
-    setLoading(true)
-    setTurns((t) => [...t, { question: q, answers: [] }])
+  function patchTurn(idx: number, turn: Turn) {
+    setTurns((t) => {
+      const next = [...t]
+      next[idx] = turn
+      return next
+    })
+  }
+
+  // 对第 idx 条对话发起/重试追问；失败时保留该条并标记 error，便于原地重试
+  async function runAsk(q: string, idx: number) {
+    patchTurn(idx, { question: q, answers: [], status: 'loading' })
     try {
       const answers = await askPhilosophers(q)
-      // 按出生年从古到今排序
       answers.sort(
         (a, b) =>
           (philosopherById.get(a.philosopherId)?.born ?? 0) -
           (philosopherById.get(b.philosopherId)?.born ?? 0),
       )
-      setTurns((t) => {
-        const next = [...t]
-        next[next.length - 1] = { question: q, answers }
-        return next
-      })
+      patchTurn(idx, { question: q, answers, status: 'done' })
       onHighlight(new Set(answers.map((a) => a.philosopherId)))
       requestAnimationFrame(() => {
         scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: 'smooth' })
       })
     } catch {
-      setError('追问失败了，稍后再试一次吧')
-      setTurns((t) => t.slice(0, -1))
-    } finally {
-      setLoading(false)
+      patchTurn(idx, { question: q, answers: [], status: 'error' })
     }
+  }
+
+  function ask(question: string) {
+    const q = question.trim()
+    if (!q || loading) return
+    setInput('')
+    const idx = turns.length
+    setTurns((t) => [...t, { question: q, answers: [], status: 'loading' }])
+    runAsk(q, idx)
+  }
+
+  function retry(idx: number, q: string) {
+    if (loading) return
+    runAsk(q, idx)
   }
 
   return (
@@ -95,6 +105,29 @@ export function MotifPanel({ onSelectPhil, onHighlight }: Props) {
           turns.map((turn, i) => (
             <div className="motif-turn" key={i}>
               <div className="motif-q">{turn.question}</div>
+              {turn.status === 'loading' && (
+                <div className="motif-loading">
+                  哲学家们正在思考<span className="dots"><i>·</i><i>·</i><i>·</i></span>
+                </div>
+              )}
+              {turn.status === 'error' && (
+                <div className="motif-error">
+                  <span>追问失败了，稍后再试一次吧</span>
+                  <button className="motif-retry" onClick={() => retry(i, turn.question)} disabled={loading}>
+                    <svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true">
+                      <path
+                        d="M20 11a8 8 0 1 0-.6 3"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.2"
+                        strokeLinecap="round"
+                      />
+                      <path d="M20 4v5h-5" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    重试
+                  </button>
+                </div>
+              )}
               {turn.answers.map((a) => {
                 const p = philosopherById.get(a.philosopherId)
                 if (!p) return null
@@ -137,12 +170,6 @@ export function MotifPanel({ onSelectPhil, onHighlight }: Props) {
             </div>
           ))
         )}
-        {loading && (
-          <div className="motif-loading">
-            哲学家们正在思考<span className="dots"><i>·</i><i>·</i><i>·</i></span>
-          </div>
-        )}
-        {error && <div className="motif-error">{error}</div>}
       </div>
 
       <form
