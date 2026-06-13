@@ -9,6 +9,7 @@ app/src/data/
 
 # 临时/日志/系统
 .vite-tmp/
+**/.vite/
 *.log
 .DS_Store
 **/.DS_Store
