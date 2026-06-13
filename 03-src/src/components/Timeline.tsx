@@ -36,6 +36,7 @@ interface Props {
   ppy: number
   hs: number // 水平缩放
   aliveIds: Set<string>
+  highlightIds: Set<string> // 人生问题追问命中的哲学家，节点高亮
   selectedSchoolId: string | null
   onSelectPhil: (p: Philosopher) => void
   onSelectSchool: (s: School) => void
@@ -47,6 +48,7 @@ export function Timeline({
   ppy,
   hs,
   aliveIds,
+  highlightIds,
   selectedSchoolId,
   onSelectPhil,
   onSelectSchool,
@@ -159,6 +161,7 @@ export function Timeline({
       {/* 人物节点 */}
       {placedPhilosophers.map(({ p, x }) => {
         const alive = aliveIds.has(p.id)
+        const hot = highlightIds.has(p.id)
         const color = schoolById.get(p.school[0])?.color ?? '#888'
         const y = yOf(p.born, ppy)
         const showImg = nodeSize >= 24 && !!p.portrait.url
@@ -166,7 +169,7 @@ export function Timeline({
         return (
           <button
             key={p.id}
-            className={`node ${alive ? 'alive' : 'dim'}`}
+            className={`node ${alive ? 'alive' : 'dim'} ${hot ? 'hot' : ''}`}
             style={{ left: x * hs - nodeSize / 2, top: y - nodeSize / 2, width: nodeSize, height: nodeSize, borderColor: color, background: showImg ? '#fff' : color }}
             onClick={() => onSelectPhil(p)}
             title={`${p.name} ${p.nameEn}`}

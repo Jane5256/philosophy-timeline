@@ -18,6 +18,7 @@ import {
 } from './lib/timeline'
 import { Timeline } from './components/Timeline'
 import { SyncPanel } from './components/SyncPanel'
+import { MotifPanel } from './components/MotifPanel'
 import { PhilosopherModal } from './components/PhilosopherModal'
 import { SchoolDrawer } from './components/SchoolDrawer'
 import { SearchBox, type PickItem } from './components/SearchBox'
@@ -25,16 +26,19 @@ import './App.css'
 
 const westEras = eras.filter((e) => e.region === 'west')
 const MID_YEAR = (YEAR_MAX + YEAR_MIN) / 2
+const EMPTY_IDS = new Set<string>() // 非人生问题 tab 时不显示追问高亮（稳定引用，避免重渲染）
 
 export default function App() {
   const [cursorYear, setCursorYear] = useState(-500)
-  const [ppy, setPpy] = useState(0.3) // 挂载后精确适配为全景
+  const [ppy, setPpy] = useState(0.3) // 挂载后精确定位到轴心时代
   const [hs, setHs] = useState(1) // 水平缩放，使东西方都在画面
-  const [activeEra, setActiveEra] = useState<string | null>(null)
+  const [activeEra, setActiveEra] = useState<string | null>('axial') // 默认选中轴心时代
   const [panelOpen, setPanelOpen] = useState(false) // 窄屏下面板浮层开关
+  const [panelTab, setPanelTab] = useState<'sync' | 'motif'>('sync') // 右侧面板：同期对照 / 人生问题
+  const [highlightIds, setHighlightIds] = useState<Set<string>>(new Set()) // 人生问题追问命中的哲学家
   const [phil, setPhil] = useState<Philosopher | null>(null)
   const [school, setSchool] = useState<School | null>(null)
-  const [fitMode, setFitMode] = useState(true) // 是否处于「全览」态：是则纵向随窗口高度自适应
+  const [fitMode, setFitMode] = useState(false) // 是否处于「全览」态：默认 false（默认是轴心时代细看）
   const stage = useRef<HTMLDivElement>(null)
   const recenter = useRef<{ year: number; x?: number } | null>(null)
   // resize 监听器闭包内读取最新值用
@@ -66,12 +70,14 @@ export default function App() {
     recenter.current = null
   }, [ppy])
 
-  // 落地：全景概览（垂直）
+  // 落地：默认定位到「轴心时代」（公元前500年），而非全景概览
   useEffect(() => {
     const el = stage.current
     if (!el) return
-    recenter.current = { year: MID_YEAR }
-    setPpy(fitPpy(el.clientHeight))
+    recenter.current = { year: -500 }
+    setActiveEra('axial')
+    setFitMode(false)
+    setPpy(BASE_PPY)
   }, [])
 
   // 窗口自适应：水平始终按宽度重算；若处于全览态，纵向也随高度重算（含窗口 resize）
@@ -216,6 +222,7 @@ export default function App() {
           ppy={ppy}
           hs={hs}
           aliveIds={aliveIds}
+          highlightIds={panelTab === 'motif' ? highlightIds : EMPTY_IDS}
           selectedSchoolId={school?.id ?? null}
           onSelectPhil={selectPhil}
           onSelectSchool={selectSchool}
@@ -229,10 +236,32 @@ export default function App() {
       </div>
 
       <button className="panel-toggle" onClick={() => setPanelOpen((o) => !o)}>
-        {panelOpen ? '✕ 关闭' : '同期 ▸'}
+        {panelOpen ? '✕ 关闭' : '面板 ▸'}
       </button>
 
-      <SyncPanel year={cursorYear} west={west} east={east} periods={periods} synchrony={synchrony} open={panelOpen} onSelectPhil={selectPhil} />
+      <aside className={`side-panel ${panelOpen ? 'open' : ''}`}>
+        <div className="panel-tabs">
+          <button
+            className={`pt ${panelTab === 'sync' ? 'active' : ''}`}
+            onClick={() => setPanelTab('sync')}
+          >
+            同期对照
+          </button>
+          <button
+            className={`pt ${panelTab === 'motif' ? 'active' : ''}`}
+            onClick={() => setPanelTab('motif')}
+          >
+            人生问题
+          </button>
+        </div>
+        {/* 两个面板都常驻挂载，仅切换显隐，保留各自状态（对话记录只在刷新页面时重置） */}
+        <div className="panel-pane" hidden={panelTab !== 'sync'}>
+          <SyncPanel year={cursorYear} west={west} east={east} periods={periods} synchrony={synchrony} onSelectPhil={selectPhil} />
+        </div>
+        <div className="panel-pane" hidden={panelTab !== 'motif'}>
+          <MotifPanel onSelectPhil={selectPhil} onHighlight={setHighlightIds} />
+        </div>
+      </aside>
       <SchoolDrawer
         school={school}
         onClose={() => setSchool(null)}

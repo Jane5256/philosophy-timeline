@@ -14,7 +14,6 @@ interface Props {
   east: Philosopher[]
   periods: Periods
   synchrony?: Synchrony
-  open?: boolean
   onSelectPhil: (p: Philosopher) => void
 }
 
@@ -58,9 +57,9 @@ function Side({
   )
 }
 
-export function SyncPanel({ year, west, east, periods, synchrony, open, onSelectPhil }: Props) {
+export function SyncPanel({ year, west, east, periods, synchrony, onSelectPhil }: Props) {
   return (
-    <div className={`sync-panel ${open ? 'open' : ''}`}>
+    <div className="sync-body">
       <div className="sync-head">
         <div className="sync-year">{formatYear(year)}</div>
         {synchrony ? (

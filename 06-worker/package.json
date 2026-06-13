@@ -1,0 +1,14 @@
+{
+  "name": "philosophy-ask-worker",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "roster": "node gen-roster.mjs",
+    "dev": "wrangler dev",
+    "deploy": "node gen-roster.mjs && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}

@@ -1,0 +1,11 @@
+name = "philosophy-ask"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# 模型：DeepSeek-V3（质量好、极便宜，硅基流动赠送余额可用很久）。
+# 免费 7B 模型输出 JSON 不稳、会编造 id，不适合本任务。
+[vars]
+MODEL = "deepseek-ai/DeepSeek-V3"
+
+# 密钥不写在这里！用命令注入：
+#   npx wrangler secret put SILICONFLOW_API_KEY
