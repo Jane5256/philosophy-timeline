@@ -16,10 +16,13 @@ dist/
 .DS_Store
 **/.DS_Store
 
-# 个人工作文件（不对外展示）
+# 个人工作文件 / 内部规划 / 过程产物（不对外展示，本地保留）
 TODO.md
 05-docs/retrospective-*.md
 99-Review/
 00-Reference/
+01-product/              # 产品规划：PRD、竞品分析、路线图、视觉/功能设计（内部）
+04-design/               # 设计过程：废弃的 mockup 原型等
+02-data/raw/             # 第三方原始源料（哲学史 PDF / 提取文字），非构建必需
 .claude/
 实践分享*.md
