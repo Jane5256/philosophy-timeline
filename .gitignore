@@ -17,3 +17,4 @@ app/src/data/
 # ── 本地专属：内部规划 / 设计过程 / 复盘 / 源料（一律不对外，本地保留）──
 _local/
 .claude/
+IDEA.md

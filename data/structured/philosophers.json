@@ -2425,6 +2425,538 @@
     "quoteEn": ""
   },
   {
+    "id": "homer",
+    "name": "荷马",
+    "nameEn": "Homer",
+    "born": -800,
+    "died": -750,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "文学家",
+    "school": [
+      "epic-myth"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/homer.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 25%"
+    },
+    "summary": "古希腊最伟大的史诗诗人，相传为盲眼的行吟者。《伊利亚特》《奥德赛》两大史诗奠定了希腊民族的诸神谱系、英雄理想与语言范式，是整个西方文学与精神的源头。",
+    "coreIdeas": [
+      "英雄伦理：以荣誉（timē）与卓越（aretē）为人生至上的追求",
+      "命运与诸神：人事受命运与奥林匹斯诸神左右，神人同形同性",
+      "荣誉即不朽：凡人虽必死，可凭功业与美名求得永生",
+      "口传诗艺：以程式化诗句传唱，塑造希腊人的共同记忆"
+    ],
+    "majorWorks": [
+      {
+        "title": "伊利亚特",
+        "titleEn": "Iliad",
+        "year": null
+      },
+      {
+        "title": "奥德赛",
+        "titleEn": "Odyssey",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "如同树叶的荣枯，人间的世代也这样交替。",
+    "quoteEn": ""
+  },
+  {
+    "id": "hesiod",
+    "name": "赫西俄德",
+    "nameEn": "Hesiod",
+    "born": -720,
+    "died": -650,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "文学家",
+    "school": [
+      "epic-myth"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/hesiod.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "与荷马并称的早期史诗诗人，出身农家。《神谱》系统编排诸神世系与宇宙生成，《工作与时日》则以农人之口讲述劳作、正义与节候，开教谕诗之先河。",
+    "coreIdeas": [
+      "神谱宇宙论：从混沌（Chaos）到诸神诞生，系统建构宇宙起源",
+      "正义（Dike）：宙斯以正义治世，不义之邦终遭天谴",
+      "劳作即德：颂扬诚实劳动，「神明使勤劳者致富」",
+      "五代退化：人类从黄金时代堕落至黑铁时代的历史观"
+    ],
+    "majorWorks": [
+      {
+        "title": "神谱",
+        "titleEn": "Theogony",
+        "year": null
+      },
+      {
+        "title": "工作与时日",
+        "titleEn": "Works and Days",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "勤劳并不可耻，懒惰才是耻辱。",
+    "quoteEn": ""
+  },
+  {
+    "id": "anaxagoras",
+    "name": "阿那克萨戈拉",
+    "nameEn": "Anaxagoras",
+    "born": -500,
+    "died": -428,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "pluralism"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/anaxagoras.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 38%"
+    },
+    "summary": "将哲学带入雅典的第一人，政治家伯里克利之师。主张万物由无限微小的「种子」构成，并首倡「努斯」（心灵、理性）为宇宙秩序的推动者。因说太阳是炽热的石块而被控渎神。",
+    "coreIdeas": [
+      "种子说：万物皆含万物的种子，「一切都在一切之中」",
+      "努斯（心灵）：无形的理性统摄并推动万物分化与排序",
+      "天体自然化：太阳是一块炽热的石头，月光来自反射",
+      "无生无灭：所谓生灭只是种子的聚合与分离"
+    ],
+    "majorWorks": [
+      {
+        "title": "论自然",
+        "titleEn": "On Nature",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "万物之中皆有万物的一份。",
+    "quoteEn": ""
+  },
+  {
+    "id": "empedocles",
+    "name": "恩培多克勒",
+    "nameEn": "Empedocles",
+    "born": -494,
+    "died": -434,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "pluralism"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/empedocles.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 30%"
+    },
+    "summary": "集哲人、诗人、医师、术士于一身的传奇人物。提出水火土气「四根」说，以「爱」与「恨」两种力解释万物的聚散生灭。相传投身埃特纳火山以证其神性。",
+    "coreIdeas": [
+      "四根说：土、水、气、火为万物不灭之本原，元素论的先声",
+      "爱与恨：两种宇宙力使四根聚合（爱）与分离（恨），循环不已",
+      "生灭即聚散：无物真正生成或毁灭，只有元素的重新组合",
+      "流射说：物体放出「流射」进入感官对应的孔道而被感知"
+    ],
+    "majorWorks": [
+      {
+        "title": "论自然",
+        "titleEn": "On Nature",
+        "year": null
+      },
+      {
+        "title": "净化",
+        "titleEn": "Purifications",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "爱使万物聚合，恨使万物离散。",
+    "quoteEn": ""
+  },
+  {
+    "id": "protagoras",
+    "name": "普罗泰戈拉",
+    "nameEn": "Protagoras",
+    "born": -490,
+    "died": -420,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "sophism"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/protagoras.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 38%"
+    },
+    "summary": "第一位、也是最著名的智者，以教授修辞与德性收取高额学费。提出「人是万物的尺度」，开西方相对主义与人本主义之先河，晚年因质疑神的存在而遭放逐。",
+    "coreIdeas": [
+      "人是万物的尺度：一切真理与价值皆相对于人的感受与处境",
+      "相对主义：同一事物对不同人可有不同而皆真的判断",
+      "存疑论神：「关于神，我无从知其有无」",
+      "双重论证：凡事皆有正反两说，修辞在于使较弱之说显得较强"
+    ],
+    "majorWorks": [
+      {
+        "title": "论真理",
+        "titleEn": "Truth",
+        "year": null
+      },
+      {
+        "title": "论神",
+        "titleEn": "On the Gods",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "人是万物的尺度。",
+    "quoteEn": ""
+  },
+  {
+    "id": "gorgias",
+    "name": "高尔吉亚",
+    "nameEn": "Gorgias",
+    "born": -483,
+    "died": -375,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "sophism"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/gorgias.png",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "智者派修辞大师，以华美文体与雄辩术风靡希腊，享寿逾百岁。其虚无主义三命题把爱利亚学派的逻辑推向极端，成为柏拉图对话中的著名论敌。",
+    "coreIdeas": [
+      "虚无三题：无物存在；即使存在也不可知；即使可知也不可言传",
+      "修辞万能：言辞是「强大的主宰」，能移易人心如药之于身",
+      "言实分离：话语无法传达事物本身，只能引发听者的经验",
+      "合理的欺骗：好的言辞制造幻觉，使人甘愿被感动"
+    ],
+    "majorWorks": [
+      {
+        "title": "论非存在",
+        "titleEn": "On Non-Existence",
+        "year": null
+      },
+      {
+        "title": "海伦颂",
+        "titleEn": "Encomium of Helen",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "言辞是伟大的主宰。",
+    "quoteEn": ""
+  },
+  {
+    "id": "antisthenes",
+    "name": "安提西尼",
+    "nameEn": "Antisthenes",
+    "born": -445,
+    "died": -365,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "cynicism"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/antisthenes.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 30%"
+    },
+    "summary": "苏格拉底的忠实弟子，犬儒学派的奠基者。承苏格拉底重德轻物之教，主张德性即幸福且可以传授，鄙弃财富、名声与俗世享乐。",
+    "coreIdeas": [
+      "德性自足：德性是幸福的唯一必需，一经获得便永不丧失",
+      "苦行返朴：财富名声快乐皆非善，唯简朴自然的生活合于德性",
+      "智者无求：贤者当如神明一般无所欲求",
+      "唯名之辨：反对柏拉图理念论，强调只可言说个别事物"
+    ],
+    "majorWorks": [
+      {
+        "title": "论教育",
+        "titleEn": "残篇",
+        "year": null
+      },
+      {
+        "title": "赫拉克勒斯",
+        "titleEn": "残篇",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "我宁可发疯，也不愿享乐。",
+    "quoteEn": ""
+  },
+  {
+    "id": "diogenes",
+    "name": "第欧根尼",
+    "nameEn": "Diogenes",
+    "born": -412,
+    "died": -323,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "cynicism"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/diogenes.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 45%"
+    },
+    "summary": "犬儒学派的化身，住在木桶里的「狗」哲学家。以惊世骇俗的行为践行返归自然、蔑视习俗，追求彻底的精神自由。相传亚历山大问其所需，他答曰「请别挡住我的阳光」。",
+    "coreIdeas": [
+      "返归自然：抛却一切文明造作，像动物般简朴自足地生活",
+      "蔑视习俗：财产、礼法、身份皆为枷锁，公然打破以示自由",
+      "世界公民：自称世界公民，不受城邦与出身束缚",
+      "行为即哲学：白昼提灯寻「真人」，以身体力行代替空谈"
+    ],
+    "majorWorks": [],
+    "historicalNote": "",
+    "quote": "请别挡住我的阳光。",
+    "quoteEn": ""
+  },
+  {
+    "id": "pyrrho",
+    "name": "皮浪",
+    "nameEn": "Pyrrho",
+    "born": -360,
+    "died": -270,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "skepticism"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/pyrrho.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 30%"
+    },
+    "summary": "希腊怀疑主义的创始人。曾随亚历山大远征至印度，接触东方修行。主张万物不可知、当悬搁一切判断，以此求得心灵的宁静。",
+    "coreIdeas": [
+      "悬搁判断：万物本性不可知，故对一切不作肯定或否定",
+      "无差别：好坏真假皆无确据，「不比这更多，也不比那更少」",
+      "心灵宁静（ataraxia）：放弃判断与执念，随顺自然即得安宁",
+      "泰然处之：不为祸福动心，如风浪中安睡的人"
+    ],
+    "majorWorks": [],
+    "historicalNote": "",
+    "quote": "不作判断，方得宁静。",
+    "quoteEn": ""
+  },
+  {
+    "id": "zeno-of-citium",
+    "name": "芝诺（季蒂昂）",
+    "nameEn": "Zeno of Citium",
+    "born": -334,
+    "died": -262,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "stoicism"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/zeno-of-citium.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 30%"
+    },
+    "summary": "斯多葛学派的创始人。商船失事后流落雅典，读苏格拉底言行而入哲学，在「画廊」（Stoa）讲学，学派因此得名。奠定「顺应自然而生活」的伦理纲领。",
+    "coreIdeas": [
+      "顺应自然：宇宙由理性（逻各斯）统摄，德性在于顺应自然与理性",
+      "德性即善：唯德性为善，其余生死祸福皆「无关紧要」",
+      "情感即错判：激情源于错误认知，智者当以理性节制之",
+      "世界城邦：人皆理性的分有者，四海之内皆同胞"
+    ],
+    "majorWorks": [
+      {
+        "title": "论人性",
+        "titleEn": "残篇",
+        "year": null
+      },
+      {
+        "title": "理想国",
+        "titleEn": "残篇",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "我们有两只耳朵一张嘴，是为了多听少说。",
+    "quoteEn": ""
+  },
+  {
+    "id": "chrysippus",
+    "name": "克吕西波",
+    "nameEn": "Chrysippus",
+    "born": -279,
+    "died": -206,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "哲学家",
+    "school": [
+      "stoicism"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/chrysippus.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "斯多葛学派第三代掌门、真正的体系建构者。著述逾七百卷，以严密逻辑重铸斯多葛学说，古人有云「无克吕西波，即无廊下派」。",
+    "coreIdeas": [
+      "命题逻辑：创立以命题为单位的逻辑，早于近代逻辑两千年",
+      "相容决定论：万物依因果必然而定，德性仍系于人的「同意」",
+      "逻各斯贯通：神、自然、理性三位一体，遍在于万物",
+      "情感病理学：视激情为「过度的冲动」，主张以理性疗治"
+    ],
+    "majorWorks": [
+      {
+        "title": "逻辑学",
+        "titleEn": "残篇",
+        "year": null
+      },
+      {
+        "title": "论命运",
+        "titleEn": "On Fate",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "智者不受命运摆布，因他顺应命运。",
+    "quoteEn": ""
+  },
+  {
+    "id": "herodotus",
+    "name": "希罗多德",
+    "nameEn": "Herodotus",
+    "born": -484,
+    "died": -425,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "史学家",
+    "school": [
+      "classical-historiography"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/herodotus.png",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 28%"
+    },
+    "summary": "西方「史学之父」。周游地中海世界，以《历史》记述波希战争的来龙去脉，广采见闻、兼容风土民俗，首次以「探究」（historia）的方法记录人事。",
+    "coreIdeas": [
+      "探究（historia）：以调查见闻、比较异说来记录并解释事件",
+      "因果追溯：追问战争的起因，而非仅记录胜负",
+      "文化相对：如实记录异邦风俗，不以本邦为唯一标准",
+      "盛衰无常：僭越傲慢者（hubris）终遭神谴，盛极必衰"
+    ],
+    "majorWorks": [
+      {
+        "title": "历史",
+        "titleEn": "Histories",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "习俗是万事万物的主宰。",
+    "quoteEn": ""
+  },
+  {
+    "id": "thucydides",
+    "name": "修昔底德",
+    "nameEn": "Thucydides",
+    "born": -460,
+    "died": -400,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "古希腊",
+    "type": "史学家",
+    "school": [
+      "classical-historiography"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "portrait": {
+      "url": "portraits/thucydides.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 38%"
+    },
+    "summary": "科学史学的奠基者，曾任雅典将军。所著《伯罗奔尼撒战争史》摒弃神话与传闻，以严谨考据与冷峻的人性洞察剖析权力与战争，被奉为政治史与国际关系的经典。",
+    "coreIdeas": [
+      "据实考信：只取亲历与可信的证据，剔除神话传说",
+      "人性恒常：历史因人性不变而可鉴，故为「永久的财富」",
+      "权力政治：「强者为所能为，弱者受所必受」",
+      "以史资治：为后人认识同类事件提供借鉴"
+    ],
+    "majorWorks": [
+      {
+        "title": "伯罗奔尼撒战争史",
+        "titleEn": "History of the Peloponnesian War",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "强者为所能为，弱者忍所必忍。",
+    "quoteEn": ""
+  },
+  {
     "id": "confucius",
     "name": "孔子",
     "nameEn": "Confucius",
@@ -3933,6 +4465,454 @@
     ],
     "historicalNote": "",
     "quote": "人生境界有四：自然、功利、道德、天地。",
+    "quoteEn": ""
+  },
+  {
+    "id": "king-wen",
+    "name": "周文王",
+    "nameEn": "King Wen of Zhou",
+    "born": -1152,
+    "died": -1056,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（周）",
+    "type": "君主",
+    "school": [
+      "ancient-classics"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "portraits/king-wen.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "周朝的奠基者，商末西伯侯。相传被商纣王囚于羑里期间推演《周易》，将八卦重为六十四卦并系以卦爻辞，奠定了中国「阴阳变易」的宇宙观，被后世尊为「文王」。",
+    "coreIdeas": [
+      "演易明变：重八卦为六十四卦，以爻辞揭示事物盛衰转化之理",
+      "阴阳变易：万物由阴阳消长而生生不息，穷极则反",
+      "忧患意识：「作《易》者，其有忧患乎」，于困厄中求通达",
+      "以德配天：修德行仁、敬天保民，为周代德治之滥觞"
+    ],
+    "majorWorks": [
+      {
+        "title": "周易",
+        "titleEn": "I Ching / Book of Changes",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "穷则变，变则通，通则久。",
+    "quoteEn": ""
+  },
+  {
+    "id": "jiang-ziya",
+    "name": "姜子牙",
+    "nameEn": "Jiang Ziya",
+    "born": -1128,
+    "died": -1016,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（周·齐）",
+    "type": "军事家",
+    "school": [
+      "military-school"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "portraits/jiang-ziya.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 30%"
+    },
+    "summary": "名尚，字子牙，又称太公望。年老遇周文王于渭水之滨，辅佐文王、武王翦商立周，封于齐为始祖。被尊为兵家鼻祖、「百家宗师」，托名之作《六韬》为古代兵学经典。",
+    "coreIdeas": [
+      "文伐武备：以谋略、外交「文伐」削敌，辅以军事，兵不血刃为上",
+      "民本用兵：「天下者非一人之天下」，得民心者得天下",
+      "尚贤任能：为将治国当举贤授能、赏罚分明",
+      "权谋机变：审时度势、后发制人，为后世谋略之祖"
+    ],
+    "majorWorks": [
+      {
+        "title": "六韬",
+        "titleEn": "Six Secret Teachings",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "天下非一人之天下，乃天下人之天下也。",
+    "quoteEn": ""
+  },
+  {
+    "id": "zengzi",
+    "name": "曾子",
+    "nameEn": "Zengzi",
+    "born": -505,
+    "died": -435,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（鲁国）",
+    "type": "哲学家",
+    "school": [
+      "confucianism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "portraits/zengzi.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "名参，字子舆，孔子晚年高足。以孝行与笃实著称，上承孔子、下启子思孟子，是儒家道统的关键一环。相传作《大学》、传《孝经》。",
+    "coreIdeas": [
+      "吾日三省：每日反省忠、信、习三事，重内在修养",
+      "孝为德本：以孝为一切德行的根本，「慎终追远」",
+      "修身为本：《大学》倡格物致知、诚意正心、修齐治平",
+      "任重道远：士当以弘道为己任，死而后已"
+    ],
+    "majorWorks": [
+      {
+        "title": "大学",
+        "titleEn": "The Great Learning",
+        "year": null
+      },
+      {
+        "title": "孝经",
+        "titleEn": "Classic of Filial Piety",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "吾日三省吾身。",
+    "quoteEn": ""
+  },
+  {
+    "id": "zisi",
+    "name": "子思",
+    "nameEn": "Zisi",
+    "born": -483,
+    "died": -402,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（鲁国）",
+    "type": "哲学家",
+    "school": [
+      "confucianism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "portraits/zisi.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "名伋，孔子之孙，受学于曾子。上承曾子、下传孟子，其学称「思孟学派」。相传作《中庸》，以「诚」与「中和」深化儒家的心性与天道之学。",
+    "coreIdeas": [
+      "中庸之道：不偏不倚、无过不及，为至高的德行与处世之道",
+      "诚者天道：「诚」贯通天人，「不诚无物」，尽性方能赞化育",
+      "慎独自省：君子于独处不闻处仍戒慎恐惧，修养不辍",
+      "五步为学：博学、审问、慎思、明辨、笃行"
+    ],
+    "majorWorks": [
+      {
+        "title": "中庸",
+        "titleEn": "Doctrine of the Mean",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "博学之，审问之，慎思之，明辨之，笃行之。",
+    "quoteEn": ""
+  },
+  {
+    "id": "yang-zhu",
+    "name": "杨朱",
+    "nameEn": "Yang Zhu",
+    "born": -395,
+    "died": -335,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国",
+    "type": "哲学家",
+    "school": [
+      "daoism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "战国初期道家旁支的代表，主张「为我」「贵己」。其说与墨子「兼爱」针锋相对，一度显赫至孟子叹「天下之言，不归杨则归墨」。思想多存于《列子·杨朱》与《孟子》的批评中",
+    "coreIdeas": [
+      "为我贵己：人当珍视自身生命，「拔一毛而利天下，不为也」",
+      "全性保真：顺应天性、保全真我，不以外物累身",
+      "轻物重生：天下之大不换胫上一毛，反对为名利戕害生命",
+      "不干涉：人人不损一毫、不利天下，则天下自治"
+    ],
+    "majorWorks": [],
+    "historicalNote": "",
+    "quote": "拔一毛而利天下，不为也。",
+    "quoteEn": ""
+  },
+  {
+    "id": "liezi",
+    "name": "列子",
+    "nameEn": "Liezi",
+    "born": -450,
+    "died": -375,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（郑国）",
+    "type": "哲学家",
+    "school": [
+      "daoism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "portraits/liezi.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 25%"
+    },
+    "summary": "名御寇，郑国道家隐士，介于老庄之间。相传能「御风而行」，主张贵虚守静、顺应自然。今本《列子》多寓言故事，愚公移山、杞人忧天、夸父逐日皆出其中。",
+    "coreIdeas": [
+      "贵虚守静：以「虚」为本，虚则任理、静则应物",
+      "顺其自然：万物各有其分，不强为、不妄求",
+      "生死齐一：生死如昼夜循环，达观任化",
+      "寓言明理：借愚公移山、杞人忧天等故事阐发哲思"
+    ],
+    "majorWorks": [
+      {
+        "title": "列子",
+        "titleEn": "冲虚经",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "天地无全功，圣人无全能，万物无全用。",
+    "quoteEn": ""
+  },
+  {
+    "id": "guiguzi",
+    "name": "鬼谷子",
+    "nameEn": "Guiguzi",
+    "born": -400,
+    "died": -320,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国",
+    "type": "哲学家",
+    "school": [
+      "school-of-diplomacy"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "portraits/guiguzi.png",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 25%"
+    },
+    "summary": "隐居鬼谷的传奇人物，纵横家鼻祖，兵家、纵横家共尊之师。相传苏秦、张仪皆出其门。所传《鬼谷子》专论游说、揣情、权变之术，是中国最早的谋略与心理学专著。",
+    "coreIdeas": [
+      "捭阖之术：以「开合」进退把握言谈与时势的主动",
+      "揣情摩意：先察对方之情、度对方之意，而后游说",
+      "因势顺变：审时度势、随机应变，不拘一格",
+      "谋定后动：谋于阴而成于阳，暗中筹划、公开取胜"
+    ],
+    "majorWorks": [
+      {
+        "title": "鬼谷子",
+        "titleEn": "Guiguzi",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "口乃心之门户，心乃神之主宰。",
+    "quoteEn": ""
+  },
+  {
+    "id": "su-qin",
+    "name": "苏秦",
+    "nameEn": "Su Qin",
+    "born": -340,
+    "died": -284,
+    "bornApprox": true,
+    "diedApprox": false,
+    "nationality": "中国（东周）",
+    "type": "纵横家",
+    "school": [
+      "school-of-diplomacy"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "portraits/su-qin.png",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 35%"
+    },
+    "summary": "战国纵横家，相传师从鬼谷子。倡「合纵」之策，说动燕、赵、韩、魏、齐、楚六国联合抗秦，一度身佩六国相印，使强秦十五年不敢出函谷关。",
+    "coreIdeas": [
+      "合纵抗秦：联合关东六国「合众弱以攻一强」，制衡秦国",
+      "审势游说：洞察各国利害，因势利导以说动君王",
+      "势位相生：借外交之势成就个人功名，「贫贱则亲戚轻之」",
+      "悬梁刺股：以苦学发愤自励，终成纵横大业"
+    ],
+    "majorWorks": [],
+    "historicalNote": "",
+    "quote": "使我有洛阳负郭田二顷，岂能佩六国相印乎！",
+    "quoteEn": ""
+  },
+  {
+    "id": "zhang-yi",
+    "name": "张仪",
+    "nameEn": "Zhang Yi",
+    "born": -350,
+    "died": -309,
+    "bornApprox": true,
+    "diedApprox": false,
+    "nationality": "中国（魏国）",
+    "type": "纵横家",
+    "school": [
+      "school-of-diplomacy"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "portraits/zhang-yi.png",
+      "source": "Wikipedia",
+      "license": "Public Domain",
+      "focus": "50% 30%"
+    },
+    "summary": "战国纵横家，与苏秦并称。相秦而行「连横」之策，以利害游说各国分别事秦，瓦解合纵联盟，为秦国东进扫清障碍，是连横术的集大成者。",
+    "coreIdeas": [
+      "连横事秦：拆散合纵，使各国「事一强以攻众弱」而亲秦",
+      "利害游说：以土地、危亡之利害动摇他国之心",
+      "远交近攻先声：分化敌国、各个击破的策略雏形",
+      "舌辩定国：凭三寸之舌翻覆邦交，「舌在则可图天下」"
+    ],
+    "majorWorks": [],
+    "historicalNote": "",
+    "quote": "只要舌头还在，就够了。",
+    "quoteEn": ""
+  },
+  {
+    "id": "li-kui",
+    "name": "李悝",
+    "nameEn": "Li Kui",
+    "born": -455,
+    "died": -395,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（魏国）",
+    "type": "政治家",
+    "school": [
+      "legalism"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "战国初期魏国政治家，法家先驱。相魏文侯主持变法，「尽地力之教」、行「平籴法」、著《法经》，是中国最早的系统变法者，其成文法典深远影响了商鞅与秦制。",
+    "coreIdeas": [
+      "尽地力之教：鼓励精耕、增产富国，重农为本",
+      "平籴平粜：丰年官府平价收粮、荒年平价售出，稳定粮价民生",
+      "以法治国：著《法经》六篇，以成文法明赏罚、定秩序",
+      "食劳禄功：废世卿世禄，「食有劳而禄有功」，任贤使能"
+    ],
+    "majorWorks": [
+      {
+        "title": "法经",
+        "titleEn": "Canon of Laws",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "食有劳而禄有功，使有能而赏必行。",
+    "quoteEn": ""
+  },
+  {
+    "id": "wu-qi",
+    "name": "吴起",
+    "nameEn": "Wu Qi",
+    "born": -440,
+    "died": -381,
+    "bornApprox": true,
+    "diedApprox": false,
+    "nationality": "中国（卫国）",
+    "type": "军事家",
+    "school": [
+      "military-school"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "portraits/wu-qi.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "战国兵家、政治家，与孙武并称「孙吴」。历仕鲁、魏、楚，练魏武卒、创「武卒制」，相楚行变法。著《吴子兵法》，主张内修文德、外治武备，以德与治为强兵之本。",
+    "coreIdeas": [
+      "在德不在险：国之安危系于政德民心，而非山河之固",
+      "内修外治：对内修明文德、对外整饬武备，二者不可偏废",
+      "与士同甘：将帅当与士卒同衣食共劳苦，故士乐为效死",
+      "因敌制胜：审察敌情国情，量势用兵、灵活应变"
+    ],
+    "majorWorks": [
+      {
+        "title": "吴子",
+        "titleEn": "吴子兵法",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "在德不在险。",
+    "quoteEn": ""
+  },
+  {
+    "id": "sun-bin",
+    "name": "孙膑",
+    "nameEn": "Sun Bin",
+    "born": -380,
+    "died": -316,
+    "bornApprox": true,
+    "diedApprox": true,
+    "nationality": "中国（齐国）",
+    "type": "军事家",
+    "school": [
+      "military-school"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "portrait": {
+      "url": "portraits/sun-bin.jpg",
+      "source": "Wikipedia",
+      "license": "Public Domain"
+    },
+    "summary": "孙武后裔，战国齐国军师。遭同门庞涓陷害而膑足，后佐齐将田忌，以「围魏救赵」「减灶诱敌」于桂陵、马陵大破魏军。著《孙膑兵法》，发展孙武之学。",
+    "coreIdeas": [
+      "围魏救赵：攻敌所必救，避实击虚、后发制人",
+      "因势造势：善用地形与士气，「因其势而利导之」",
+      "减灶诱敌：以示弱骄敌之计，诱敌深入而歼之",
+      "贵势尚谋：以谋略与态势制胜，而非徒恃兵力之众"
+    ],
+    "majorWorks": [
+      {
+        "title": "孙膑兵法",
+        "titleEn": "Sun Bin's Art of War",
+        "year": null
+      }
+    ],
+    "historicalNote": "",
+    "quote": "批亢捣虚，攻其必救。",
     "quoteEn": ""
   }
 ]

@@ -2,7 +2,7 @@ import type { Philosopher, School } from '../types'
 import { schools, philosophers, schoolById } from '../data'
 
 // ── 时间范围（越上越晚 / 越下越早，底部为起源）──
-export const YEAR_MIN = -660
+export const YEAR_MIN = -1160 // 下探至商末周初，容纳周文王/姜子牙、荷马等源典人物
 export const YEAR_MAX = 2000
 
 // 垂直尺度（像素/年）现在是运行时可变的「缩放」量

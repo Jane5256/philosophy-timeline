@@ -95,6 +95,20 @@ def slugify(name: str) -> str:
         "让-保罗·萨特": "sartre",
         "西蒙娜·德·波伏娃": "de-beauvoir",
         "阿尔贝·加缪": "camus",
+        # 新增（公元前 200 年前补录）
+        "普罗泰戈拉": "protagoras",
+        "高尔吉亚": "gorgias",
+        "安提西尼": "antisthenes",
+        "第欧根尼": "diogenes",
+        "皮浪": "pyrrho",
+        "芝诺（季蒂昂）": "zeno-of-citium",
+        "克吕西波": "chrysippus",
+        "阿那克萨戈拉": "anaxagoras",
+        "恩培多克勒": "empedocles",
+        "荷马": "homer",
+        "赫西俄德": "hesiod",
+        "希罗多德": "herodotus",
+        "修昔底德": "thucydides",
         # —— 东方 ——
         "孔子": "confucius",
         "孟子": "mencius",
@@ -133,6 +147,19 @@ def slugify(name: str) -> str:
         "梁漱溟": "liang-shuming",
         "熊十力": "xiong-shili",
         "冯友兰": "feng-youlan",
+        # 新增（公元前 200 年前补录）
+        "鬼谷子": "guiguzi",
+        "苏秦": "su-qin",
+        "张仪": "zhang-yi",
+        "杨朱": "yang-zhu",
+        "列子": "liezi",
+        "曾子": "zengzi",
+        "子思": "zisi",
+        "李悝": "li-kui",
+        "吴起": "wu-qi",
+        "孙膑": "sun-bin",
+        "周文王": "king-wen",
+        "姜子牙": "jiang-ziya",
     }
     return mapping.get(name, name.lower().replace("·", "-").replace(" ", "-"))
 
@@ -163,6 +190,13 @@ SCHOOL_ID_MAP = {
     "斯多葛学派": "stoicism",
     "伊斯兰哲学": "islamic-philosophy",
     "功利主义": "utilitarianism",
+    # 新增（公元前 200 年前补录）
+    "多元论": "pluralism",
+    "智者派": "sophism",
+    "犬儒学派": "cynicism",
+    "怀疑主义": "skepticism",
+    "史诗与神话": "epic-myth",
+    "古典史学": "classical-historiography",
     # —— 东方 ——
     "儒家": "confucianism",
     "道家": "daoism",
@@ -179,6 +213,9 @@ SCHOOL_ID_MAP = {
     "明清实学": "practical-learning",
     "近代启蒙": "enlightenment-china",
     "现代新儒家": "new-confucianism",
+    # 新增（公元前 200 年前补录）
+    "纵横家": "school-of-diplomacy",
+    "上古经典": "ancient-classics",
 }
 
 

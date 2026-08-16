@@ -4,7 +4,7 @@
     "name": "古代",
     "nameEn": "Ancient",
     "region": "west",
-    "start": -600,
+    "start": -820,
     "end": 500,
     "color": "#C8956C"
   },
@@ -40,7 +40,7 @@
     "name": "先秦",
     "nameEn": "Pre-Qin",
     "region": "east",
-    "start": -770,
+    "start": -1160,
     "end": -221,
     "color": "#B5403A"
   },

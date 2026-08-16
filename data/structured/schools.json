@@ -556,6 +556,149 @@
     ]
   },
   {
+    "id": "pluralism",
+    "name": "多元论",
+    "nameEn": "Pluralism",
+    "alternateNames": [
+      "多元论者"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "start": -500,
+    "end": -428,
+    "color": "#3FB6A8",
+    "description": "巴门尼德证明「存在唯一不变」后，前苏格拉底哲人转而以「多」解释生灭变化。恩培多克勒提出水火土气「四根」在爱与恨中聚散成万物；阿那克萨戈拉主张无限「种子」由「努斯」（心灵）推动而分化。他们把本原从一元推向多元，并首次引入「心灵/理性」作为宇宙的动力。",
+    "coreThemes": [
+      "四根与种子",
+      "爱恨聚散",
+      "努斯（心灵）",
+      "生灭即聚散"
+    ],
+    "representativePhilosophers": [
+      "anaxagoras",
+      "empedocles"
+    ]
+  },
+  {
+    "id": "epic-myth",
+    "name": "史诗与神话",
+    "nameEn": "Epic and Myth",
+    "alternateNames": [
+      "荷马史诗传统"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "start": -800,
+    "end": -650,
+    "color": "#C0553B",
+    "description": "希腊哲学诞生之前的精神底层。荷马与赫西俄德用史诗与神谱建构了希腊人的诸神谱系、宇宙起源与英雄伦理，是后世哲学家共同的文化母语。柏拉图既批判又化用它，可谓「哲学与诗之争」的源头。",
+    "coreThemes": [
+      "神话宇宙论",
+      "英雄伦理",
+      "命运与诸神",
+      "口传史诗"
+    ],
+    "representativePhilosophers": [
+      "homer",
+      "hesiod"
+    ]
+  },
+  {
+    "id": "sophism",
+    "name": "智者派",
+    "nameEn": "Sophists",
+    "alternateNames": [
+      "诡辩学派"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "start": -490,
+    "end": -380,
+    "color": "#F5A623",
+    "description": "公元前 5 世纪雅典民主鼎盛期的职业教师群体，教人修辞与论辩以立身城邦。他们把目光从自然转向人与社会，开创相对主义与人本主义，「人是万物的尺度」是其纲领。虽被柏拉图贬为「诡辩」，实为西方人文与教育传统的先声。",
+    "coreThemes": [
+      "人是万物的尺度",
+      "相对主义",
+      "修辞与论辩",
+      "约定与自然之辨"
+    ],
+    "representativePhilosophers": [
+      "protagoras",
+      "gorgias"
+    ]
+  },
+  {
+    "id": "cynicism",
+    "name": "犬儒学派",
+    "nameEn": "Cynicism",
+    "alternateNames": [
+      "昔尼克学派"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "start": -445,
+    "end": -323,
+    "color": "#8AA02C",
+    "description": "苏格拉底之徒安提西尼所开、第欧根尼发扬的生活哲学。主张德性即幸福，一切名利、礼俗、财富皆为枷锁，唯有回归自然、无欲无求方得自由。以离经叛道的行为惊世，「像狗一样」坦然生活，故名犬儒。深刻影响了后来的斯多葛学派。",
+    "coreThemes": [
+      "德性自足",
+      "返归自然",
+      "蔑视习俗",
+      "无欲则自由"
+    ],
+    "representativePhilosophers": [
+      "antisthenes",
+      "diogenes"
+    ]
+  },
+  {
+    "id": "skepticism",
+    "name": "怀疑主义",
+    "nameEn": "Skepticism",
+    "alternateNames": [
+      "皮浪主义"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "start": -360,
+    "end": -270,
+    "color": "#4A90A4",
+    "description": "皮浪所创的希腊化时期学派。认为万物本性不可知、任何判断都无充分理由，故主张「悬搁判断」（epoché），对一切不置可否。目的不在求真，而在借放弃执念达到心灵的宁静（ataraxia），与伊壁鸠鲁、斯多葛同为希腊化「安心之学」的一支。",
+    "coreThemes": [
+      "悬搁判断",
+      "万物不可知",
+      "心灵宁静",
+      "反独断论"
+    ],
+    "representativePhilosophers": [
+      "pyrrho"
+    ]
+  },
+  {
+    "id": "classical-historiography",
+    "name": "古典史学",
+    "nameEn": "Classical Historiography",
+    "alternateNames": [
+      "希腊史学"
+    ],
+    "era": "ancient",
+    "region": "west",
+    "start": -484,
+    "end": -395,
+    "color": "#5C6BC0",
+    "description": "希罗多德与修昔底德开创的西方史学传统。希罗多德以《历史》广采见闻、探究波希战争因由，被誉为「史学之父」；修昔底德则以严谨考据与人性洞察写《伯罗奔尼撒战争史》，奠定政治史与批判史学的范式。史学自此从神话中独立，成为理性认识人事的学问。",
+    "coreThemes": [
+      "探究因果",
+      "据实考信",
+      "人性与政治",
+      "以史鉴今"
+    ],
+    "representativePhilosophers": [
+      "herodotus",
+      "thucydides"
+    ]
+  },
+  {
     "id": "confucianism",
     "name": "儒家",
     "nameEn": "Confucianism",
@@ -925,6 +1068,55 @@
       "xiong-shili",
       "liang-shuming",
       "feng-youlan"
+    ]
+  },
+  {
+    "id": "ancient-classics",
+    "name": "上古经典",
+    "nameEn": "Ancient Classics",
+    "alternateNames": [
+      "六经源流"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "start": -1100,
+    "end": -770,
+    "color": "#A08A5B",
+    "description": "诸子百家之前的经典源头。相传周文王拘于羑里而演《周易》，重八卦为六十四卦、系以卦爻辞，奠定中国「阴阳变易」的宇宙观。与《诗》《书》《礼》《乐》《春秋》同为后世「六经」，是儒、道、阴阳诸家共同追溯的思想活水。",
+    "coreThemes": [
+      "阴阳变易",
+      "天人之道",
+      "忧患意识",
+      "经典垂范"
+    ],
+    "representativePhilosophers": [
+      "king-wen"
+    ]
+  },
+  {
+    "id": "school-of-diplomacy",
+    "name": "纵横家",
+    "nameEn": "School of Diplomacy",
+    "alternateNames": [
+      "纵横术",
+      "长短术"
+    ],
+    "era": "pre-qin",
+    "region": "east",
+    "start": -400,
+    "end": -221,
+    "color": "#9C6B5A",
+    "description": "战国乱世应运而生的谋略与外交学派。奉鬼谷子为祖，弟子苏秦倡「合纵」联六国抗秦、张仪行「连横」事秦破纵，以口舌纵横天下、翻覆邦国。重揣情、审势、雄辩，为先秦显学之一，其术后世归入《战国策》《鬼谷子》。",
+    "coreThemes": [
+      "合纵连横",
+      "揣情审势",
+      "雄辩游说",
+      "权变谋略"
+    ],
+    "representativePhilosophers": [
+      "guiguzi",
+      "su-qin",
+      "zhang-yi"
     ]
   }
 ]
